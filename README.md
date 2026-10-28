@@ -1,5 +1,9 @@
 # ResearchFlow · 独立 Web 工作台
 
+[![Tests](https://github.com/adrianwen98/ResearchFlow/actions/workflows/tests.yml/badge.svg)](https://github.com/adrianwen98/ResearchFlow/actions/workflows/tests.yml)
+[![Python 3.12](https://img.shields.io/badge/Python-3.12-3776AB?logo=python&logoColor=white)](https://www.python.org/)
+[![React 19](https://img.shields.io/badge/React-19-61DAFB?logo=react&logoColor=white)](https://react.dev/)
+
 **当前基线（2026-10-26）：后端 709 项、前端 95 项测试通过，TypeScript 检查和生产构建通过。** 支持任务优先交互、浅色/深色模式、数据备份与恢复、重启后未开始任务的可恢复提示；历史阶段文档保留原始快照。
 
 基于 **React + TypeScript + Vite + FastAPI** 的 Agent 任务工作台，复用现有 LangGraph + Playwright MCP 核心。首页直接输入任务；历史任务可收起，完整工具轨迹按需展开，结果与交付文件优先呈现。Gradio 保留为备用。
