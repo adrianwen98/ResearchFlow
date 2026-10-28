@@ -1,0 +1,67 @@
+{
+  "date": "2026-10-16",
+  "scope": "React任务工作区的信息架构与操作连续性，生产Python后端未修改",
+  "paid_model_requests": 0,
+  "python": {
+    "passed": 228,
+    "failed": 0
+  },
+  "frontend": {
+    "passed": 33,
+    "failed": 0,
+    "typecheck": "passed",
+    "build": "passed"
+  },
+  "backend_modules_unchanged": 25,
+  "information_architecture": [
+    "首页直接输入并执行",
+    "执行中只显示当前动作及最近4条真实操作",
+    "审批时突出操作确认，不显示占位交付",
+    "终态结果、未满足要求及文件优先",
+    "只保留一份完整报告/数据/来源/验收预览",
+    "右侧完整执行详情默认隐藏、覆盖展开，不挤窄正文",
+    "移除四章节导航、大阶段卡片和主区重复计划"
+  ],
+  "interaction_checks": {
+    "offline_fixture": "本地8002，真实FastAPI/Runner/LangGraph/SQLite，脚本模型，无外部API；不是线上Agent效果验收",
+    "created_and_auto_selected": true,
+    "approval_interrupt_reject_resume": true,
+    "refresh_preserves_task_result": true,
+    "cancel_and_resume_same_checkpoint_id": true,
+    "checkpoint_reserved_script_calls_after_resume": 3,
+    "actual_external_requests": 0,
+    "related_task_created_and_association_persists_after_refresh": true,
+    "parent_task_navigation": true,
+    "permission_denial_real_host_guard": true,
+    "startup_failure_has_no_fake_resume": true,
+    "review_confirmation_requires_checks": true,
+    "read_only_demo_has_no_accept_or_resume": true,
+    "main_history_demo": "既有真实公开验收记录；只读查看、切换文件预览，无新模型执行",
+    "real_file_download_response_and_content": "通过；XLSX原始字节、Markdown与脱敏预览一致，attachment响应头有效；未操作系统保存对话框",
+    "desktop": {
+      "viewport": 1280,
+      "document": 1265,
+      "center_without_drawer": 981,
+      "center_with_drawer": 996,
+      "drawer_width": 460,
+      "body_locked_while_drawer_open": true
+    },
+    "narrow": {
+      "viewport": 390,
+      "document": 375,
+      "drawer_left": 23.40625,
+      "drawer_right": 390,
+      "no_outer_horizontal_overflow": true
+    },
+    "console_errors": 0
+  },
+  "continuity_contract": "后续要求创建独立任务；原ID以明确关联标记保存在新任务原始目标中。只附有界原目标和交付说明，不继承原Checkpoint、不自动读取原文件，不声称已实现通用多轮续问。",
+  "limitations": [
+    "未新增付费DeepSeek端到端验收；不能据此声称新的模型任务成功率",
+    "关联为原始任务文本中的持久化ID，不是新的关系数据库或外键；原任务删除后关联文字仍保留",
+    "当前预览Tab/抽屉展开是临时UI状态，刷新恢复后端任务状态及已有结果，默认打开完整报告",
+    "长报告仍可能需要纵向滚动，但只有一个主内容预览；侧栏和展开的详情抽屉是必要独立区域",
+    "测试用脚本调用账本与外部API次数不同；脚本续跑账本累计3，外部实际请求0",
+    "操作系统下载保存窗口未自动化验收"
+  ]
+}

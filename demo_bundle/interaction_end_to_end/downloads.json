@@ -1,0 +1,9 @@
+{
+  "public_b6fe2d9ae5af.xlsx": {
+    "url": "https://github.com/pandas-dev/pandas/blob/main/pandas/tests/io/data/excel/test1.xlsx",
+    "bytes": 12074,
+    "sha256": "b6fe2d9ae5afd6d0bdfefbae9c0c1649d8bf883e183a153cb76f2a8a548cef11",
+    "method": "browser_click",
+    "suggested_filename": "test1.xlsx"
+  }
+}

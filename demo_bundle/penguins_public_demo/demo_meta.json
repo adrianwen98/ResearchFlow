@@ -1,0 +1,8 @@
+{
+  "read_only": true,
+  "execution_label": "免费公开数据工具复现 · 脚本决策 · API请求0次",
+  "actual_api_requests": 0,
+  "scripted_decisions": true,
+  "observations": "public verbatim excerpts, not complete raw observations",
+  "trace": "curated allowlisted events, not original execution logs"
+}

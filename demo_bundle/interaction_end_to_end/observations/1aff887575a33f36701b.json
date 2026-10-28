@@ -1,0 +1,6 @@
+{
+  "id": "1aff887575a33f36701b",
+  "url": "https://github.com/pandas-dev/pandas/blob/main/pandas/tests/io/data/excel/test1.xlsx",
+  "text": "{\"sampled_rows\": 7, \"columns\": [\"Unnamed: 0\", \"A\", \"B\", \"C\", \"D\"], \"null_counts\": {\"Unnamed: 0\": 0, \"A\": 0, \"B\": 0, \"C\": 0, \"D\": 0}, \"preview\": [{\"Unnamed: 0\": \"2000-01-03 00:00:00\", \"A\": 0.980268513777, \"B\": 3.68573087906, \"C\": -0.364216805298, \"D\": -1.15973806169}",
+  "kind": "sanitized_public_excerpt"
+}

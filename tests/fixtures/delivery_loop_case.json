@@ -1,0 +1,468 @@
+{
+  "sources": [
+    {
+      "id": "1",
+      "title": "Notion Pricing Plans: Free, Plus, Business, & Enterprise",
+      "url": "https://www.notion.com/pricing",
+      "fact": "Notion Free 计划为 $0/成员/月，面向个人整理个人项目与生活；Free 版页面与块对个人不限量、2 人及以上受限；文件上传上限 5 MB；页面历史 7 天；外部访客上限 10 人；图表 1 个；notion.site 域名 1 个；Notion AI 为有限试用。",
+      "quote": "Free\n$0\nper member / month\n\nFor individuals to organize personal projects and life.",
+      "category": "official_pricing",
+      "accessed_at": "2026-10-18T02:01:24+00:00",
+      "observation_id": "37db020eb6e16f88e7dc"
+    },
+    {
+      "id": "2",
+      "title": "飞书定价｜版本对比",
+      "url": "https://www.feishu.cn/price-list",
+      "fact": "飞书免费版 ¥0/人/月，含即时消息、云文档、视频会议、多维表格、免费邮箱，支持 100 用户；商业标准版 ¥50/人/月，含 24 小时视频会议时长、50 方视频会议、1500 GB 总存储、聊天记录永久储存、支持 500 用户；所有版本需按年付费。",
+      "quote": "免费版\n\n¥\n\n0\n\n人/月\n\n飞书初体验\n体验先进未来的工作方式\n\n立即免费体验\n\n免费版包括：\n\n即时消息\n\n云文档\n\n视频会议\n\n多维表格\n\n免费邮箱\n\n支持 100 用户",
+      "category": "official_pricing",
+      "accessed_at": "2026-10-18T02:01:39+00:00",
+      "observation_id": "7043adde144108be9792"
+    },
+    {
+      "id": "3",
+      "title": "飞书版本对比与定价页",
+      "url": "https://www.feishu.cn/service",
+      "fact": "飞书免费版 ¥0/人/月，含即时消息、云文档、视频会议、多维表格、免费邮箱，支持 100 用户；商业标准版 ¥50/人/月含 24 小时视频会议时长、50 方会议、1500 GB 存储、聊天记录永久储存、支持 500 用户；所有版本需按年付费。",
+      "quote": "免费版\n\n¥\n\n0\n\n人/月\n\n飞书初体验\n体验先进未来的工作方式\n\n立即免费体验\n\n免费版包括：\n\n即时消息\n\n云文档\n\n视频会议\n\n多维表格\n\n免费邮箱\n\n支持 100 用户",
+      "category": "官方定价页",
+      "accessed_at": "2026-10-18T02:02:26+00:00",
+      "observation_id": "2ba23defe342add70bab"
+    },
+    {
+      "id": "4",
+      "title": "飞书版本对比与定价页（商业标准版权益）",
+      "url": "https://www.feishu.cn/service",
+      "fact": "飞书商业标准版 ¥50/人/月，含 24 小时视频会议时长、50 方视频会议、1500 GB 总存储空间、聊天记录永久储存、妙记语音转文字不限时长、支持 500 用户；所有版本需按年付费。",
+      "quote": "商业标准版\n\n¥\n\n50\n\n人/月\n\n面向小型团队\n打破基础限制\n\n立即购买\n\n含免费版能力, 还包括：\n\n24 小时视频会议时长\n\n50 方视频会议\n\n1500 GB 总存储空间\n\n聊天记录永久储存\n\n妙记语音转文字不限时长\n\n支持 500 用户",
+      "category": "官方定价页",
+      "accessed_at": "2026-10-18T02:02:26+00:00",
+      "observation_id": "2ba23defe342add70bab"
+    },
+    {
+      "id": "5",
+      "title": "飞书帮助中心：查看并管理云文档存储空间",
+      "url": "https://www.feishu.cn/hc/zh-CN/articles/988314140482-%E6%9F%A5%E7%9C%8B%E5%B9%B6%E7%AE%A1%E7%90%86%E4%BA%91%E6%96%87%E6%A1%A3%E5%AD%98%E5%82%A8%E7%A9%BA%E9%97%B4",
+      "fact": "飞书基础版（免费）存储：认证前 15 GB，认证后 100 GB；商业版标准 1500 GB；存储为即时消息、邮箱、妙记、云文档共用。最后更新 2026/07/28。",
+      "quote": "基础版\n免费\n认证前 15 GB；认证后 100 GB\n商业版\n标准\n1500 GB",
+      "category": "官方帮助文档",
+      "accessed_at": "2026-10-18T02:36:39+00:00",
+      "observation_id": "3cada1578c27001b0133"
+    },
+    {
+      "id": "6",
+      "title": "飞书帮助中心：文件上传、在线预览的大小及格式要求",
+      "url": "https://www.feishu.cn/hc/zh-CN/articles/360049067549-%E6%96%87%E4%BB%B6%E4%B8%8A%E4%BC%A0-%E5%9C%A8%E7%BA%BF%E9%A2%84%E8%A7%88%E7%9A%84%E5%A4%A7%E5%B0%8F%E5%8F%8A%E6%A0%BC%E5%BC%8F%E8%A6%81%E6%B1%82",
+      "fact": "飞书基础版单次上传原格式文件：认证前 20 MB，认证后 10 GB；商业版标准/专业 50 GB，旗舰 100 GB；企业版 100 GB。最后更新 2026/07/30。",
+      "quote": "上传原格式本地文件到飞书，单次支持的上传大小限制因版本而异，具体差异请参考下表。",
+      "category": "官方帮助文档",
+      "accessed_at": "2026-10-18T02:36:46+00:00",
+      "observation_id": "a02bde694cdf2ba21dd6"
+    }
+  ],
+  "observations": [
+    {
+      "id": "37db020eb6e16f88e7dc",
+      "url": "https://www.notion.com/pricing",
+      "text": "### Rendered page text\nOne tool to run your company.\nTrusted by teams at\nSelect payment mode:\nPay monthly\nPay yearly\nSave up to 20% with yearly\nPrice in\nUSD\nEssentials for staying organized.\nFree\n$0\nper member / month\n\nFor individuals to organize personal projects and life.\n\nSign up\n\nIncludes:\n\nTrial of Notion AI\nBasic forms\nBasic sites\nNotion Calendar\nDatabases including subtasks, dependencies, custom properties and more\nPlus\n$10\nper member / month\n\nFor small teams and professionals to work together.\n\nGet started\n\nEverything in Free, and:\n\nTrial of Notion AI\nCustom forms\nCustom sites\nUnlimited charts\nUnlimited collaborative blocks\nUnlimited file uploads\nBasic connections\nThe AI workspace for work that matters.\nBusiness\nRecommended\n$20\nper member / month\n\nFor growing businesses to streamline teamwork.\n\nGet started\n\nEverything in Plus, and:\n\nNotion Agent\nAI Meeting Notes\nEnterprise Search\nBeta\nSAML SSO\nGranular database permissions\nVerify any page\nPrivate teamspaces\nDomain verification\nPremium connections\nEnterprise\nCustom pricing\n\nFor organizations to operate with scalability, control, and security.\n\nContact Sales\n\nEverything in Business, and:\n\nZero data retention with LLM providers\nUser provisioning (SCIM)\nAdvanced security & controls\nAudit log\nCustomer success manager\nSecurity & Compliance connections (DLP, SIEM)\nDomain management\nAdvanced connections\nCustom Agents\n\nAI agents handle repetitive tasks autonomously, so your team doesn’t have to. Free to try, then $10 per 1,000 monthly Notion credits.\n\nWorkers\nBeta\n\nExtend Notion with custom code to build agent tools, sync external data, and trigger Notion workflows from anywhere. Learn more→\n\nThere’s power in a single platform where you can do all your work out of. Notion is that single place.\nNick Erdenberger\nGTM, OpenAI\nWatch video\n→\nPlans and features\nFree\n$0 per seat/month\nSign up\nPlus\n$10 per seat/month\nGet started\nBusiness\n$20 per seat/month\nGet started\nEnterprise\nContact us→\nContent\nPages & blocks\nUnlimited for individuals\nlimited for 2+ members\nUnlimited\nUnlimited\nUnlimited\nFile uploads\nUp to 5 MB\nUnlimited\nUnlimited\nUnlimited\nPage history\n7 days\n30 days\n90 days\nUnlimited\nVerify any page\nOffline\nChoose pages to download for offline use.\nRecents and Favorites auto-download for offline use.\nRecents and Favorites auto-download for offline use.\nRecents and Favorites auto-download for offline use.\nSharing & collaboration\nExternal guest limit\n10\nUnlimited guests\nUnlimited guests\nUnlimited guests\nTeamspaces (open & closed)\nTeamspaces (private)\nPermission groups\nAdvanced teamspace permissions\nGranular database permissions\nNotion AI\nNotion Agent (chat, generate, autofill, translate)\nLimited Trial\nLimited Trial\nMeeting notes\nLimited Trial\nLimited Trial\nEnterprise Search\nResearch modeBeta\nLimited Trial\nLimited Trial\nData retention\n30 day retention\n30 day retention\n30 day retention\nZero data retention\nCustom Agents\nRequires Notion credits\nRequires Notion credits\nDatabase features\nSubtasks and dependencies\nCustom properties and filtering\nCharts\n1\nUnlimited\nUnlimited\nUnlimited\nForms\nBasic\nCustom\nCustom\n+ conditional logic\nCustom\n+ conditional logic\nDashboards\nDeveloper platform\nCLI\nWorkersBeta\nRequires Notion credits\nRequires Notion credits\nAPI automations & integrations\nPublic API\nWebhooks\nEmbeds and link previews\nConnected properties\nSame as business\nAutomations\nBasic\nbuttons only\nCustom\ndatabase automations\nSame as plus\nSame as plus\n1-way database syncs\nSame as business\nWeb publishing\nUnlimited published pages\nnotion.site domains\n1\n5\n5\n5\nSearch engine indexing (SEO)\nBasic\nAdvanced\nAdvanced\nAdvanced\nSite customizations\nCustom domains and branding\nPay per domain\nPay per domain\nPay per domain\nAdmin & security\nExport entire workspace as HTML, Markdown, & CSV\n2-step verification\nExport entire workspace as PDF\nSAML single sign-on (SSO)\nUser provisioning (SCIM)\nAdvanced workspace & teamspace security controls\nOrganization level controls\nWorkspace analytics\nGranular admin roles\nAudit log\nAdmin content search\nDomain Management\nWorkspace consolidation\nCustom\nManaged users dashboard & controls\nSecurity & Compliance connections\nGuest invite requests\nCustom data retention settings\nAI Meeting Notes transcript deletion\nSupport\nPriority support\nPremium support\nCustom\nCustomer success manager\nCustom\nQuestions & answers\n\nHow does Notion AI use my data?\n\nWhere can I find my invoices?\n\nWhat are your accepted payment methods?\n\nWhat is a block?\n\nWhat happens when I go over the block storage limit on a Free Plan?\n\nDo you offer student discounts?\n\nWhat do the different analytics tiers mean?\n\nHow is pricing calculated for the paid plans?\n\nHow do I get charged when I add members to my workspace?\n\nHow does adding and removing members work?\n\nHow are paid seats counted?\n\nWhat happens when I change plans?\n\nHow do I cancel my paid plan?\n\nWhat happens if my payment fails? Like if my credit card expires?\n\nCan I change my payment method?\n\nHow do refunds work?\n\nWhat if I live in a region with a mandatory refund policy?\n\nStill have more questions?\nLearn more in our help center.\n### Observed controls\n### Ran Playwright code\n### Page\n- Page URL: https://www.notion.com/pricing\n- Page Title: Notion Pricing Plans: Free, Plus, Business, & Enterprise.\n### Snapshot\n### Events\n### Page\n- Page URL: https://www.notion.com/pricing\n- Page Title: Notion Pricing Plans: Free, Plus, Business, & Enterprise.\n### Snapshot\n- link \"切换到 简体中文\" [ref=f1e11] [cursor=pointer]:\n- /url: /zh-cn/pricing\n- link \"Notion – Home\" [ref=f1e20] [cursor=pointer]:\n- /url: /product\n- button \"Product\" [ref=f1e27] [cursor=pointer]\n- button \"Resources\" [ref=f1e33] [cursor=pointer]\n- link \"Pricing\" [ref=f1e38] [cursor=pointer]:\n- /url: /pricing\n- link \"Request a demo\" [ref=f1e40] [cursor=pointer]:\n- /url: /contact-sales\n- link \"Log in\" [ref=f1e44] [cursor=pointer]:\n- /url: /login?from=marketing&pathname=%2Fpricing&tid=f179a4eea00440dcbcd8e0afe7c445f7\n- link \"Get Notion free\" [ref=f1e47] [cursor=pointer]:\n- /url: /signup?from=marketing&pathname=%2Fpricing&tid=f179a4eea00440dcbcd8e0afe7c445f7\n- main [ref=f1e49]:\n- heading \"One tool to run your company.\" [level=1] [ref=f1e53]\n- radio \"Pay monthly\" [ref=f1e65]\n- radio \"Pay yearly\" [checked] [ref=f1e69]\n- heading \"Essentials for staying organized.\" [level=2] [ref=f1e80]\n- article [ref=f1e82]:\n- heading \"Free\" [level=3] [ref=f1e84]\n- link \"Sign up\" [ref=f1e90] [cursor=pointer]:\n- /url: /signup\n- strong [ref=f1e93]: \"Includes:\"\n- article [ref=f1e131]:\n- heading \"Plus\" [level=3] [ref=f1e133]\n- link \"Get started\" [ref=f1e139] [cursor=pointer]:\n- /url: /signup?target=plans\n- strong [ref=f1e142]: \"Everything in Free, and:\"\n- heading \"The AI workspace for work that matters.\" [level=2] [ref=f1e211]\n- article [ref=f1e214]:\n- heading \"Business Recommended\" [level=3] [ref=f1e216]:\n- link \"Get started\" [ref=f1e223] [cursor=pointer]:\n- /url: /signup?target=plans\n- strong [ref=f1e226]: \"Everything in Plus, and:\"\n- article [ref=f1e403]:\n- heading \"Enterprise\" [level=3] [ref=f1e405]\n- link \"Contact Sales\" [ref=f1e411] [cursor=pointer]:\n- /url: /contact-sales\n- strong [ref=f1e414]: \"Everything in Business, and:\"\n- heading [level=3] [ref=f1e477]:\n- strong [ref=f1e478]: Custom Agents\n- separator [ref=f1e482]\n- heading \"Workers Beta\" [level=3] [ref=f1e485]:\n- strong [ref=f1e486]: Workers\n- link \"Learn more\" [ref=f1e489] [cursor=pointer]:\n- /url: /help/understand-pricing-for-workers\n- figure \"Nick Erdenberger GTM, OpenAI Watch video\" [ref=f1e494]:\n- img \"OpenAI logo\" [ref=f1e497]\n- blockquote [ref=f1e498]: There’s power in a single platform where you can do all your work out of. Notion is that single place.\n- link \"Watch video\" [ref=f1e504] [cursor=pointer]:\n- /url: https://www.notion.com/customers/openai\n- heading \"Plans and features\" [level=2] [ref=f1e509]\n- link \"Sign up\" [ref=f1e516] [cursor=pointer]:\n- /url: /signup\n- link \"Get started\" [ref=f1e520] [cursor=pointer]:\n- /url: /signup?target=plans\n- link \"Get started\" [ref=f1e524] [cursor=pointer]:\n- /url: /signup?target=plans\n- link \"Contact us\" [ref=f1e527] [cursor=pointer]:\n- /url: /contact-sales\n- heading \"Questions & answers\" [level=2] [ref=f1e1332]\n- article [ref=f1e1334]:\n- link \"help center\" [ref=f1e1473] [cursor=pointer]:\n- /url: /help/guides\n- link \"Notion – Home\" [ref=f1e1479] [cursor=pointer]:\n- /url: /product\n- figure \"Marshall McLuhan\" [ref=f1e1486]:\n- blockquote [ref=f1e1487]: We shape our tools, and thereafter our tools shape us.\n- link \"Features\" [ref=f1e1492] [cursor=pointer]:\n- /url: /product/features\n- link \"What's New\" [ref=f1e1495] [cursor=pointer]:\n- /url: /releases\n- link \"Notion AI\" [ref=f1e1498] [cursor=pointer]:\n- /url: /product/ai\n- link \"Pricing\" [ref=f1e1501] [cursor=pointer]:\n- /url: /pricing\n- link \"Request a demo\" [ref=f1e1504] [cursor=pointer]:\n- /url: /contact-sales\n- link \"Download\" [ref=f1e1507] [cursor=pointer]:\n- /url: /download\n- link [ref=f1e1510] [cursor=pointer]:\n- /url: /explore\n- link \"Customer stories\" [ref=f1e1515] [cursor=pointer]:\n- /url: /customers\n- link \"Connections\" [ref=f1e1518] [cursor=pointer]:\n- /url: /connections\n- link \"Marketplace\" [ref=f1e1521] [cursor=pointer]:\n- /url: /templates\n- link \"Help Center\" [ref=f1e1524] [cursor=pointer]:\n- /url: /help\n- link \"Academy\" [ref=f1e1527] [cursor=pointer]:\n- /url: https://academy.notion.com\n- link \"Community\" [ref=f1e1530] [cursor=pointer]:\n- /url: /community\n- link \"About us\" [ref=f1e1534] [cursor=pointer]:\n- /url: /about\n- link \"Careers\" [ref=f1e1537] [cursor=pointer]:\n- /url: /careers\n- link \"Security\" [ref=f1e1540] [cursor=pointer]:\n- /url: /security\n- link \"Status\" [ref=f1e1543] [cursor=pointer]:\n- /url: https://www.notion-status.com\n- link \"Terms & privacy\" [ref=f1e1546] [cursor=pointer]:\n- /url: https://www.notion.so/28ffdd083dc3473e9c2da6ec011b58ac\n- link \"Your privacy rights\" [ref=f1e1549] [cursor=pointer]:\n- /url: https://www.notion.com/trust/privacy-policy#california\n- link \"Enterprise\" [ref=f1e1553] [cursor=pointer]:\n- /url: /enterprise\n- link \"Small businesses\" [ref=f1e1556] [cursor=pointer]:\n- /url: /teams\n- link \"Startups\" [ref=f1e1559] [cursor=pointer]:\n- /url: /startups\n- link \"Developers\" [ref=f1e1562] [cursor=pointer]:\n- /url: https://developers.notion.com\n- button \"English (US)\" [ref=f1e1565] [cursor=pointer]\n- button \"Cookie settings\" [ref=f1e1574] [cursor=pointer]\n- alert [ref=f1e1577]",
+      "kind": "browser"
+    },
+    {
+      "id": "7043adde144108be9792",
+      "url": "https://www.feishu.cn/price-list",
+      "text": "### Rendered page text\n飞书套件\nAI 企业版\nAI 个人版\n字节跳动旗下\nAI 工作平台\n即时消息\n文档\n视频会议\n多维表格\n日历\n任务\n知识库\n企业邮箱\n\n*所有版本需按年付费\n\n免费版\n\n¥\n\n0\n\n人/月\n\n飞书初体验\n体验先进未来的工作方式\n\n立即免费体验\n\n免费版包括：\n\n即时消息\n\n云文档\n\n视频会议\n\n多维表格\n\n免费邮箱\n\n支持 100 用户\n\n商业标准版\n\n¥\n\n50\n\n人/月\n\n面向小型团队\n打破基础限制\n\n立即购买\n\n含免费版能力, 还包括：\n\n24 小时视频会议时长\n\n50 方视频会议\n\n1500 GB 总存储空间\n\n聊天记录永久储存\n\n妙记语音转文字不限时长\n\n支持 500 用户\n\n商业专业版\n\n最热门\n\n¥\n\n80\n\n人/月\n\n面向成长型团队\n提升业务管理效能\n\n立即购买\n\n含标准版能力, 还包括：\n\n100 方视频会议\n\n5 TB 总存储空间\n\n多维表格高级能力\n定制工作台\n关联组织能力\n\n支持 500 用户\n\n商业旗舰版\n\n¥\n\n120\n\n人/月\n\n面向进阶成长团队\n升级容量与安全能力\n\n立即购买\n\n含专业版能力, 还包括：\n\n500 方视频会议\n\n15 TB 总存储空间\n\nSSO 单点登录\n\n高级账号安全\n\n高级水印\n\n支持 500 用户\n\n企业旗舰版\n\n为您定制最佳方案\n\n大型企业专属\n打造企业数字总部\n\n购买咨询\n\n企业系列核心优势：\n\n更高规格用量权益\n\n企业级安全合规能力\n\n复杂组织精细化管控能力\n\n企业品牌与数字门户定制\n\n无规模上限\n\n版本功能对比\n即刻获取\n飞书 AI 真能用\n真落地\n豆包工作\n智能会议纪要\n豆包工作伙伴\n多维表格 AI\n文档速览\n飞书妙搭\n飞书项目 AI\n基础版\n月付\n\nAI 能力快速获取\n\n¥\n9900\n/年\n立即购买\n\n18 万点 AI 额度\n\n包含智能纪要、豆包工作伙伴、多维表格 AI、妙搭等能力，支持体验豆包工作\n\n企业版\n最热门\n\nAI 能力一站启用\n\n¥\n9.9\n万\n/年\n立即购买\n\n200 万点 AI 额度\n\n比基础版增加：豆包工作付费权益、企业知识流通能力、豆包工作伙伴高级能力及部分 AI 服务\n\n企业版 Plus\n\nAI 服务进阶扩展\n\n联系销售获取报价\n联系销售\n\n600 万点 AI 额度\n\n比企业版增加：企业知识问答 API 试用体验和更多 AI 专项服务\n\n旗舰版\n\n全场景 AI 落地方案\n\n联系销售获取报价\n联系销售\n\n2000 万点 AI 额度\n\n在企业版 Plus 基础上额外支持：企业知识问答 API\n\n版本功能对比\n打造\n时代的超级个体\n\n与飞书深度集成，真正懂你的工作的 AI 搭子\n\n豆包工作\n智能会议纪要\n豆包工作伙伴\n飞书妙搭\n\n按月付费\n\n按年付费\n\n 省17%\n\nAI 会员\n\nAI 能力快速启用，适合初步体验 AI 进行提效的用户\n\n¥\n\n69\n\n元 /月\n\n立即购买\n\n每月更多 AI 额度\n\n额度1 可自由用于：智能会议纪要、知识问答2、豆包工作伙伴、飞书妙搭\n\n快速解锁 AI 生产力\n\n日常使用 AI 录制并生成智能会议纪要\n\n日常使用知识问答，快速检索企业知识\n\n轻量使用豆包工作伙伴完成 Agent 任务\n\n轻量使用飞书妙搭\n\n和 AI 对话，搭建简单网页和系统\n产出物去水印\n\n启用飞书 OpenClaw\n\n高频使用多维表格官方字段捷径\n\n视频会议扩容\n\nASR 转录时长 3000分钟/月\n\n实时字幕和智能翻译\n\n3 张一小时加时卡\n\n限时赠送\n\n1 次 50方会议\n\n限时赠送\n\nAI 会员 Plus\n\n最新推出\n\nAI 额度提升，适配高频使用 AI 的用户，提供多档额度以满足不同深度的使用需求\n\n¥\n\n138\n\n元 / 月\n\n立即购买\n\n每月 2 倍 AI 会员额度\n\n额度1 可自由用于：智能会议纪要、知识问答2、豆包工作伙伴、飞书妙搭\n\n深度激活 AI 效能\n\n高频使用 AI 录制并生成智能会议纪要\n\n高频使用知识问答，企业知识随心问\n\n深度使用豆包工作伙伴完成复杂任务\n\n深度使用飞书妙搭\n\n和 AI 对话，搭建复杂业务系统\n产出物去水印\n\n更高频使用飞书 OpenClaw\n\n专享 1 个 OpenClaw 应用资源费免除权益\n\n高频使用多维表格官方字段捷径\n\n优先体验 AI 实验功能\n\n视频会议扩容\n\nASR 转录时长 6000分钟/月\n\n实时字幕和智能翻译\n\n6 张一小时加时卡\n\n限时赠送\n\n2 次 50方会议\n\n限时赠送\n\n1. 每月 AI 个人额度存在使用上限，如需更多 AI 个人额度，可升级至 AI 会员 Plus。\n\n2. 知识问答需租户整体开通后才可使用，可快速检索企业知识\n\n全程陪伴服务体系 全面助力企业成功\n企业效能顾问\n定位组织问题\n制定效能提升方案\nAI+人工服务\n7*24h    \n在线客服解答\n技术支持\n工作时段\n一对一在线支持\n咨询服务\n提供组织管理升级    \n咨询服务\n帮助中心\n员工自助答疑  \n降低企业运营成本\n迁移服务\n专业团队全程陪伴    \n数字化基建充分利旧\n对标国内和国际最⾼标准安全合规要求\n为企业安全保驾护航\n助力企业扬帆出海\n全方位安全体系\n为业务保驾护航\n全球布局，助力企业\n构建统一工作平台\n权威监管认证\n\n跨境解决方案由飞书及飞书海外版 Lark 提供\n部分认证由 Lark 取得\n### Observed controls\n### Ran Playwright code\n### Page\n- Page URL: https://www.feishu.cn/price-list\n- Page Title: 飞书定价｜版本对比\n### Snapshot\n### Events\n### Page\n- Page URL: https://www.feishu.cn/price-list\n- Page Title: 飞书定价｜版本对比\n### Snapshot\n- link [ref=f5e9] [cursor=pointer]:\n- /url: https://www.feishu.cn/\n- link \"热门推荐\" [ref=f5e14] [cursor=pointer]:\n- /url: https://www.feishu.cn/hot\n- link \"飞行社\" [ref=f5e42] [cursor=pointer]:\n- /url: https://www.feishu.cn/community?from=feishu_website_header\n- link \"定价\" [ref=f5e45] [cursor=pointer]:\n- /url: https://www.feishu.cn/service?from=feishu_website_header\n- link [ref=f5e57] [cursor=pointer]:\n- /url: tel:400-0682-666\n- link \"下载飞书\" [ref=f5e59] [cursor=pointer]:\n- /url: https://www.feishu.cn/download\n- link \"联系销售\" [ref=f5e62] [cursor=pointer]:\n- /url: /landing/feishu_contact_sales?tracking_code=701TL00001EjHx2YAF&from=top_bar_contact_sales\n- main [ref=f5e65]:\n- tablist [ref=f5e67]:\n- tab \"飞书套件\" [selected] [ref=f5e68] [cursor=pointer]\n- tab \"AI 企业版\" [ref=f5e69] [cursor=pointer]\n- tab \"AI 个人版\" [ref=f5e70] [cursor=pointer]\n- heading \"字节跳动旗下 AI 工作平台\" [level=2] [ref=f5e73]:\n- img \"即时消息\" [ref=f5e78]\n- img \"文档\" [ref=f5e82]\n- img \"视频会议\" [ref=f5e86]\n- img \"多维表格\" [ref=f5e90]\n- img \"日历\" [ref=f5e94]\n- img \"任务\" [ref=f5e98]\n- img \"知识库\" [ref=f5e102]\n- img \"企业邮箱\" [ref=f5e106]\n- link \"立即免费体验\" [ref=f5e127] [cursor=pointer]:\n- /url: /accounts/page/ug_register?app_id=11&redirect_uri=https%3A%2F%2Fwww.feishu.cn%2Fdownload%3Ffrom%3Dnew_registration\n- button \"立即购买\" [ref=f5e153] [cursor=pointer]\n- button \"立即购买\" [ref=f5e180] [cursor=pointer]\n- link \"多维表格高级能力\" [ref=f5e186] [cursor=pointer]:\n- /url: https://bitable.feishu.cn/\n- link \"定制工作台\" [ref=f5e187] [cursor=pointer]:\n- /url: https://www.feishu.cn/hc/zh-CN/articles/410718208321\n- link \"关联组织能力\" [ref=f5e188] [cursor=pointer]:\n- /url: https://www.feishu.cn/hc/zh-CN/articles/657083794612\n- button \"立即购买\" [ref=f5e205] [cursor=pointer]\n- button \"购买咨询\" [ref=f5e227] [cursor=pointer]\n- button [ref=f5e238] [cursor=pointer]\n- heading \"即刻获取 飞书 AI 真能用 真落地\" [level=2] [ref=f5e245]:\n- img \"豆包工作\" [ref=f5e251]\n- img \"智能会议纪要\" [ref=f5e255]\n- img \"标签\" [ref=f5e258]\n- img \"豆包工作伙伴\" [ref=f5e260]\n- img \"标签\" [ref=f5e263]\n- img \"多维表格 AI\" [ref=f5e265]\n- img \"文档速览\" [ref=f5e269]\n- img \"飞书妙搭\" [ref=f5e273]\n- img \"标签\" [ref=f5e276]\n- img \"飞书项目 AI\" [ref=f5e278]\n- heading \"基础版\" [level=3] [ref=f5e288]\n- switch [ref=f5e290] [cursor=pointer]\n- button \"立即购买\" [ref=f5e303] [cursor=pointer]\n- heading \"企业版\" [level=3] [ref=f5e313]\n- button \"立即购买\" [ref=f5e327] [cursor=pointer]\n- heading \"企业版 Plus\" [level=3] [ref=f5e337]\n- link \"联系销售\" [ref=f5e346] [cursor=pointer]:\n- /url: /salessupport\n- heading \"旗舰版\" [level=3] [ref=f5e356]\n- link \"联系销售\" [ref=f5e365] [cursor=pointer]:\n- /url: /salessupport\n- button [ref=f5e372] [cursor=pointer]\n- heading \"打造 AI 时代的超级个体\" [level=2] [ref=f5e378]:\n- img \"AI\" [ref=f5e380]\n- img \"豆包工作\" [ref=f5e385]\n- img \"智能会议纪要\" [ref=f5e389]\n- img \"标签\" [ref=f5e392]\n- img \"豆包工作伙伴\" [ref=f5e394]\n- img \"标签\" [ref=f5e397]\n- img \"飞书妙搭\" [ref=f5e399]\n- img \"标签\" [ref=f5e402]\n- button \"立即购买\" [ref=f5e427] [cursor=pointer]\n- img \"quota-icon\" [ref=f5e430]\n- superscript [ref=f5e433]: \"1\"\n- superscript [ref=f5e434]: \"2\"\n- img \"日常使用 AI 录制并生成智能会议纪要\" [ref=f5e439]\n- img \"日常使用知识问答，快速检索企业知识\" [ref=f5e442]\n- img \"轻量使用豆包工作伙伴完成 Agent 任务\" [ref=f5e445]\n- img \"轻量使用飞书妙搭\" [ref=f5e450]\n- img \"启用飞书 OpenClaw\" [ref=f5e455]\n- img \"高频使用多维表格官方字段捷径\" [ref=f5e458]\n- button \"立即购买\" [ref=f5e488] [cursor=pointer]\n- img \"quota-icon\" [ref=f5e492]\n- superscript [ref=f5e498]: \"1\"\n- superscript [ref=f5e499]: \"2\"\n- img \"高频使用 AI 录制并生成智能会议纪要\" [ref=f5e504]\n- img \"高频使用知识问答，企业知识随心问\" [ref=f5e507]\n- img \"深度使用豆包工作伙伴完成复杂任务\" [ref=f5e510]\n- img \"深度使用飞书妙搭\" [ref=f5e515]\n- img \"更高频使用飞书 OpenClaw\" [ref=f5e522]\n- img \"高频使用多维表格官方字段捷径\" [ref=f5e527]\n- img \"优先体验 AI 实验功能\" [ref=f5e530]\n- heading \"全程陪伴服务体系 全面助力企业成功\" [level=1] [ref=f5e550]\n- heading \"为企业安全保驾护航 助力企业扬帆出海\" [level=1] [ref=f5e621]\n- img \"先进团队 先用飞书\" [ref=f5e648]\n- link \"联系我们\" [ref=f5e667] [cursor=pointer]:\n- /url: /salessupport?from=bottom_banner\n- link \"下载飞书\" [ref=f5e668] [cursor=pointer]:\n- /url: /download?from=bottom_banner\n- link \"豆包工作伙伴\" [ref=f5e676] [cursor=pointer]:\n- /url: https://aily.feishu.cn/universal/landing?from=feishu_home_nav\n- link \"多维表格\" [ref=f5e682] [cursor=pointer]:\n- /url: /product/base\n- link \"飞书项目\" [ref=f5e684] [cursor=pointer]:\n- /url: https://project.feishu.cn/home\n- link \"飞书 CodeM\" [ref=f5e686] [cursor=pointer]:\n- /url: https://codem.feishu.cn/home?tracking_code=7017662253162815900660\n- link \"文档\" [ref=f5e688] [cursor=pointer]:\n- /url: /product/docs\n- link \"视频会议\" [ref=f5e690] [cursor=pointer]:\n- /url: /product/video\n- link \"妙记\" [ref=f5e692] [cursor=pointer]:\n- /url: /product/minutes\n- link \"知识库\" [ref=f5e694] [cursor=pointer]:\n- /url: /product/wiki\n- link \"制造\" [ref=f5e700] [cursor=pointer]:\n- /url: /industry_solutions/manufacturing\n- link \"消费品\" [ref=f5e702] [cursor=pointer]:\n- /url: /industry_solutions/consumption\n- link \"零售\" [ref=f5e704] [cursor=pointer]:\n- /url: /industry_solutions/retail\n- link \"金融\" [ref=f5e706] [cursor=pointer]:\n- /url: /industry_solutions/finance\n- link \"餐饮\" [ref=f5e708] [cursor=pointer]:\n- /url: /industry_solutions/catering\n- link \"医疗\" [ref=f5e710] [cursor=pointer]:\n- /url: /industry_solutions/healthcare\n- link \"企业服务\" [ref=f5e712] [cursor=pointer]:\n- /url: /industry_solutions/saas\n- link \"汽车\" [ref=f5e714] [cursor=pointer]:\n- /url: /industry_solutions/automobile\n- link \"版本对比\" [ref=f5e720] [cursor=pointer]:\n- /url: /service?from=feishu_website_footer\n- link \"购买咨询\" [ref=f5e722] [cursor=pointer]:\n- /url: javascript:void(0);\n- link \"加入我们\" [ref=f5e728] [cursor=pointer]:\n- /url: https://www.feishu.cn/jobs?_tracking=feishu_from_feishushouye\n- link \"关于飞书\" [ref=f5e730] [cursor=pointer]:\n- /url: /about\n- link \"博客中心\" [ref=f5e732] [cursor=pointer]:\n- /url: /content\n- link \"飞书研习社\" [ref=f5e734] [cursor=pointer]:\n- /url: /research\n- link \"飞书认证官\" [ref=f5e736] [cursor=pointer]:\n- /url: /certification\n- link \"公益计划\" [ref=f5e738] [cursor=pointer]:\n- /url: /charity\n- link \"生态快讯\" [ref=f5e740] [cursor=pointer]:\n- /url: /partnernews\n- link \"飞行社\" [ref=f5e742] [cursor=pointer]:\n- /url: /community?from=feishu_website_footer\n- link \"帮助中心\" [ref=f5e749] [cursor=pointer]:\n- /url: /hc\n- link \"开放平台\" [ref=f5e751] [cursor=pointer]:\n- /url: https://open.feishu.cn/\n- link \"应用目录\" [ref=f5e753] [cursor=pointer]:\n- /url: https://app.feishu.cn/\n- link \"合作伙伴\" [ref=f5e755] [cursor=pointer]:\n- /url: /partners\n- link \"联系我们\" [ref=f5e757] [cursor=pointer]:\n- /url: /contact\n- link \"更新日志\" [ref=f5e759] [cursor=pointer]:\n- /url: https://www.feishu.cn/hc/zh-CN/articles/360043073734\n- link \"管理后台\" [ref=f5e761] [cursor=pointer]:\n- /url: https://www.feishu.cn/admin\n- link \"友情链接\" [ref=f5e763] [cursor=pointer]:\n- /url: /friend_links\n- link \"举报与反馈\" [ref=f5e765] [cursor=pointer]:\n- /url: /complaint\n- link \"服务协议\" [ref=f5e771] [cursor=pointer]:\n- /url: /terms\n- link \"隐私政策\" [ref=f5e773] [cursor=pointer]:\n- /url: /privacy\n- link \"平台行为守则\" [ref=f5e775] [cursor=pointer]:\n- /url: /privacy-code-of-conduct\n- link \"安全合规\" [ref=f5e777] [cursor=pointer]:\n- /url: /security\n- link \"下载飞书\" [ref=f5e780] [cursor=pointer]:\n- /url: /download\n- link \"联系顾问\" [ref=f5e783] [cursor=pointer]:\n- /url: /salessupport?from=feishu_website_footer\n- link [ref=f5e789] [cursor=pointer]:\n- /url: /\n- link [ref=f5e791] [cursor=pointer]:\n- /url: javascript:void(0);\n- link [ref=f5e793] [cursor=pointer]:\n- /url: https://weibo.com/u/7223713567\n- link [ref=f5e795] [cursor=pointer]:\n- /url: https://www.zhihu.com/org/fei-shu-27-96/activities\n- link [ref=f5e797] [cursor=pointer]:\n- /url: https://www.toutiao.com/c/user/3073831497904140/\n- link [ref=f5e799] [cursor=pointer]:\n- /url: https://www.xiaohongshu.com/user/profile/62f09aef000000001f0076d3?xhsshare=CopyLink&appuid=5571317c3f95a333d87b579b&apptime=1675018819\n- link [ref=f5e801] [cursor=pointer]:\n- /url: https://space.bilibili.com/1880331212\n- link \"Copyright © 2026 北京飞书科技有限公司\" [ref=f5e805] [cursor=pointer]:\n- /url: javascript:void(0);\n- link \"京 ICP 备 16045432号-4\" [ref=f5e807] [cursor=pointer]:\n- /url: https://beian.miit.gov.cn/\n- link \"京公网安备 11010802029085号\" [ref=f5e809] [cursor=pointer]:\n- /url: http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=11010802029085\n- link \"增值电信业务经营许可证： 京 B2-20190249 / 京 B2-20191817\" [ref=f5e812] [cursor=pointer]:\n- /url: https://tsm.miit.gov.cn/dxxzsp/\n- link \"营业执照\" [ref=f5e816] [cursor=pointer]:\n- /url: https://www.feishu.cn/license_yingyezhizhao",
+      "kind": "browser"
+    },
+    {
+      "id": "2ba23defe342add70bab",
+      "url": "https://www.feishu.cn/service",
+      "text": "### Rendered page text\n热门推荐\n案例与方案\n产品功能\n飞书 AI\n合作与支持\n飞行社\n定价\n下载飞书\n联系销售\n登录/注册\n\n即时消息\n\n文档\n\n视频会议\n\n多维表格\n\n日历\n\n任务\n\n知识库\n\n企业邮箱\n\n*所有版本需按年付费\n\n免费版\n\n¥\n\n0\n\n人/月\n\n飞书初体验\n体验先进未来的工作方式\n\n立即免费体验\n\n免费版包括：\n\n即时消息\n\n云文档\n\n视频会议\n\n多维表格\n\n免费邮箱\n\n支持 100 用户\n\n商业标准版\n\n¥\n\n50\n\n人/月\n\n面向小型团队\n打破基础限制\n\n立即购买\n\n含免费版能力, 还包括：\n\n24 小时视频会议时长\n\n50 方视频会议\n\n1500 GB 总存储空间\n\n聊天记录永久储存\n\n妙记语音转文字不限时长\n\n支持 500 用户\n\n商业专业版\n\n最热门\n\n¥\n\n80\n\n人/月\n\n面向成长型团队\n提升业务管理效能\n\n立即购买\n\n含标准版能力, 还包括：\n\n100 方视频会议\n\n5 TB 总存储空间\n\n多维表格高级能力\n定制工作台\n关联组织能力\n\n支持 500 用户\n\n商业旗舰版\n\n¥\n\n120\n\n人/月\n\n面向进阶成长团队\n升级容量与安全能力\n\n立即购买\n\n含专业版能力, 还包括：\n\n500 方视频会议\n\n15 TB 总存储空间\n\nSSO 单点登录\n\n高级账号安全\n\n高级水印\n\n支持 500 用户\n\n企业旗舰版\n\n为您定制最佳方案\n\n大型企业专属\n打造企业数字总部\n\n购买咨询\n\n企业系列核心优势：\n\n更高规格用量权益\n\n企业级安全合规能力\n\n复杂组织精细化管控能力\n\n企业品牌与数字门户定制\n\n无规模上限\n\n版本功能对比\n更多产品\n飞书项目\n\n为复杂项目定制的专业项目管理平台，用标准化工作流，大幅提升效率，驱动项目成功\n\n可视化流程有序拆解，牵引项目成功交付\n多维视图追踪透视，持续提升项目质量\n高频流程自动化，省人力更专注\n查看详情\n飞书人事\n\n让管理者轻松获取员工信息，掌控组织全局；HR 轻松操作架构与流程，服务组织需求\n\n员工信息触手可及，随时随地发现人才\n数据一体化流转，团队动态全景洞察\n组织脉络清晰可见，排兵布阵掌控全局\n查看详情\n飞书会议室\n\n集会议软件、硬件支持、服务为一体，全方位解决方案为团队带来高效愉悦的会议体验\n\n轻松入会，打通飞书一键开启会议\n无线投屏，多人实时编辑与互动\n智能硬件，灵活适配各种会议空间\n查看详情\n飞书招聘\n\n基于数百万人才招聘经验，提供高效、智能的招聘方式，助企业在人才竞争中脱颖而出\n\n查简历、面试、面评，三合一工作台\n轻松解析复杂简历，更好地沉淀人才数据\n打通 IM、日历、邮件，多角色高效协同\n查看详情\n飞书OKR\n\n简洁的 OKR 工具，丰富的实践方法，保障 OKR 发挥实效，让组织向着一致方向前进\n\n公开透明的线上看板，保持全员目标一致\n实时高效跟进和沟通，过程管理更加敏捷\n可视化的数据看板，复盘 OKR 执行情况\n查看详情\n飞书绩效\n\n用全面信息、统一标准帮助组织发现人才、激励人才、助力管理者成长，加速组织成长\n\n360° 全方位信息，助力管理者准确评价\n自下而上逐级校准，多维度比较绝对产出\n绩效任务一键催办，HR 轻松推进流程\n查看详情\n\n更多客户用飞书\n\n联系我们，飞书效能顾问将为您提供全力支持\n\n分享先进工作方式\n输送行业最佳实践\n全面协助组织提效\n联系我们\n下载飞书\n\n热门产品\n\n豆包工作伙伴\n多维表格\n飞书项目\n飞书 CodeM\n文档\n视频会议\n妙记\n知识库\n\n解决方案\n\n制造\n消费品\n零售\n金融\n餐饮\n医疗\n企业服务\n汽车\n\n定价\n\n版本对比\n购买咨询\n\n探索飞书\n\n加入我们\n关于飞书\n博客中心\n飞书研习社\n飞书认证官\n公益计划\n生态快讯\n飞行社\n\n合作与支持\n\n帮助中心\n开放平台\n应用目录\n合作伙伴\n联系我们\n更新日志\n管理后台\n友情链接\n举报与反馈\n\n法律与合规\n\n服务协议\n隐私政策\n平台行为守则\n安全合规\n下载飞书\n联系顾问\nCopyright © 2026 北京飞书科技有限公司\n京 ICP 备 16045432号-4\n京公网安备 11010802029085号\n\n增值电信业务经营许可证：\n京 B2-20190249 / 京 B2-20191817\n\n营业执照\n更改地区-简体中文\n购买\n### Observed controls\n### Ran Playwright code\n### Page\n- Page URL: https://www.feishu.cn/service\n- Page Title: 版本对比 | 飞书\n### Snapshot\n### Events\n### Page\n- Page URL: https://www.feishu.cn/service\n- Page Title: 版本对比 | 飞书\n### Snapshot\n- link [ref=f16e10] [cursor=pointer]:\n- /url: https://www.feishu.cn/\n- link \"热门推荐\" [ref=f16e15] [cursor=pointer]:\n- /url: https://www.feishu.cn/hot\n- link \"飞行社\" [ref=f16e43] [cursor=pointer]:\n- /url: https://www.feishu.cn/community?from=feishu_website_header\n- link \"定价\" [ref=f16e46] [cursor=pointer]:\n- /url: https://www.feishu.cn/service?from=feishu_website_header\n- link [ref=f16e58] [cursor=pointer]:\n- /url: tel:400-0682-666\n- link \"下载飞书\" [ref=f16e60] [cursor=pointer]:\n- /url: https://www.feishu.cn/download\n- link \"联系销售\" [ref=f16e63] [cursor=pointer]:\n- /url: /landing/feishu_contact_sales?tracking_code=701TL00001EjHx2YAF&from=top_bar_contact_sales\n- link \"立即免费体验\" [ref=f16e124] [cursor=pointer]:\n- /url: /accounts/page/ug_register?app_id=11&redirect_uri=https%3A%2F%2Fwww.feishu.cn%2Fdownload%3Ffrom%3Dnew_registration\n- button \"立即购买\" [ref=f16e150] [cursor=pointer]\n- button \"立即购买\" [ref=f16e177] [cursor=pointer]\n- link \"多维表格高级能力\" [ref=f16e183] [cursor=pointer]:\n- /url: https://bitable.feishu.cn/\n- link \"定制工作台\" [ref=f16e184] [cursor=pointer]:\n- /url: https://www.feishu.cn/hc/zh-CN/articles/410718208321\n- link \"关联组织能力\" [ref=f16e185] [cursor=pointer]:\n- /url: https://www.feishu.cn/hc/zh-CN/articles/657083794612\n- button \"立即购买\" [ref=f16e202] [cursor=pointer]\n- button \"购买咨询\" [ref=f16e224] [cursor=pointer]\n- button [ref=f16e236] [cursor=pointer]\n- img \"飞书项目\" [ref=f16e260]\n- link \"查看详情\" [ref=f16e275] [cursor=pointer]:\n- /url: https://project.feishu.cn/home/service?tracking_code=701TL00000CFOJKYA5\n- img \"飞书人事\" [ref=f16e285]\n- link \"查看详情\" [ref=f16e300] [cursor=pointer]:\n- /url: https://www.feishu.cn/product/corehr\n- img \"飞书会议室\" [ref=f16e310]\n- link \"查看详情\" [ref=f16e325] [cursor=pointer]:\n- /url: https://www.feishu.cn/solutions/feishu-rooms-overview\n- img \"飞书招聘\" [ref=f16e335]\n- link \"查看详情\" [ref=f16e350] [cursor=pointer]:\n- /url: https://hire.feishu.cn/\n- img \"飞书OKR\" [ref=f16e360]\n- link \"查看详情\" [ref=f16e375] [cursor=pointer]:\n- /url: https://okr.feishu.cn/\n- img \"飞书绩效\" [ref=f16e385]\n- link \"查看详情\" [ref=f16e400] [cursor=pointer]:\n- /url: https://perf.feishu.cn/\n- img \"奈雪的茶\" [ref=f16e415]\n- img \"亚朵酒店\" [ref=f16e418]\n- img \"槐店王婆\" [ref=f16e421]\n- img \"东软医疗\" [ref=f16e424]\n- img \"金斯瑞生物\" [ref=f16e427]\n- img \"上汽通用五菱\" [ref=f16e430]\n- img \"阿维塔\" [ref=f16e433]\n- img \"永卓控股\" [ref=f16e436]\n- img \"PayerMax\" [ref=f16e439]\n- img \"美腾科技\" [ref=f16e442]\n- img \"海尔\" [ref=f16e447]\n- img \"元气森林\" [ref=f16e450]\n- img \"泡泡玛特\" [ref=f16e453]\n- img \"西贝\" [ref=f16e456]\n- img \"泰康保险\" [ref=f16e459]\n- img \"安克创新\" [ref=f16e462]\n- img \"NIO 蔚来\" [ref=f16e465]\n- img \"小米\" [ref=f16e468]\n- img \"海底捞\" [ref=f16e471]\n- img \"理想汽车\" [ref=f16e474]\n- img \"新松机器人\" [ref=f16e477]\n- img \"传音控股\" [ref=f16e480]\n- img \"三一重工\" [ref=f16e483]\n- img \"华住\" [ref=f16e486]\n- img \"地平线\" [ref=f16e489]\n- img \"珀莱雅\" [ref=f16e492]\n- img \"米未传媒\" [ref=f16e495]\n- img \"万达集团\" [ref=f16e498]\n- img \"正大天晴\" [ref=f16e501]\n- img \"源码资本\" [ref=f16e504]\n- img \"御泥坊\" [ref=f16e507]\n- img \"小鹏汽车\" [ref=f16e510]\n- img \"太平鸟\" [ref=f16e513]\n- img \"夸父炸串\" [ref=f16e516]\n- img \"黑湖科技\" [ref=f16e519]\n- img \"Keep\" [ref=f16e522]\n- img \"新希望\" [ref=f16e525]\n- img \"物美\" [ref=f16e528]\n- img \"家家悦\" [ref=f16e531]\n- img \"麦德龙\" [ref=f16e534]\n- img \"天眼查\" [ref=f16e537]\n- img \"得到\" [ref=f16e540]\n- img \"得物\" [ref=f16e543]\n- img \"PingCAP\" [ref=f16e546]\n- img \"G7\" [ref=f16e549]\n- img \"禾赛科技\" [ref=f16e552]\n- img \"中科创达\" [ref=f16e557]\n- img \"郑煤机\" [ref=f16e560]\n- img \"北汽集团\" [ref=f16e563]\n- img \"好慷在家\" [ref=f16e566]\n- img \"蓝晶微生物\" [ref=f16e569]\n- img \"圣农发展\" [ref=f16e572]\n- img \"沐瞳\" [ref=f16e575]\n- img \"吉比特\" [ref=f16e578]\n- img \"usmile\" [ref=f16e581]\n- img \"Babycare\" [ref=f16e584]\n- img \"飞速 FS\" [ref=f16e587]\n- img \"来伊份\" [ref=f16e590]\n- img \"沪上阿姨\" [ref=f16e593]\n- img \"民生保险\" [ref=f16e596]\n- img \"百世集团\" [ref=f16e599]\n- img \"懂车帝\" [ref=f16e602]\n- img \"掌阅科技\" [ref=f16e605]\n- img \"黑芝麻\" [ref=f16e608]\n- img \"高合汽车\" [ref=f16e611]\n- img \"抖推猫\" [ref=f16e614]\n- img \"中化环境\" [ref=f16e617]\n- img \"晶泰科技\" [ref=f16e620]\n- img \"樊登读书\" [ref=f16e623]\n- img \"脉脉\" [ref=f16e626]\n- img \"蓝湖\" [ref=f16e629]\n- img \"WeWork 中国\" [ref=f16e632]\n- img \"欢乐互娱\" [ref=f16e635]\n- img \"昆仑万维\" [ref=f16e638]\n- img \"益世界\" [ref=f16e641]\n- img \"航旅纵横\" [ref=f16e644]\n- img \"星宇股份\" [ref=f16e647]\n- img \"三顿半\" [ref=f16e650]\n- img \"中征律所\" [ref=f16e653]\n- img \"思为科技\" [ref=f16e656]\n- img \"智明星通 elex\" [ref=f16e659]\n- img \"马路边边\" [ref=f16e662]\n- img \"先进团队 先用飞书\" [ref=f16e720]\n- link \"联系我们\" [ref=f16e739] [cursor=pointer]:\n- /url: /salessupport?from=bottom_banner\n- link \"下载飞书\" [ref=f16e740] [cursor=pointer]:\n- /url: /download?from=bottom_banner\n- link \"豆包工作伙伴\" [ref=f16e748] [cursor=pointer]:\n- /url: https://aily.feishu.cn/universal/landing?from=feishu_home_nav\n- link \"多维表格\" [ref=f16e754] [cursor=pointer]:\n- /url: /product/base\n- link \"飞书项目\" [ref=f16e756] [cursor=pointer]:\n- /url: https://project.feishu.cn/home\n- link \"飞书 CodeM\" [ref=f16e758] [cursor=pointer]:\n- /url: https://codem.feishu.cn/home?tracking_code=7017662253162815900660\n- link \"文档\" [ref=f16e760] [cursor=pointer]:\n- /url: /product/docs\n- link \"视频会议\" [ref=f16e762] [cursor=pointer]:\n- /url: /product/video\n- link \"妙记\" [ref=f16e764] [cursor=pointer]:\n- /url: /product/minutes\n- link \"知识库\" [ref=f16e766] [cursor=pointer]:\n- /url: /product/wiki\n- link \"制造\" [ref=f16e772] [cursor=pointer]:\n- /url: /industry_solutions/manufacturing\n- link \"消费品\" [ref=f16e774] [cursor=pointer]:\n- /url: /industry_solutions/consumption\n- link \"零售\" [ref=f16e776] [cursor=pointer]:\n- /url: /industry_solutions/retail\n- link \"金融\" [ref=f16e778] [cursor=pointer]:\n- /url: /industry_solutions/finance\n- link \"餐饮\" [ref=f16e780] [cursor=pointer]:\n- /url: /industry_solutions/catering\n- link \"医疗\" [ref=f16e782] [cursor=pointer]:\n- /url: /industry_solutions/healthcare\n- link \"企业服务\" [ref=f16e784] [cursor=pointer]:\n- /url: /industry_solutions/saas\n- link \"汽车\" [ref=f16e786] [cursor=pointer]:\n- /url: /industry_solutions/automobile\n- link \"版本对比\" [ref=f16e792] [cursor=pointer]:\n- /url: /service?from=feishu_website_footer\n- link \"购买咨询\" [ref=f16e794] [cursor=pointer]:\n- /url: javascript:void(0);\n- link \"加入我们\" [ref=f16e800] [cursor=pointer]:\n- /url: https://www.feishu.cn/jobs?_tracking=feishu_from_feishushouye\n- link \"关于飞书\" [ref=f16e802] [cursor=pointer]:\n- /url: /about\n- link \"博客中心\" [ref=f16e804] [cursor=pointer]:\n- /url: /content\n- link \"飞书研习社\" [ref=f16e806] [cursor=pointer]:\n- /url: /research\n- link \"飞书认证官\" [ref=f16e808] [cursor=pointer]:\n- /url: /certification\n- link \"公益计划\" [ref=f16e810] [cursor=pointer]:\n- /url: /charity\n- link \"生态快讯\" [ref=f16e812] [cursor=pointer]:\n- /url: /partnernews\n- link \"飞行社\" [ref=f16e814] [cursor=pointer]:\n- /url: /community?from=feishu_website_footer\n- link \"帮助中心\" [ref=f16e821] [cursor=pointer]:\n- /url: /hc\n- link \"开放平台\" [ref=f16e823] [cursor=pointer]:\n- /url: https://open.feishu.cn/\n- link \"应用目录\" [ref=f16e825] [cursor=pointer]:\n- /url: https://app.feishu.cn/\n- link \"合作伙伴\" [ref=f16e827] [cursor=pointer]:\n- /url: /partners\n- link \"联系我们\" [ref=f16e829] [cursor=pointer]:\n- /url: /contact\n- link \"更新日志\" [ref=f16e831] [cursor=pointer]:\n- /url: https://www.feishu.cn/hc/zh-CN/articles/360043073734\n- link \"管理后台\" [ref=f16e833] [cursor=pointer]:\n- /url: https://www.feishu.cn/admin\n- link \"友情链接\" [ref=f16e835] [cursor=pointer]:\n- /url: /friend_links\n- link \"举报与反馈\" [ref=f16e837] [cursor=pointer]:\n- /url: /complaint\n- link \"服务协议\" [ref=f16e843] [cursor=pointer]:\n- /url: /terms\n- link \"隐私政策\" [ref=f16e845] [cursor=pointer]:\n- /url: /privacy\n- link \"平台行为守则\" [ref=f16e847] [cursor=pointer]:\n- /url: /privacy-code-of-conduct\n- link \"安全合规\" [ref=f16e849] [cursor=pointer]:\n- /url: /security\n- link \"下载飞书\" [ref=f16e852] [cursor=pointer]:\n- /url: /download\n- link \"联系顾问\" [ref=f16e855] [cursor=pointer]:\n- /url: /salessupport?from=feishu_website_footer\n- link [ref=f16e861] [cursor=pointer]:\n- /url: /\n- link [ref=f16e863] [cursor=pointer]:\n- /url: javascript:void(0);\n- link [ref=f16e865] [cursor=pointer]:\n- /url: https://weibo.com/u/7223713567\n- link [ref=f16e867] [cursor=pointer]:\n- /url: https://www.zhihu.com/org/fei-shu-27-96/activities\n- link [ref=f16e869] [cursor=pointer]:\n- /url: https://www.toutiao.com/c/user/3073831497904140/\n- link [ref=f16e871] [cursor=pointer]:\n- /url: https://www.xiaohongshu.com/user/profile/62f09aef000000001f0076d3?xhsshare=CopyLink&appuid=5571317c3f95a333d87b579b&apptime=1675018819\n- link [ref=f16e873] [cursor=pointer]:\n- /url: https://space.bilibili.com/1880331212\n- link \"Copyright © 2026 北京飞书科技有限公司\" [ref=f16e877] [cursor=pointer]:\n- /url: javascript:void(0);\n- link \"京 ICP 备 16045432号-4\" [ref=f16e879] [cursor=pointer]:\n- /url: https://beian.miit.gov.cn/\n- link \"京公网安备 11010802029085号\" [ref=f16e881] [cursor=pointer]:\n- /url: http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=11010802029085\n- link \"增值电信业务经营许可证： 京 B2-20190249 / 京 B2-20191817\" [ref=f16e884] [cursor=pointer]:\n- /url: https://tsm.miit.gov.cn/dxxzsp/\n- link \"营业执照\" [ref=f16e888] [cursor=pointer]:\n- /url: https://www.feishu.cn/license_yingyezhizhao",
+      "kind": "browser"
+    },
+    {
+      "id": "3cada1578c27001b0133",
+      "url": "https://www.feishu.cn/hc/zh-CN/articles/988314140482-%E6%9F%A5%E7%9C%8B%E5%B9%B6%E7%AE%A1%E7%90%86%E4%BA%91%E6%96%87%E6%A1%A3%E5%AD%98%E5%82%A8%E7%A9%BA%E9%97%B4",
+      "text": "实际读取地址：https://www.feishu.cn/hc/zh-CN/articles/988314140482-%E6%9F%A5%E7%9C%8B%E5%B9%B6%E7%AE%A1%E7%90%86%E4%BA%91%E6%96%87%E6%A1%A3%E5%AD%98%E5%82%A8%E7%A9%BA%E9%97%B4\n请求地址发生跳转，登记来源使用上面的实际地址。\n### Rendered page text\n帮助中心\n新手入门\n使用飞书\n更多资源\n智能助手\n登录\n云文档通用功能\n快速入门\n个性化与基础设置\n文件管理与存储\n使用我的文档库\n快速上手云盘\n在飞书中查看 HTML 文件\n添加云文档快捷方式\n创建子文档\n使用子页面列表\n使用旧版子页面列表\n上传或导入本地文件和文件夹\n在云文档使用 Office 文件\n将石墨文档导入为云文档\n查看、更新和还原文件版本\n下载云文档和文件夹到本地\n云文档本地记录常见问题\n创建云文档副本\n打印云文档\n移动云文档或文件夹\n云文档移动后，协作者、链接分享和权限设置改变\n删除和恢复云文档、文件夹\n文件上传、在线预览的大小及格式要求\n查看并管理云文档存储空间\n释放我的存储空间\n分享与协作\n权限管理\n文档\n表格\n幻灯片\n思维笔记\n知识库\n功能实践\n云文档\n云文档通用功能\n文件管理与存储\n查看并管理云文档存储空间\n查看并管理云文档存储空间\n本文阅读时长：4 分钟\n本功能适用版本说明\n基础版\n免费\n认证前 15 GB；认证后 100 GB\n商业版\n标准\n1500 GB\n专业\n5 TB\n旗舰\n15 TB\n企业版\n标准\n15 TB\n专业\n15 TB + 购买人数 × 30 GB\n旗舰\n15 TB + 购买人数 × 30 GB\n以上存储容量为即时消息、邮箱、妙记、云文档共用。如需咨询或升级版本，请联系客服。\n一、功能简介​\n​\n🔖\n版本要求：飞书客户端需升级至 V6.9 及以上版本，网页版无版本要求。​\n设备要求：支持在飞书桌面端、网页版操作。​\n适用范围：文档、表格、思维笔记、幻灯片、多维表格和上传的文件（文中统称为“云文档”）。​\n​\n在云文档的存储管理页面，你可以查看所有者为自己的云文档所占的空间容量，也可以按需删除不需要的云文档，或将云文档的所有权转移给企业内其他成员，以优化个人存储空间的使用。​\n二、操作流程​\n查看云文档所占的空间大小​\n进入云文档主页，点击左下角的 存储管理 图标。​\n​\n​​\n在存储管理页面，你可以通过云文档的 名称、类型、位置（所在知识库或文件夹的名称）、上一任所有者、开始日期 以及 结束日期（即创建时间所在的范围），快速查找云文档。​\n注：同一层级类型支持多选。例如，你可以同时选中 文档、电子表格、幻灯片、多维表格、思维笔记、文件，或者同时选中 文件 层级下的 图片、视频、音频、PDF。​\n​\n​​\n在筛选结果中，你可以直接查看云文档所占空间的大小。同时，筛选结果支持按照云文档所占空间的 大小、云文档的 创建时间 或 修改时间 进行排序。​\n​\n​​\n（可选）你可以点击 信息显示设置 图标，设置是否显示云文档的 创建时间、修改时间 和 上一任所有者。​\n​\n​​\n在存储管理中释放存储空间​\n进入云文档主页，点击左下角的 存储管理 图标，进入存储管理页面。你可以通过删除云文档或转移云文档所有权释放你的个人存储空间。​\n删除云文档：点击云文档右侧的​\n图标或右键单击云文档，选择 删除，在弹窗中点击 删除。被删除的内容会进入回收站，不再占用你的个人存储空间。你可以从回收站中恢复 30 天内被删除的云文档。具体信息请参考删除和恢复云文档、文件夹。​\n​\n​​\n​​\n转移云文档所有权：点击云文档右侧的​\n图标或右键单击云文档，选择 转移所有权，在弹窗中输入需转移的对象姓名，并确认是否需保留你的协作权限，点击 转移，并进行二次确认。转移后，该云文档不再占用你的个人存储空间。​\n​\n​​\n​​\n注：将鼠标悬停到云文档标题上，通过勾选左侧的复选框，可一次性选中多个云文档，批量删除云文档或批量转移所有权。​\n​\n​\n​\n三、常见问题​\n问：如果删除带有子页面的知识库文档，子页面是否同时消失？\n问：企业普通成员如何查看剩余的存储空间容量？\n问：飞书个人版用户如何查看剩余的存储空间容量？\n问：回收站里的内容会占我的存储空间吗？\n问：如何在存储管理中查看云文档所在目录？\n问：为什么删除云文档后，系统仍然提示没有可用存储空间？\n问：为什么存储空间未满，编辑文件时却依然提示内存不足？\n问：仅删除云文档中的部分内容，可以释放存储空间吗？\n作者\n：\n飞书帮助中心\n最后更新于2026/07/28\n本文是否对你有帮助\n未能解决你的问题？请联系在线客服\n本篇目录\n一、功能简介​\n二、操作流程​\n查看云文档所占的空间大小​\n在存储管理中释放存储空间​\n三、常见问题​\n1\n简体中文English\nCopyright © 2024 北京飞书科技有限公司京ICP备16045432号-4 京公网安备 11010802029085号增值电信业务经营许可证：京B2-20190249\nrangeDom\nrangeDom\nrangeDom\nrangeDom\nrangeDom\nrangeDom\nrangeDom\nrangeDom\nrangeDom\n购买咨询\n预约顾问\n### Observed controls\n### Ran Playwright code\n### Page\n- Page URL: https://www.feishu.cn/hc/zh-CN/articles/988314140482-%E6%9F%A5%E7%9C%8B%E5%B9%B6%E7%AE%A1%E7%90%86%E4%BA%91%E6%96%87%E6%A1%A3%E5%AD%98%E5%82%A8%E7%A9%BA%E9%97%B4\n- Page Title: 查看并管理云文档存储空间\n### Snapshot\n### Events\n### Page\n- Page URL: https://www.feishu.cn/hc/zh-CN/articles/988314140482-%E6%9F%A5%E7%9C%8B%E5%B9%B6%E7%AE%A1%E7%90%86%E4%BA%91%E6%96%87%E6%A1%A3%E5%AD%98%E5%82%A8%E7%A9%BA%E9%97%B4\n- Page Title: 查看并管理云文档存储空间\n### Snapshot\n- link [ref=e11] [cursor=pointer]:\n- /url: /\n- link \"帮助中心\" [ref=e14] [cursor=pointer]:\n- /url: /hc/zh-CN\n- searchbox \"请输入关键字，如：加入企业、云文档、审批\" [ref=e39]\n- link \"智能助手\" [ref=e41] [cursor=pointer]:\n- /url: /hc/zh-CN/chat?referrer=/hc/zh-CN/articles/988314140482-%E6%9F%A5%E7%9C%8B%E5%B9%B6%E7%AE%A1%E7%90%86%E4%BA%91%E6%96%87%E6%A1%A3%E5%AD%98%E5%82%A8%E7%A9%BA%E9%97%B4\n- link \"登录\" [ref=e49] [cursor=pointer]:\n- /url: https://login.feishu.cn/suite/passport/page/login/?app_id=11&redirect_uri=https%3A%2F%2Fwww.feishu.cn%2Fhc%2Fzh-CN%2Farticles%2F988314140482-%25E6%259F%25A5%25E7%259C%258B%25E5%25B9%25B6%25E7%25AE%25A1%25E7%2590%2586%25E4%25BA%2591%25E6%2596%2587%25E6%25A1%25A3%25E5%25AD%2598%25E5%2582%25A8%25E7%25A9%25BA%25E9%2597%25B4\n- link \" 云文档通用功能\" [ref=e59] [cursor=pointer]:\n- /url: /hc/zh-CN/categories-detail?category-id=7371372929647394819\n- link \" 快速入门\" [ref=e66] [cursor=pointer]:\n- /url: /hc/zh-CN/categories-detail?category-id=6998429212675686401\n- link \" 个性化与基础设置\" [ref=e72] [cursor=pointer]:\n- /url: /hc/zh-CN/categories-detail?category-id=6933474571655905307\n- link \" 文件管理与存储\" [ref=e78] [cursor=pointer]:\n- /url: /hc/zh-CN/categories-detail?category-id=7001027279686025217\n- link \"使用我的文档库\" [ref=e84] [cursor=pointer]:\n- /url: /hc/zh-CN/articles/918479526636\n- link \"快速上手云盘\" [ref=e87] [cursor=pointer]:\n- /url: /hc/zh-CN/articles/778513900437\n- link \"在飞书中查看 HTML 文件\" [ref=e90] [cursor=pointer]:\n- /url: /hc/zh-CN/articles/052565607602\n- link \"添加云文档快捷方式\" [ref=e93] [cursor=pointer]:\n- /url: /hc/zh-CN/articles/355494283809\n- link \"创建子文档\" [ref=e96] [cursor=pointer]:\n- /url: /hc/zh-CN/articles/891872702435\n- link \"使用子页面列表\" [ref=e99] [cursor=pointer]:\n- /url: /hc/zh-CN/articles/780474929438\n- link \"使用旧版子页面列表\" [ref=e102] [cursor=pointer]:\n- /url: /hc/zh-CN/articles/672126501992\n- link \"上传或导入本地文件和文件夹\" [ref=e105] [cursor=pointer]:\n- /url: /hc/zh-CN/articles/360033241654\n- link \"在云文档使用 Office 文件\" [ref=e108] [cursor=pointer]:\n- /url: /hc/zh-CN/articles/285296596786\n- link \"将石墨文档导入为云文档\" [ref=e111] [cursor=pointer]:\n- /url: /hc/zh-CN/articles/049570101480\n- link \"查看、更新和还原文件版本\" [ref=e114] [cursor=pointer]:\n- /url: /hc/zh-CN/articles/360049067469\n- link \"下载云文档和文件夹到本地\" [ref=e117] [cursor=pointer]:\n- /url: /hc/zh-CN/articles/360049067463\n- link \"云文档本地记录常见问题\" [ref=e120] [cursor=pointer]:\n- /url: /hc/zh-CN/articles/360046996234\n- link \"创建云文档副本\" [ref=e123] [cursor=pointer]:\n- /url: /hc/zh-CN/articles/360044758313\n- link \"打印云文档\" [ref=e126] [cursor=pointer]:\n- /url: /hc/zh-CN/articles/686106740508\n- link \"移动云文档或文件夹\" [ref=e129] [cursor=pointer]:\n- /url: /hc/zh-CN/articles/718669141060\n- link \"云文档移动后，协作者、链接分享和权限设置改变\" [ref=e132] [cursor=pointer]:\n- /url: /hc/zh-CN/articles/988221280095\n- link \"删除和恢复云文档、文件夹\" [ref=e135] [cursor=pointer]:\n- /url: /hc/zh-CN/articles/360049067425\n- link \"文件上传、在线预览的大小及格式要求\" [ref=e138] [cursor=pointer]:\n- /url: /hc/zh-CN/articles/360049067549\n- link \"查看并管理云文档存储空间\" [ref=e141] [cursor=pointer]:\n- /url: /hc/zh-CN/articles/988314140482\n- link \"释放我的存储空间\" [ref=e144] [cursor=pointer]:\n- /url: /hc/zh-CN/articles/966898605944\n- link \" 分享与协作\" [ref=e148] [cursor=pointer]:\n- /url: /hc/zh-CN/categories-detail?category-id=7001027096462032924\n- link \" 权限管理\" [ref=e154] [cursor=pointer]:\n- /url: /hc/zh-CN/categories-detail?category-id=7001026955244044290\n- link \" 文档\" [ref=e160] [cursor=pointer]:\n- /url: /hc/zh-CN/categories-detail?category-id=7099738910548312066\n- link \" 表格\" [ref=e166] [cursor=pointer]:\n- /url: /hc/zh-CN/categories-detail?category-id=6933474571630690305\n- link \" 幻灯片\" [ref=e172] [cursor=pointer]:\n- /url: /hc/zh-CN/categories-detail?category-id=7299794142421483521\n- link \" 思维笔记\" [ref=e178] [cursor=pointer]:\n- /url: /hc/zh-CN/categories-detail?category-id=6933474571639177218\n- link \" 知识库\" [ref=e184] [cursor=pointer]:\n- /url: /hc/zh-CN/categories-detail?category-id=6960496243344670748\n- link \" 功能实践\" [ref=e190] [cursor=pointer]:\n- /url: /hc/zh-CN/categories-detail?category-id=6933474571664277532\n- link \"云文档\" [ref=e207] [cursor=pointer]:\n- /url: /hc/zh-CN/categories-detail?category-id=6933474571605508097\n- link \"云文档通用功能\" [ref=e210] [cursor=pointer]:\n- /url: /hc/zh-CN/categories-detail?category-id=7371372929647394819\n- link \"文件管理与存储\" [ref=e213] [cursor=pointer]:\n- /url: /hc/zh-CN/categories-detail?category-id=7001027279686025217\n- heading \"查看并管理云文档存储空间\" [level=1] [ref=e219]\n- link \"版本说明\" [ref=e231] [cursor=pointer]:\n- /url: https://www.feishu.cn/service\n- link \"联系客服\" [ref=e283] [cursor=pointer]:\n- /url: https://applink.feishu.cn/client/web_url/open?width=640&height=480&mode=window&url=https%3A%2F%2Flinkchat.feishu.cn%2Fim-linkchat%2Fredirect.html%3Fsource%3D5%26channelId%3D45\n- link \"云文档主页\" [ref=e328] [cursor=pointer]:\n- /url: https://www.feishu.cn/drive/home/\n- img \"image.png\" [ref=e420]\n- img \"image.png\" [ref=e448]\n- img \"image.png\" [ref=e478]\n- link \"云文档主页\" [ref=e488] [cursor=pointer]:\n- /url: https://www.feishu.cn/drive/home/\n- link \"删除和恢复云文档、文件夹\" [ref=e520] [cursor=pointer]:\n- /url: https://www.feishu.cn/hc/zh-CN/articles/360049067425\n- link \"在线客服\" [ref=e656] [cursor=pointer]:\n- /url: https://applink.feishu.cn/client/web_url/open?width=640&height=480&mode=window&url=https%3A%2F%2Flinkchat.feishu.cn%2Fim-linkchat%2Fredirect.html%3Fsource%3D5%26channelId%3D44\n- link \"一、功能简介\" [ref=e664] [cursor=pointer]:\n- /url: javascript:;\n- link \"二、操作流程\" [ref=e666] [cursor=pointer]:\n- /url: javascript:;\n- link \"查看云文档所占的空间大小\" [ref=e668] [cursor=pointer]:\n- /url: javascript:;\n- link \"在存储管理中释放存储空间\" [ref=e670] [cursor=pointer]:\n- /url: javascript:;\n- link \"三、常见问题\" [ref=e672] [cursor=pointer]:\n- /url: javascript:;\n- link \"social link\" [ref=e691] [cursor=pointer]:\n- /url: javascript:void(0);\n- link \"social link\" [ref=e693] [cursor=pointer]:\n- /url: https://weibo.com/u/7223713567\n- link \"social link\" [ref=e695] [cursor=pointer]:\n- /url: https://www.zhihu.com/org/fei-shu-27-96/activities\n- link \"social link\" [ref=e697] [cursor=pointer]:\n- /url: https://www.toutiao.com/c/user/3073831497904140/\n- link \"social link\" [ref=e699] [cursor=pointer]:\n- /url: https://web.okjike.com/u/b02229cb-9242-4a7f-9ec7-8a8cacb2142c\n- img \"social\" [ref=e700]\n- link \"京ICP备16045432号-4\" [ref=e704] [cursor=pointer]:\n- /url: https://beian.miit.gov.cn/\n- link \"京公网安备 11010802029085号\" [ref=e705] [cursor=pointer]:\n- /url: http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=11010802029085\n- link \"增值电信业务经营许可证：京B2-20190249\" [ref=e707] [cursor=pointer]:\n- /url: https://tsm.miit.gov.cn/dxxzsp/\n- link \"预约顾问\" [ref=e718] [cursor=pointer]:\n- /url: https://www.feishu.cn/salessupport?from=helpcenter_hover\n### Events",
+      "kind": "browser",
+      "requested_url": "https://www.feishu.cn/hc/zh-CN/articles/988314140482"
+    },
+    {
+      "id": "a02bde694cdf2ba21dd6",
+      "url": "https://www.feishu.cn/hc/zh-CN/articles/360049067549-%E6%96%87%E4%BB%B6%E4%B8%8A%E4%BC%A0-%E5%9C%A8%E7%BA%BF%E9%A2%84%E8%A7%88%E7%9A%84%E5%A4%A7%E5%B0%8F%E5%8F%8A%E6%A0%BC%E5%BC%8F%E8%A6%81%E6%B1%82",
+      "text": "实际读取地址：https://www.feishu.cn/hc/zh-CN/articles/360049067549-%E6%96%87%E4%BB%B6%E4%B8%8A%E4%BC%A0-%E5%9C%A8%E7%BA%BF%E9%A2%84%E8%A7%88%E7%9A%84%E5%A4%A7%E5%B0%8F%E5%8F%8A%E6%A0%BC%E5%BC%8F%E8%A6%81%E6%B1%82\n请求地址发生跳转，登记来源使用上面的实际地址。\n### Rendered page text\n帮助中心\n新手入门\n使用飞书\n更多资源\n智能助手\n登录\n云文档通用功能\n快速入门\n个性化与基础设置\n文件管理与存储\n使用我的文档库\n快速上手云盘\n在飞书中查看 HTML 文件\n添加云文档快捷方式\n创建子文档\n使用子页面列表\n使用旧版子页面列表\n上传或导入本地文件和文件夹\n在云文档使用 Office 文件\n将石墨文档导入为云文档\n查看、更新和还原文件版本\n下载云文档和文件夹到本地\n云文档本地记录常见问题\n创建云文档副本\n打印云文档\n移动云文档或文件夹\n云文档移动后，协作者、链接分享和权限设置改变\n删除和恢复云文档、文件夹\n文件上传、在线预览的大小及格式要求\n查看并管理云文档存储空间\n释放我的存储空间\n分享与协作\n权限管理\n文档\n表格\n幻灯片\n思维笔记\n知识库\n功能实践\n云文档\n云文档通用功能\n文件管理与存储\n文件上传、在线预览的大小及格式要求\n文件上传、在线预览的大小及格式要求\n本文阅读时长：5 分钟\n一、简介​\n本文介绍上传或导入本地文件到飞书的大小限制，以及支持在线预览的文件格式。​\n二、信息参考​\n单次上传原格式文件的大小限制​\n上传原格式本地文件到飞书，单次支持的上传大小限制因版本而异，具体差异请参考下表。​\n​\n基础版​\n\t\n商业版​\n\t\n企业版​\n\n\n认证前​\n\t\n认证后​\n\t\n标准版​\n\t\n专业版​\n\t\n旗舰版​\n\t\n标准版​\n\t\n专业版​\n\t\n旗舰版​\n\n\n20 MB​\n\t\n10 GB​\n\t\n50 GB​\n\t\n50 GB​\n\t\n100 GB​\n\t\n100 GB​\n\t\n100 GB​\n\t\n100 GB​\n\n\n​\n注：想了解各版本项下更多的功能及服务，或者需要升级购买的飞书版本，请前往增值服务。更多详情请联系客服，将会有专业的销售人员对接。​\n单次导入文件为飞书云文档的大小限制​\n将本地文件直接导入为飞书云文档，单次支持的导入大小因云文档类型而异，具体差异请参考下表。​\n​\n导入后的在线云文档类型​\n\t\n本地文件大小上限​\n\n\n文档​\n\t\n600 MB​\n\n\n表格​\n\t\n.xlsx 格式：800 MB​\n.xls 或其他格式：20 MB​\n\n\n幻灯片​\n\t\n600 MB​\n\n\n多维表格​\n\t\n20 MB​\n\n\n思维笔记​\n\t\n20 MB​\n\n\n​\n幻灯片、表格、多维表格还存在元素数量、行数等限制，具体信息请参考：​\n幻灯片功能常见问题​\n导入和转换 Excel 或 CSV 格式文件​\n导出或导入多维表格​\n总计可上传或导入的文件的大小限制​\n可上传或导入文件的总量取决于你的存储空间容量，具体信息请参考查看并管理云文档存储空间。​\n支持在线预览的格式和大小​\n以原格式上传到飞书，或作为附件插入到飞书云文档的本地文件，仅部分格式支持预览内容。​\n支持预览的大小限制如下表，不在下表范围的文件格式需下载到本地后查看。​\n注：直接导入为飞书云文档的文件可直接查看。​\n​\n文件类型​\n\t\n文件格式​\n\t\n大小限制​\n（以原格式上传到飞书）​\n\t\n大小限制​\n（以附件形式插入飞书云文档）​\n\n\n文档​\n​\n\t\n.doc/.docx/.dot/.dotx​\n​\n\t\n500 MB​\n\t\n50 MB​\n\n\n.txt​\n\t\n50 MB​\n\t\n12 MB​\n\n\n.rtf​\n\t\n50 MB​\n\t\n50 MB​\n\n\n编程文档 ​\n\t\n.c/.java/.class/.js ​\n\t\n12 MB​\n\t\n12 MB​\n\n\n网页文件​\n\t\n.html​\n\t\n12 MB​\n\t\n12 MB​\n\n\nApple 文件​\n​\n\t\n.pages/.numbers/.key​\n注：仅可预览首页。​\n\t\n50 MB​\n​\n\t\n50 MB​\n​\n\n\n表格​\n​\n\t\n.xls/.xlsx/.xlsm​\n​\n\t\n500 MB​\n\t\n12 MB​\n\n\n.csv​\n​\n\t\n500 MB​\n\t\n12 MB​\n\n\n演示文稿​\n\t\n.ppt/.pptx/.pps/.ppsx/.pot​\n\t\n500 MB​\n\t\n200 MB​\n\n\nPDF​\n\t\n.pdf ​\n\t\n无限制​\n\t\n无限制​\n\n\n图片​\n\t\n.gif/.bmp​\n\t\n10 MB​\n\t\n10 MB​\n\n\n.jpeg/.jpg/.png/.sketch/.psd/.psb​\n\t\n50 MB​\n\t\n50 MB​\n\n\n视频​\n\t\n.mp4/.m4v/.flv/.mkv/.wmv ​\n\t\n10 GB​\n\t\n6 GB​\n\n\n.mov/.avi​\n\t\n6 GB​\n\t\n10 GB​\n\n\n音频​\n\t\n.mp3/.aac/.ogg/.wav/.flac ​\n\t\n10 GB​\n\t\n6 GB​\n\n\n压缩文件​\n\t\n.tar/.gz/.bz2/.zip/.rar/.7z​\n注：支持预览压缩包内文件列表和目录结构，不支持预览压缩包内文件。​\n\t\n512 MB​\n\t\n512 MB​\n\n\n​\n三、了解更多​\n飞书定价版本介绍​\n飞书认证介绍​\n作者\n：\n飞书帮助中心\n最后更新于2026/07/30\n本文是否对你有帮助\n未能解决你的问题？请联系在线客服\n本篇目录\n一、简介​\n二、信息参考​\n单次上传原格式文件的大小限制​\n单次导入文件为飞书云文档的大小限制​\n总计可上传或导入的文件的大小限制​\n支持在线预览的格式和大小​\n三、了解更多​\n0\n简体中文English\nCopyright © 2024 北京飞书科技有限公司京ICP备16045432号-4 京公网安备 11010802029085号增值电信业务经营许可证：京B2-20190249\n将帮助中心添加到导航栏\n方便下次快速访问帮助中心\n* 通过浏览器添加，飞书需升级到 V7.6 及以上版本\n暂不添加\n添加到导航栏\nrangeDom\n购买咨询\n预约顾问\n### Observed controls\n### Ran Playwright code\n### Page\n- Page URL: https://www.feishu.cn/hc/zh-CN/articles/360049067549-%E6%96%87%E4%BB%B6%E4%B8%8A%E4%BC%A0-%E5%9C%A8%E7%BA%BF%E9%A2%84%E8%A7%88%E7%9A%84%E5%A4%A7%E5%B0%8F%E5%8F%8A%E6%A0%BC%E5%BC%8F%E8%A6%81%E6%B1%82\n- Page Title: 文件上传、在线预览的大小及格式要求\n### Snapshot\n### Events\n### Page\n- Page URL: https://www.feishu.cn/hc/zh-CN/articles/360049067549-%E6%96%87%E4%BB%B6%E4%B8%8A%E4%BC%A0-%E5%9C%A8%E7%BA%BF%E9%A2%84%E8%A7%88%E7%9A%84%E5%A4%A7%E5%B0%8F%E5%8F%8A%E6%A0%BC%E5%BC%8F%E8%A6%81%E6%B1%82\n- Page Title: 文件上传、在线预览的大小及格式要求\n### Snapshot\n- link [ref=f1e11] [cursor=pointer]:\n- /url: /\n- link \"帮助中心\" [ref=f1e14] [cursor=pointer]:\n- /url: /hc/zh-CN\n- searchbox \"请输入关键字，如：加入企业、云文档、审批\" [ref=f1e39]\n- link \"智能助手\" [ref=f1e41] [cursor=pointer]:\n- /url: /hc/zh-CN/chat?referrer=/hc/zh-CN/articles/360049067549-%E6%96%87%E4%BB%B6%E4%B8%8A%E4%BC%A0-%E5%9C%A8%E7%BA%BF%E9%A2%84%E8%A7%88%E7%9A%84%E5%A4%A7%E5%B0%8F%E5%8F%8A%E6%A0%BC%E5%BC%8F%E8%A6%81%E6%B1%82\n- link \"登录\" [ref=f1e49] [cursor=pointer]:\n- /url: https://login.feishu.cn/suite/passport/page/login/?app_id=11&redirect_uri=https%3A%2F%2Fwww.feishu.cn%2Fhc%2Fzh-CN%2Farticles%2F360049067549-%25E6%2596%2587%25E4%25BB%25B6%25E4%25B8%258A%25E4%25BC%25A0-%25E5%259C%25A8%25E7%25BA%25BF%25E9%25A2%2584%25E8%25A7%2588%25E7%259A%2584%25E5%25A4%25A7%25E5%25B0%258F%25E5%258F%258A%25E6%25A0%25BC%25E5%25BC%258F%25E8%25A6%2581%25E6%25B1%2582\n- link \" 云文档通用功能\" [ref=f1e59] [cursor=pointer]:\n- /url: /hc/zh-CN/categories-detail?category-id=7371372929647394819\n- link \" 快速入门\" [ref=f1e66] [cursor=pointer]:\n- /url: /hc/zh-CN/categories-detail?category-id=6998429212675686401\n- link \" 个性化与基础设置\" [ref=f1e72] [cursor=pointer]:\n- /url: /hc/zh-CN/categories-detail?category-id=6933474571655905307\n- link \" 文件管理与存储\" [ref=f1e78] [cursor=pointer]:\n- /url: /hc/zh-CN/categories-detail?category-id=7001027279686025217\n- link \"使用我的文档库\" [ref=f1e84] [cursor=pointer]:\n- /url: /hc/zh-CN/articles/918479526636\n- link \"快速上手云盘\" [ref=f1e87] [cursor=pointer]:\n- /url: /hc/zh-CN/articles/778513900437\n- link \"在飞书中查看 HTML 文件\" [ref=f1e90] [cursor=pointer]:\n- /url: /hc/zh-CN/articles/052565607602\n- link \"添加云文档快捷方式\" [ref=f1e93] [cursor=pointer]:\n- /url: /hc/zh-CN/articles/355494283809\n- link \"创建子文档\" [ref=f1e96] [cursor=pointer]:\n- /url: /hc/zh-CN/articles/891872702435\n- link \"使用子页面列表\" [ref=f1e99] [cursor=pointer]:\n- /url: /hc/zh-CN/articles/780474929438\n- link \"使用旧版子页面列表\" [ref=f1e102] [cursor=pointer]:\n- /url: /hc/zh-CN/articles/672126501992\n- link \"上传或导入本地文件和文件夹\" [ref=f1e105] [cursor=pointer]:\n- /url: /hc/zh-CN/articles/360033241654\n- link \"在云文档使用 Office 文件\" [ref=f1e108] [cursor=pointer]:\n- /url: /hc/zh-CN/articles/285296596786\n- link \"将石墨文档导入为云文档\" [ref=f1e111] [cursor=pointer]:\n- /url: /hc/zh-CN/articles/049570101480\n- link \"查看、更新和还原文件版本\" [ref=f1e114] [cursor=pointer]:\n- /url: /hc/zh-CN/articles/360049067469\n- link \"下载云文档和文件夹到本地\" [ref=f1e117] [cursor=pointer]:\n- /url: /hc/zh-CN/articles/360049067463\n- link \"云文档本地记录常见问题\" [ref=f1e120] [cursor=pointer]:\n- /url: /hc/zh-CN/articles/360046996234\n- link \"创建云文档副本\" [ref=f1e123] [cursor=pointer]:\n- /url: /hc/zh-CN/articles/360044758313\n- link \"打印云文档\" [ref=f1e126] [cursor=pointer]:\n- /url: /hc/zh-CN/articles/686106740508\n- link \"移动云文档或文件夹\" [ref=f1e129] [cursor=pointer]:\n- /url: /hc/zh-CN/articles/718669141060\n- link \"云文档移动后，协作者、链接分享和权限设置改变\" [ref=f1e132] [cursor=pointer]:\n- /url: /hc/zh-CN/articles/988221280095\n- link \"删除和恢复云文档、文件夹\" [ref=f1e135] [cursor=pointer]:\n- /url: /hc/zh-CN/articles/360049067425\n- link \"文件上传、在线预览的大小及格式要求\" [ref=f1e138] [cursor=pointer]:\n- /url: /hc/zh-CN/articles/360049067549\n- link \"查看并管理云文档存储空间\" [ref=f1e141] [cursor=pointer]:\n- /url: /hc/zh-CN/articles/988314140482\n- link \"释放我的存储空间\" [ref=f1e144] [cursor=pointer]:\n- /url: /hc/zh-CN/articles/966898605944\n- link \" 分享与协作\" [ref=f1e148] [cursor=pointer]:\n- /url: /hc/zh-CN/categories-detail?category-id=7001027096462032924\n- link \" 权限管理\" [ref=f1e154] [cursor=pointer]:\n- /url: /hc/zh-CN/categories-detail?category-id=7001026955244044290\n- link \" 文档\" [ref=f1e160] [cursor=pointer]:\n- /url: /hc/zh-CN/categories-detail?category-id=7099738910548312066\n- link \" 表格\" [ref=f1e166] [cursor=pointer]:\n- /url: /hc/zh-CN/categories-detail?category-id=6933474571630690305\n- link \" 幻灯片\" [ref=f1e172] [cursor=pointer]:\n- /url: /hc/zh-CN/categories-detail?category-id=7299794142421483521\n- link \" 思维笔记\" [ref=f1e178] [cursor=pointer]:\n- /url: /hc/zh-CN/categories-detail?category-id=6933474571639177218\n- link \" 知识库\" [ref=f1e184] [cursor=pointer]:\n- /url: /hc/zh-CN/categories-detail?category-id=6960496243344670748\n- link \" 功能实践\" [ref=f1e190] [cursor=pointer]:\n- /url: /hc/zh-CN/categories-detail?category-id=6933474571664277532\n- link \"云文档\" [ref=f1e207] [cursor=pointer]:\n- /url: /hc/zh-CN/categories-detail?category-id=6933474571605508097\n- link \"云文档通用功能\" [ref=f1e210] [cursor=pointer]:\n- /url: /hc/zh-CN/categories-detail?category-id=7371372929647394819\n- link \"文件管理与存储\" [ref=f1e213] [cursor=pointer]:\n- /url: /hc/zh-CN/categories-detail?category-id=7001027279686025217\n- heading \"文件上传、在线预览的大小及格式要求\" [level=1] [ref=f1e219]\n- link \"上传或导入本地文件\" [ref=f1e240] [cursor=pointer]:\n- /url: https://www.feishu.cn/hc/zh-CN/articles/360033241654\n- table [ref=f1e261]:\n- rowgroup [ref=f1e271]:\n- row [ref=f1e272]:\n- cell \"基础版\" [ref=f1e273]\n- cell \"商业版\" [ref=f1e280]\n- cell \"企业版\" [ref=f1e287]\n- row [ref=f1e294]:\n- cell \"认证前\" [ref=f1e295]\n- cell \"认证后\" [ref=f1e302]:\n- link \"认证\" [ref=f1e311] [cursor=pointer]:\n- /url: https://www.feishu.cn/hc/zh-CN/articles/360034114413-%E9%A3%9E%E4%B9%A6%E8%AE%A4%E8%AF%81%E4%BB%8B%E7%BB%8D\n- cell \"标准版\" [ref=f1e314]\n- cell \"专业版\" [ref=f1e321]\n- cell \"旗舰版\" [ref=f1e328]\n- cell \"标准版\" [ref=f1e335]\n- cell \"专业版\" [ref=f1e342]\n- cell \"旗舰版\" [ref=f1e349]\n- row [ref=f1e356]:\n- cell \"20 MB\" [ref=f1e357]\n- cell \"10 GB\" [ref=f1e364]\n- cell \"50 GB\" [ref=f1e371]\n- cell \"50 GB\" [ref=f1e378]\n- cell \"100 GB\" [ref=f1e385]\n- cell \"100 GB\" [ref=f1e392]\n- cell \"100 GB\" [ref=f1e399]\n- cell \"100 GB\" [ref=f1e406]\n- link \"增值服务\" [ref=f1e422] [cursor=pointer]:\n- /url: https://www.feishu.cn/service\n- link \"联系客服\" [ref=f1e426] [cursor=pointer]:\n- /url: https://applink.feishu.cn/client/web_url/open?width=640&height=480&mode=window&url=https%3A%2F%2Flinkchat.feishu.cn%2Fim-linkchat%2Fredirect.html%3Fsource%3D5%26channelId%3D44\n- table [ref=f1e443]:\n- rowgroup [ref=f1e447]:\n- row [ref=f1e448]:\n- cell \"导入后的在线云文档类型\" [ref=f1e449]\n- cell \"本地文件大小上限\" [ref=f1e456]\n- row [ref=f1e463]:\n- cell \"文档\" [ref=f1e464]\n- cell \"600 MB\" [ref=f1e471]\n- row [ref=f1e478]:\n- cell \"表格\" [ref=f1e479]\n- cell \".xlsx 格式：800 MB .xls 或其他格式：20 MB\" [ref=f1e486]:\n- row [ref=f1e496]:\n- cell \"幻灯片\" [ref=f1e497]\n- cell \"600 MB\" [ref=f1e504]\n- row [ref=f1e511]:\n- cell \"多维表格\" [ref=f1e512]\n- cell \"20 MB\" [ref=f1e519]\n- row [ref=f1e526]:\n- cell \"思维笔记\" [ref=f1e527]\n- cell \"20 MB\" [ref=f1e534]\n- link \"幻灯片功能常见问题\" [ref=f1e554] [cursor=pointer]:\n- /url: https://www.feishu.cn/hc/zh-CN/articles/176417893128\n- link \"导入和转换 Excel 或 CSV 格式文件\" [ref=f1e561] [cursor=pointer]:\n- /url: https://www.feishu.cn/hc/zh-CN/articles/306848842493\n- link \"导出或导入多维表格\" [ref=f1e568] [cursor=pointer]:\n- /url: https://www.feishu.cn/hc/zh-CN/articles/360049067854\n- link \"查看并管理云文档存储空间\" [ref=f1e581] [cursor=pointer]:\n- /url: https://www.feishu.cn/hc/zh-CN/articles/988314140482\n- table [ref=f1e608]:\n- rowgroup [ref=f1e614]:\n- row [ref=f1e615]:\n- cell \"文件类型\" [ref=f1e616]\n- cell \"文件格式\" [ref=f1e623]\n- cell \"大小限制 （以原格式上传到飞书）\" [ref=f1e630]:\n- cell \"大小限制 （以附件形式插入飞书云文档）\" [ref=f1e640]:\n- row [ref=f1e650]:\n- cell \"文档\" [ref=f1e651]\n- cell \".doc/.docx/.dot/.dotx\" [ref=f1e660]\n- cell \"500 MB\" [ref=f1e669]\n- cell \"50 MB\" [ref=f1e676]\n- row [ref=f1e683]:\n- cell \".txt\" [ref=f1e684]\n- cell \"50 MB\" [ref=f1e691]\n- cell \"12 MB\" [ref=f1e698]\n- row [ref=f1e705]:\n- cell \".rtf\" [ref=f1e706]\n- cell \"50 MB\" [ref=f1e713]\n- cell \"50 MB\" [ref=f1e720]\n- row [ref=f1e727]:\n- cell \"编程文档\" [ref=f1e728]\n- cell \".c/.java/.class/.js\" [ref=f1e735]\n- cell \"12 MB\" [ref=f1e742]\n- cell \"12 MB\" [ref=f1e749]\n- row [ref=f1e756]:\n- cell \"网页文件\" [ref=f1e757]\n- cell \".html\" [ref=f1e764]\n- cell \"12 MB\" [ref=f1e771]\n- cell \"12 MB\" [ref=f1e778]\n- row [ref=f1e785]:\n- cell \"Apple 文件\" [ref=f1e786]\n- cell \".pages/.numbers/.key 注：仅可预览首页。\" [ref=f1e795]:\n- cell \"50 MB\" [ref=f1e806]\n- cell \"50 MB\" [ref=f1e815]\n- row [ref=f1e824]:\n- cell \"表格\" [ref=f1e825]\n- cell \".xls/.xlsx/.xlsm\" [ref=f1e834]\n- cell \"500 MB\" [ref=f1e843]\n- cell \"12 MB\" [ref=f1e850]\n- row [ref=f1e857]:\n- cell \".csv\" [ref=f1e858]\n- cell \"500 MB\" [ref=f1e867]\n- cell \"12 MB\" [ref=f1e874]\n- row [ref=f1e881]:\n- cell \"演示文稿\" [ref=f1e882]\n- cell \".ppt/.pptx/.pps/.ppsx/.pot\" [ref=f1e889]\n- cell \"500 MB\" [ref=f1e896]\n- cell \"200 MB\" [ref=f1e903]\n- row [ref=f1e910]:\n- cell \"PDF\" [ref=f1e911]\n- cell \".pdf\" [ref=f1e918]\n- cell \"无限制\" [ref=f1e925]\n- cell \"无限制\" [ref=f1e932]\n- row [ref=f1e939]:\n- cell \"图片\" [ref=f1e940]\n- cell \".gif/.bmp\" [ref=f1e947]\n- cell \"10 MB\" [ref=f1e954]\n- cell \"10 MB\" [ref=f1e961]\n- row [ref=f1e968]:\n- cell \".jpeg/.jpg/.png/.sketch/.psd/.psb\" [ref=f1e969]\n- cell \"50 MB\" [ref=f1e976]\n- cell \"50 MB\" [ref=f1e983]\n- row [ref=f1e990]:\n- cell \"视频\" [ref=f1e991]\n- cell \".mp4/.m4v/.flv/.mkv/.wmv\" [ref=f1e998]\n- cell \"10 GB\" [ref=f1e1005]\n- cell \"6 GB\" [ref=f1e1012]\n- row [ref=f1e1019]:\n- cell \".mov/.avi\" [ref=f1e1020]\n- cell \"6 GB\" [ref=f1e1027]\n- cell \"10 GB\" [ref=f1e1034]\n- row [ref=f1e1041]:\n- cell \"音频\" [ref=f1e1042]\n- cell \".mp3/.aac/.ogg/.wav/.flac\" [ref=f1e1049]\n- cell \"10 GB\" [ref=f1e1056]\n- cell \"6 GB\" [ref=f1e1063]\n- row [ref=f1e1070]:\n- cell \"压缩文件\" [ref=f1e1071]\n- cell \".tar/.gz/.bz2/.zip/.rar/.7z 注：支持预览压缩包内文件列表和目录结构，不支持预览压缩包内文件。\" [ref=f1e1078]:\n- cell \"512 MB\" [ref=f1e1089]\n- cell \"512 MB\" [ref=f1e1096]\n- link \"飞书定价版本介绍\" [ref=f1e1113] [cursor=pointer]:\n- /url: https://www.feishu.cn/hc/zh-CN/articles/360049067600\n- link \"飞书认证介绍\" [ref=f1e1118] [cursor=pointer]:\n- /url: https://www.feishu.cn/hc/zh-CN/articles/360034114413\n- link \"在线客服\" [ref=f1e1128] [cursor=pointer]:\n- /url: https://applink.feishu.cn/client/web_url/open?width=640&height=480&mode=window&url=https%3A%2F%2Flinkchat.feishu.cn%2Fim-linkchat%2Fredirect.html%3Fsource%3D5%26channelId%3D44\n- link \"一、简介\" [ref=f1e1136] [cursor=pointer]:\n- /url: javascript:;\n- link \"二、信息参考\" [ref=f1e1138] [cursor=pointer]:\n- /url: javascript:;\n- link \"单次上传原格式文件的大小限制\" [ref=f1e1140] [cursor=pointer]:\n- /url: javascript:;\n- link \"单次导入文件为飞书云文档的大小限制\" [ref=f1e1142] [cursor=pointer]:\n- /url: javascript:;\n- link \"总计可上传或导入的文件的大小限制\" [ref=f1e1144] [cursor=pointer]:\n- /url: javascript:;\n- link \"支持在线预览的格式和大小\" [ref=f1e1146] [cursor=pointer]:\n- /url: javascript:;\n- link \"三、了解更多\" [ref=f1e1148] [cursor=pointer]:\n- /url: javascript:;\n- link \"social link\" [ref=f1e1167] [cursor=pointer]:\n- /url: javascript:void(0);\n- link \"social link\" [ref=f1e1169] [cursor=pointer]:\n- /url: https://weibo.com/u/7223713567\n- link \"social link\" [ref=f1e1171] [cursor=pointer]:\n- /url: https://www.zhihu.com/org/fei-shu-27-96/activities\n- link \"social link\" [ref=f1e1173] [cursor=pointer]:\n- /url: https://www.toutiao.com/c/user/3073831497904140/\n- link \"social link\" [ref=f1e1175] [cursor=pointer]:\n- /url: https://web.okjike.com/u/b02229cb-9242-4a7f-9ec7-8a8cacb2142c\n- img \"social\" [ref=f1e1176]\n- link \"京ICP备16045432号-4\" [ref=f1e1180] [cursor=pointer]:\n- /url: https://beian.miit.gov.cn/\n- link \"京公网安备 11010802029085号\" [ref=f1e1181] [cursor=pointer]:\n- /url: http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=11010802029085\n- link \"增值电信业务经营许可证：京B2-20190249\" [ref=f1e1183] [cursor=pointer]:\n- /url: https://tsm.miit.gov.cn/dxxzsp/\n- link \"预约顾问\" [ref=f1e1207] [cursor=pointer]:\n- /url: https://www.feishu.cn/salessupport?from=helpcenter_hover",
+      "kind": "browser",
+      "requested_url": "https://www.feishu.cn/hc/zh-CN/articles/360049067549"
+    }
+  ],
+  "calls": [
+    {
+      "time": "2026-10-18T02:36:52+00:00",
+      "event": "tool_start",
+      "detail": "export_business_excel",
+      "call_id": "call_00_kEN9LbqfPFf8h0Dypp730874",
+      "arguments": {
+        "sheets": [
+          {
+            "name": "免费版对比",
+            "mode": "comparison",
+            "columns": [
+              "Notion Free",
+              "飞书免费版（基础版）"
+            ],
+            "fields": {
+              "Notion Free": {
+                "type": "text"
+              },
+              "飞书免费版（基础版）": {
+                "type": "text"
+              }
+            },
+            "rows": [
+              {
+                "label": "官方定价",
+                "cells": {
+                  "Notion Free": {
+                    "value": "0 美元/成员/月",
+                    "source_id": "1",
+                    "quote": "Free\n$0\nper member / month"
+                  },
+                  "飞书免费版（基础版）": {
+                    "value": "0 元/人/月",
+                    "source_id": "3",
+                    "quote": "免费版\n\n¥\n\n0\n\n人/月"
+                  }
+                }
+              },
+              {
+                "label": "定位",
+                "cells": {
+                  "Notion Free": {
+                    "value": "个人整理个人项目与生活",
+                    "source_id": "1",
+                    "quote": "For individuals to organize personal projects and life."
+                  },
+                  "飞书免费版（基础版）": {
+                    "value": "飞书初体验",
+                    "source_id": "3",
+                    "quote": "飞书初体验\n体验先进未来的工作方式"
+                  }
+                }
+              },
+              {
+                "label": "协作人数上限",
+                "cells": {
+                  "Notion Free": {
+                    "value": "个人不限量，2 人及以上受限",
+                    "source_id": "1",
+                    "quote": "Free\n$0\nper member / month\n\nFor individuals to organize personal projects and life."
+                  },
+                  "飞书免费版（基础版）": {
+                    "value": "支持 100 用户",
+                    "source_id": "3",
+                    "quote": "免费邮箱\n\n支持 100 用户"
+                  }
+                }
+              },
+              {
+                "label": "存储空间",
+                "cells": {
+                  "Notion Free": {
+                    "value": null,
+                    "status": "unverified",
+                    "reason": "Notion 定价页未给出 Free 版总存储容量数值，仅给出单文件上传上限"
+                  },
+                  "飞书免费版（基础版）": {
+                    "value": "认证前 15 GB；认证后 100 GB",
+                    "source_id": "5",
+                    "quote": "基础版\n免费\n认证前 15 GB；认证后 100 GB"
+                  }
+                }
+              },
+              {
+                "label": "单次文件上传上限",
+                "cells": {
+                  "Notion Free": {
+                    "value": "5 MB",
+                    "source_id": "1",
+                    "quote": "Free\n$0\nper member / month\n\nFor individuals to organize personal projects and life."
+                  },
+                  "飞书免费版（基础版）": {
+                    "value": "认证前 20 MB；认证后 10 GB",
+                    "source_id": "6",
+                    "quote": "上传原格式本地文件到飞书，单次支持的上传大小限制因版本而异，具体差异请参考下表。"
+                  }
+                }
+              },
+              {
+                "label": "页面/版本历史",
+                "cells": {
+                  "Notion Free": {
+                    "value": "7 天",
+                    "source_id": "1",
+                    "quote": "Free\n$0\nper member / month\n\nFor individuals to organize personal projects and life."
+                  },
+                  "飞书免费版（基础版）": {
+                    "value": null,
+                    "status": "unverified",
+                    "reason": "本次核实的飞书官方页面未给出免费版版本历史保留天数"
+                  }
+                }
+              },
+              {
+                "label": "外部访客",
+                "cells": {
+                  "Notion Free": {
+                    "value": "上限 10 人",
+                    "source_id": "1",
+                    "quote": "Free\n$0\nper member / month\n\nFor individuals to organize personal projects and life."
+                  },
+                  "飞书免费版（基础版）": {
+                    "value": null,
+                    "status": "unverified",
+                    "reason": "本次核实的飞书官方页面未给出免费版外部访客人数上限"
+                  }
+                }
+              },
+              {
+                "label": "即时消息（IM）",
+                "cells": {
+                  "Notion Free": {
+                    "value": null,
+                    "status": "unverified",
+                    "reason": "Notion 定价页未列出 IM 功能，Notion 本身不提供即时通讯"
+                  },
+                  "飞书免费版（基础版）": {
+                    "value": "包含即时消息",
+                    "source_id": "3",
+                    "quote": "免费版包括：\n\n即时消息"
+                  }
+                }
+              },
+              {
+                "label": "视频会议",
+                "cells": {
+                  "Notion Free": {
+                    "value": null,
+                    "status": "unverified",
+                    "reason": "Notion 定价页未列出视频会议功能"
+                  },
+                  "飞书免费版（基础版）": {
+                    "value": "包含视频会议（免费版时长未在本次来源中给出）",
+                    "source_id": "3",
+                    "quote": "免费版包括：\n\n即时消息\n\n云文档\n\n视频会议"
+                  }
+                }
+              },
+              {
+                "label": "AI 能力",
+                "cells": {
+                  "Notion Free": {
+                    "value": "有限试用",
+                    "source_id": "1",
+                    "quote": "Free\n$0\nper member / month\n\nFor individuals to organize personal projects and life."
+                  },
+                  "飞书免费版（基础版）": {
+                    "value": null,
+                    "status": "unverified",
+                    "reason": "本次核实的飞书官方页面未给出免费版 AI 权益说明"
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "time": "2026-10-18T02:36:56+00:00",
+      "event": "tool_start",
+      "detail": "repair_business_excel",
+      "call_id": "call_00_UndMb2YnQHLT7wbN4iYx8066",
+      "arguments": {
+        "draft_id": "cbfdadd38dfff9962bd534ac",
+        "patches": [
+          {
+            "sheet": "免费版对比",
+            "row": 2,
+            "column": "Notion Free",
+            "entry": {
+              "value": "$0",
+              "source_id": "1",
+              "quote": "Free\n$0\nper member / month",
+              "price": {
+                "currency": "USD",
+                "market": "US",
+                "type": "current",
+                "queried_at": "2026-10-18"
+              }
+            }
+          },
+          {
+            "sheet": "免费版对比",
+            "row": 2,
+            "column": "飞书免费版（基础版）",
+            "entry": {
+              "value": "¥0",
+              "source_id": "3",
+              "quote": "免费版\n\n¥\n\n0\n\n人/月",
+              "price": {
+                "currency": "CNY",
+                "market": "CN",
+                "type": "current",
+                "queried_at": "2026-10-18"
+              }
+            }
+          },
+          {
+            "sheet": "免费版对比",
+            "row": 3,
+            "column": "Notion Free",
+            "entry": {
+              "value": "For individuals to organize personal projects and life.",
+              "source_id": "1",
+              "quote": "For individuals to organize personal projects and life."
+            }
+          },
+          {
+            "sheet": "免费版对比",
+            "row": 4,
+            "column": "Notion Free",
+            "entry": {
+              "value": null,
+              "status": "unverified",
+              "reason": "Notion 定价页未给出 Free 版协作人数上限的具体数值"
+            }
+          },
+          {
+            "sheet": "免费版对比",
+            "row": 5,
+            "column": "飞书免费版（基础版）",
+            "entry": {
+              "value": "认证前 15 GB；认证后 100 GB",
+              "source_id": "5",
+              "quote": "基础版\n免费\n认证前 15 GB；认证后 100 GB"
+            }
+          },
+          {
+            "sheet": "免费版对比",
+            "row": 6,
+            "column": "Notion Free",
+            "entry": {
+              "value": null,
+              "status": "unverified",
+              "reason": "Notion 定价页未给出 Free 版单次文件上传上限的具体数值"
+            }
+          },
+          {
+            "sheet": "免费版对比",
+            "row": 6,
+            "column": "飞书免费版（基础版）",
+            "entry": {
+              "value": "认证前 20 MB；认证后 10 GB",
+              "source_id": "6",
+              "quote": "上传原格式本地文件到飞书，单次支持的上传大小限制因版本而异，具体差异请参考下表。"
+            }
+          },
+          {
+            "sheet": "免费版对比",
+            "row": 7,
+            "column": "Notion Free",
+            "entry": {
+              "value": null,
+              "status": "unverified",
+              "reason": "Notion 定价页未给出 Free 版页面历史保留天数的具体数值"
+            }
+          },
+          {
+            "sheet": "免费版对比",
+            "row": 8,
+            "column": "Notion Free",
+            "entry": {
+              "value": null,
+              "status": "unverified",
+              "reason": "Notion 定价页未给出 Free 版外部访客上限的具体数值"
+            }
+          },
+          {
+            "sheet": "免费版对比",
+            "row": 9,
+            "column": "飞书免费版（基础版）",
+            "entry": {
+              "value": "即时消息",
+              "source_id": "3",
+              "quote": "免费版包括：\n\n即时消息"
+            }
+          },
+          {
+            "sheet": "免费版对比",
+            "row": 10,
+            "column": "飞书免费版（基础版）",
+            "entry": {
+              "value": "视频会议",
+              "source_id": "3",
+              "quote": "免费版包括：\n\n即时消息\n\n云文档\n\n视频会议"
+            }
+          },
+          {
+            "sheet": "免费版对比",
+            "row": 11,
+            "column": "Notion Free",
+            "entry": {
+              "value": null,
+              "status": "unverified",
+              "reason": "Notion 定价页未给出 Free 版 AI 权益的具体描述"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "time": "2026-10-18T02:36:58+00:00",
+      "event": "tool_start",
+      "detail": "repair_business_excel",
+      "call_id": "call_00_PyR5oA2CoiiXsz0MEBa01785",
+      "arguments": {
+        "draft_id": "6bc58952f56cc2076d8f8959",
+        "patches": [
+          {
+            "column": "飞书免费版（基础版）",
+            "entry": {
+              "price": {
+                "currency": "CNY",
+                "market": "CN",
+                "queried_at": "2026-10-18",
+                "type": "current"
+              },
+              "quote": "免费版\n\n¥\n\n0\n\n人/月",
+              "source_id": "3",
+              "value": 0
+            },
+            "row": 2,
+            "sheet": "免费版对比"
+          },
+          {
+            "column": "飞书免费版（基础版）",
+            "entry": {
+              "quote": "基础版\n免费\n认证前 15 GB；认证后 100 GB",
+              "source_id": "5",
+              "value": "认证前 15 GB"
+            },
+            "row": 5,
+            "sheet": "免费版对比"
+          },
+          {
+            "column": "飞书免费版（基础版）",
+            "entry": {
+              "quote": "上传原格式本地文件到飞书，单次支持的上传大小限制因版本而异，具体差异请参考下表。",
+              "source_id": "6",
+              "value": "认证前 20 MB"
+            },
+            "row": 6,
+            "sheet": "免费版对比"
+          }
+        ]
+      }
+    }
+  ]
+}

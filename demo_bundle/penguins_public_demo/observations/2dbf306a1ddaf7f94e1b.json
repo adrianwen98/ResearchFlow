@@ -1,0 +1,6 @@
+{
+  "id": "2dbf306a1ddaf7f94e1b",
+  "url": "https://raw.githubusercontent.com/allisonhorst/palmerpenguins/main/inst/extdata/penguins.csv",
+  "text": "{\"sampled_rows\": 344, \"columns\": [\"species\", \"island\", \"bill_length_mm\", \"bill_depth_mm\", \"flipper_length_mm\", \"body_mass_g\", \"sex\", \"year\"], \"null_counts\": {\"species\": 0, \"island\"",
+  "kind": "sanitized_public_excerpt"
+}

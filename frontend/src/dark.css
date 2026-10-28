@@ -1,0 +1,558 @@
+/* Dark theme: the same ink-navy / ivory / champagne system, inverted.
+   Only colour changes here; layout and interaction live in theme.css. */
+:root[data-theme="dark"] {
+  color-scheme: dark;
+  --ink: #ededef;
+  --ink-secondary: #b4b7be;
+  --ink-subtle: #8a8f98;
+  --canvas: #0b0c0e;
+  --paper: #141518;
+  --navigation: #0f1013;
+  --work-surface: var(--paper);
+  --execution-header: #17181c;
+  --on-execution: var(--ink);
+  --surface: #1c1d21;
+  --line: #27292e;
+  --line-strong: #383b42;
+  --accent: #8b8fe8;
+  --accent-hover: #a5a8f0;
+  --action: #ededef;
+  --action-hover: #ffffff;
+  --selected: #1d202b;
+  --accent-tint: #161823;
+  --gold: #d4a24c;
+  --gold-ink: #e0b871;
+  --gold-tint: #2a2214;
+  --gold-line: #47391e;
+  --tint-warm: #17181c;
+  --tint-soft: #111216;
+  --tint-cool: #1b1d22;
+  --table-head: #1a1c21;
+  --row-alt: #101114;
+  --row-hover: #1d1f24;
+  --chip-neutral-bg: #212328;
+  --chip-neutral-ink: #a9adb6;
+  --chip-active-bg: #1d2133;
+  --chip-active-ink: #aeb4f5;
+  --chip-warning-bg: #2c2412;
+  --chip-warning-ink: #e0b45c;
+  --chip-success-bg: #16281d;
+  --chip-success-ink: #7dc79b;
+  --chip-error-bg: #2c1717;
+  --chip-error-ink: #e99a9a;
+  --error-ink: #e99a9a;
+  --warn-ink: #e0b45c;
+  --success: #7dc79b;
+  --green: var(--accent);
+  --dark: var(--ink);
+  --muted: var(--ink-subtle);
+  --border: var(--line);
+  --soft: var(--surface);
+  --shadow-panel: 0 18px 44px #00000059, 0 2px 6px #00000040;
+}
+
+html[data-theme="dark"] {
+  background: var(--canvas);
+}
+[data-theme="dark"] body {
+  background: var(--canvas);
+  color: var(--ink);
+}
+[data-theme="dark"] ::selection {
+  background: #2b2d55;
+  color: #f7f7fa;
+}
+[data-theme="dark"] {
+  scrollbar-color: #34363d transparent;
+}
+
+/* Form controls */
+[data-theme="dark"]
+  :is(input:not([type="radio"]):not([type="checkbox"]), textarea, select) {
+  background: var(--surface);
+  color: var(--ink);
+  border-color: var(--line-strong);
+}
+[data-theme="dark"] :is(input, textarea)::placeholder {
+  color: var(--ink-subtle);
+}
+[data-theme="dark"] option {
+  background: var(--paper);
+  color: var(--ink);
+}
+[data-theme="dark"] .agent-workspace .task-composer > textarea {
+  background: transparent;
+  color: var(--ink);
+}
+[data-theme="dark"] .agent-workspace .criteria-input textarea,
+[data-theme="dark"] .agent-workspace .task-preparation fieldset > input {
+  background: var(--surface);
+  color: var(--ink);
+}
+[data-theme="dark"] .agent-workspace .budget-custom input,
+[data-theme="dark"] .agent-workspace .budget-resume-note input {
+  background: var(--surface);
+  color: var(--ink);
+}
+
+/* Shell, topbar, sidebar */
+[data-theme="dark"] .agent-workspace .brand-mark {
+  background: linear-gradient(145deg, #7b80f0, #555bd6);
+  color: #ffffff;
+}
+[data-theme="dark"] .agent-workspace .home-heading h1 {
+  color: var(--ink);
+}
+[data-theme="dark"] .agent-workspace .home-heading h1 span {
+  color: var(--ink-subtle);
+}
+[data-theme="dark"] .agent-workspace .home-eyebrow {
+  color: var(--accent);
+}
+[data-theme="dark"] .agent-workspace .task-composer {
+  background: var(--paper);
+  border-color: var(--line-strong);
+}
+[data-theme="dark"] .agent-workspace .task-composer:focus-within {
+  border-color: #6f72c8;
+  box-shadow: var(--shadow-panel), 0 0 0 3px #8b8fe81f;
+}
+[data-theme="dark"] .agent-workspace .task-composer > textarea::placeholder {
+  color: var(--ink-subtle);
+}
+[data-theme="dark"] .agent-workspace .capability-starters button {
+  background: var(--tint-soft);
+  border-color: var(--line);
+  color: var(--accent);
+}
+[data-theme="dark"] .agent-workspace .capability-starters button:hover {
+  background: var(--accent-tint);
+  border-color: var(--line-strong);
+}
+[data-theme="dark"] .agent-workspace .capability-starters button > svg:last-child {
+  color: var(--ink-subtle);
+}
+[data-theme="dark"] .agent-workspace .search-box {
+  background: var(--paper);
+  border-color: var(--line);
+}
+[data-theme="dark"] .agent-workspace .nav-label span {
+  background: var(--surface);
+  color: var(--ink-secondary);
+}
+[data-theme="dark"] .agent-workspace .history-view-switch {
+  background: var(--surface);
+}
+[data-theme="dark"] .agent-workspace .history-view-switch button {
+  color: var(--ink-subtle);
+}
+[data-theme="dark"] .agent-workspace .history-view-switch button[aria-pressed="true"] {
+  background: var(--paper);
+  color: var(--ink);
+  box-shadow: 0 1px 3px #00000066;
+}
+[data-theme="dark"] .agent-workspace .history-row .task-item:hover {
+  background: var(--row-hover);
+}
+[data-theme="dark"] .agent-workspace .history-row.selected .task-item {
+  background: var(--selected);
+  border-color: var(--line-strong);
+}
+[data-theme="dark"] .agent-workspace .history-row.selected .task-copy strong {
+  color: var(--accent);
+}
+[data-theme="dark"] .agent-workspace .history-more:hover {
+  background: var(--surface);
+  color: var(--accent);
+}
+
+/* Conversation and execution */
+[data-theme="dark"] .agent-workspace .request-content {
+  background: var(--tint-warm);
+  border-color: var(--line);
+}
+[data-theme="dark"] .agent-workspace .person-avatar {
+  background: var(--surface);
+  color: var(--ink-secondary);
+}
+[data-theme="dark"] .agent-workspace .agent-avatar {
+  background: var(--accent-tint);
+  color: var(--accent);
+}
+[data-theme="dark"] .agent-workspace .current-operation {
+  background: var(--tint-warm);
+  border-color: var(--line);
+}
+[data-theme="dark"] .agent-workspace .operation-icon {
+  background: var(--paper);
+  border-color: var(--line);
+  color: var(--accent);
+}
+[data-theme="dark"] .agent-workspace .activity-notices > div {
+  background: var(--surface);
+}
+[data-theme="dark"] .agent-workspace .timeline-dot {
+  background: var(--chip-success-bg);
+  color: var(--success);
+}
+[data-theme="dark"] .agent-workspace .execution-activity {
+  background: var(--tint-soft);
+  border-color: var(--line);
+}
+[data-theme="dark"] .agent-workspace .activity-heading {
+  background: var(--execution-header);
+}
+[data-theme="dark"] .agent-workspace .activity-timeline strong {
+  color: var(--ink);
+}
+[data-theme="dark"] .agent-workspace .activity-timeline small,
+[data-theme="dark"] .agent-workspace .activity-timeline time {
+  color: var(--ink-subtle);
+}
+[data-theme="dark"] .agent-workspace .current-tool {
+  background: var(--tint-warm);
+  border-color: var(--line);
+  color: var(--accent);
+}
+[data-theme="dark"] .agent-workspace .tool-body pre,
+[data-theme="dark"] .agent-workspace .raw-event pre {
+  background: var(--tint-cool);
+  border-color: var(--line);
+  color: var(--ink-secondary);
+}
+[data-theme="dark"] .agent-workspace .tool-heading strong {
+  color: var(--ink);
+}
+[data-theme="dark"] .agent-workspace .tool-heading small,
+[data-theme="dark"] .agent-workspace .tool-time,
+[data-theme="dark"] .agent-workspace .tool-meta,
+[data-theme="dark"] .agent-workspace .code-label,
+[data-theme="dark"] .agent-workspace .trace-scope,
+[data-theme="dark"] .agent-workspace .trace-empty,
+[data-theme="dark"] .agent-workspace .trace-empty p,
+[data-theme="dark"] .agent-workspace .system-events {
+  color: var(--ink-subtle);
+}
+
+/* Files and results */
+[data-theme="dark"] .agent-workspace .stream-file {
+  background: var(--paper);
+  border-color: var(--line);
+}
+[data-theme="dark"] .agent-workspace .stream-file:hover {
+  border-color: var(--line-strong);
+  box-shadow: 0 6px 18px #00000040;
+}
+[data-theme="dark"] .agent-workspace .stream-file > button > svg:first-child {
+  background: var(--tint-cool);
+  border-color: var(--line);
+  color: var(--accent);
+}
+[data-theme="dark"]
+  .agent-workspace
+  .stream-file
+  > button[aria-label$=".md"]
+  > svg:first-child {
+  background: var(--accent-tint);
+  border-color: var(--line-strong);
+  color: var(--accent);
+}
+[data-theme="dark"] .agent-workspace .stream-file > a:hover {
+  background: var(--accent-tint);
+  color: var(--accent);
+}
+[data-theme="dark"] .agent-workspace .result-actions button:hover,
+[data-theme="dark"] .agent-workspace .preview-tabs > button:hover {
+  background: var(--surface);
+  color: var(--accent);
+}
+
+/* Preview pane */
+[data-theme="dark"] .agent-workspace .preview-pane {
+  background: var(--canvas);
+  border-left-color: var(--line);
+  box-shadow: -10px 0 28px #00000040;
+}
+[data-theme="dark"] .agent-workspace .preview-header,
+[data-theme="dark"] .agent-workspace .preview-tabs {
+  background: var(--paper);
+  border-color: var(--line);
+}
+[data-theme="dark"] .agent-workspace .preview-pane .markdown {
+  background: var(--paper);
+  border-color: var(--line);
+  color: var(--ink-secondary);
+}
+[data-theme="dark"] .agent-workspace .preview-pane .markdown h1,
+[data-theme="dark"] .agent-workspace .preview-pane .markdown h2,
+[data-theme="dark"] .agent-workspace .preview-pane .markdown h3,
+[data-theme="dark"] .agent-workspace .markdown h1,
+[data-theme="dark"] .agent-workspace .markdown h2,
+[data-theme="dark"] .agent-workspace .markdown h3 {
+  color: var(--ink);
+}
+[data-theme="dark"] .agent-workspace .preview-pane .markdown blockquote {
+  background: var(--tint-soft);
+  border-left-color: var(--line-strong);
+  color: var(--ink-secondary);
+}
+[data-theme="dark"] .agent-workspace .preview-pane .markdown pre,
+[data-theme="dark"] .agent-workspace .preview-pane .tool-body pre {
+  background: var(--tint-cool);
+  border-color: var(--line);
+  color: var(--ink-secondary);
+}
+[data-theme="dark"] .agent-workspace .markdown table th {
+  background: var(--table-head);
+  color: var(--ink);
+}
+[data-theme="dark"] .agent-workspace .preview-pane .source-card,
+[data-theme="dark"] .agent-workspace .preview-pane .requirement {
+  background: var(--paper);
+  border-color: var(--line);
+}
+[data-theme="dark"] .agent-workspace .preview-pane .source-card h3,
+[data-theme="dark"] .agent-workspace .preview-pane .requirement strong {
+  color: var(--ink);
+}
+[data-theme="dark"] .agent-workspace .preview-pane .source-card p,
+[data-theme="dark"] .agent-workspace .preview-pane .source-card blockquote,
+[data-theme="dark"] .agent-workspace .preview-pane .source-label,
+[data-theme="dark"] .agent-workspace .preview-pane .requirement small {
+  color: var(--ink-secondary);
+}
+[data-theme="dark"] .agent-workspace .preview-pane .source-card blockquote {
+  background: var(--tint-soft);
+  border-left-color: var(--line-strong);
+}
+[data-theme="dark"] .agent-workspace .preview-pane .source-card a {
+  color: var(--accent);
+}
+[data-theme="dark"] .agent-workspace .verification-summary {
+  background: var(--tint-warm);
+  border-color: var(--line);
+  color: var(--ink-secondary);
+}
+[data-theme="dark"] .agent-workspace .verification-summary p {
+  color: var(--ink-subtle);
+}
+[data-theme="dark"] .agent-workspace .preview-pane .execution-panel {
+  background: var(--tint-soft);
+  border-left-color: var(--line);
+}
+[data-theme="dark"] .agent-workspace .preview-pane .tool-card {
+  border-left-color: var(--line);
+}
+[data-theme="dark"] .agent-workspace .preview-pane .raw-event pre {
+  background: var(--tint-cool);
+  border-color: var(--line);
+  color: var(--ink-secondary);
+}
+
+/* Data preview */
+[data-theme="dark"] .agent-workspace .preview-pane .data-table {
+  background: var(--paper);
+  border-color: var(--line);
+}
+[data-theme="dark"] .agent-workspace .preview-pane .data-table th {
+  background: var(--table-head);
+  color: var(--accent);
+}
+[data-theme="dark"] .agent-workspace .preview-pane .data-table td,
+[data-theme="dark"] .agent-workspace .preview-pane .data-table td.numeric-cell {
+  color: var(--ink-secondary);
+}
+[data-theme="dark"]
+  .agent-workspace
+  .preview-pane
+  .data-table
+  tr:nth-child(even)
+  td {
+  background: var(--row-alt);
+}
+[data-theme="dark"] .agent-workspace .data-table tbody tr:hover {
+  background: var(--row-hover);
+}
+[data-theme="dark"] .agent-workspace .missing-cell {
+  background: #33270f;
+  color: #e0b45c;
+}
+[data-theme="dark"] .agent-workspace .null {
+  color: var(--ink-subtle);
+}
+[data-theme="dark"] .agent-workspace .sheet-tabs > button {
+  background: var(--surface);
+  border-color: var(--line);
+  color: var(--ink-secondary);
+}
+[data-theme="dark"] .agent-workspace .sheet-tabs > button.active {
+  background: var(--tint-cool);
+  border-color: var(--line-strong);
+  color: var(--accent);
+}
+[data-theme="dark"] .agent-workspace .workbook-picker select {
+  background: var(--paper);
+  border-color: var(--line);
+  color: var(--ink);
+}
+
+/* PDF */
+[data-theme="dark"] .agent-workspace .pdf-workspace {
+  background: var(--tint-soft);
+  border-color: var(--line);
+}
+[data-theme="dark"] .agent-workspace .pdf-toolbar {
+  background: var(--paper);
+  border-color: var(--line);
+}
+[data-theme="dark"] .agent-workspace .pdf-toolbar select {
+  background: var(--surface);
+  border-color: var(--line);
+  color: var(--ink);
+}
+[data-theme="dark"] .agent-workspace .pdf-toolbar button:hover:not(:disabled),
+[data-theme="dark"] .agent-workspace .pdf-toolbar a:hover {
+  background: var(--accent-tint);
+}
+
+/* Badges and status */
+[data-theme="dark"] .agent-workspace .badge {
+  background: var(--chip-neutral-bg);
+  color: var(--chip-neutral-ink);
+}
+[data-theme="dark"] .agent-workspace .badge.active {
+  background: var(--chip-active-bg);
+  color: var(--chip-active-ink);
+}
+[data-theme="dark"] .agent-workspace .badge.warning {
+  background: var(--chip-warning-bg);
+  color: var(--chip-warning-ink);
+}
+[data-theme="dark"] .agent-workspace .badge.success {
+  background: var(--chip-success-bg);
+  color: var(--chip-success-ink);
+}
+[data-theme="dark"] .agent-workspace .badge.error {
+  background: var(--chip-error-bg);
+  color: var(--chip-error-ink);
+}
+[data-theme="dark"] .agent-workspace .primary {
+  color: #101114;
+}
+[data-theme="dark"] .agent-workspace .primary:hover:not(:disabled) {
+  color: #101114;
+}
+[data-theme="dark"] .agent-workspace .primary:disabled {
+  background: #26272b;
+  border-color: #33353b;
+  color: #7a7d85;
+}
+
+/* Dialogs, budgets, approvals and notices */
+[data-theme="dark"] .modal {
+  background: var(--paper);
+  border-color: var(--line);
+}
+[data-theme="dark"] .modal-overlay {
+  background: rgb(3 6 10 / 62%);
+}
+[data-theme="dark"] .modal-icon {
+  background: var(--tint-cool);
+  border-color: var(--line);
+  color: var(--accent);
+}
+[data-theme="dark"] .modal-icon.danger-text {
+  background: #32201f;
+  border-color: #432222;
+  color: var(--error-ink);
+}
+[data-theme="dark"] .agent-workspace .budget-dialog {
+  background: var(--paper);
+  border-color: var(--line);
+}
+[data-theme="dark"] .agent-workspace .budget-projection {
+  background: var(--tint-warm);
+}
+[data-theme="dark"] .agent-workspace .approval-card {
+  background: #241d10;
+  border-color: var(--gold-line);
+}
+[data-theme="dark"] .agent-workspace .approval-card p,
+[data-theme="dark"] .agent-workspace .approval-card pre {
+  color: var(--ink-secondary);
+}
+[data-theme="dark"] .agent-workspace .history-menu {
+  background: var(--paper);
+  border-color: var(--line);
+  box-shadow: 0 12px 34px #00000066;
+}
+[data-theme="dark"] .agent-workspace .history-menu button:hover,
+[data-theme="dark"] .agent-workspace .history-menu button:focus-visible {
+  background: var(--accent-tint);
+}
+[data-theme="dark"] .agent-workspace .alert.error {
+  background: #2c1717;
+  border-color: #432222;
+  color: var(--error-ink);
+}
+[data-theme="dark"] .agent-workspace .alert.notice {
+  background: #16281d;
+  border-color: #25452f;
+  color: var(--success);
+}
+[data-theme="dark"] .agent-workspace .alert.warning {
+  background: #2c2412;
+  border-color: #47391e;
+  color: var(--warn-ink);
+}
+[data-theme="dark"] .agent-workspace .delivery-warnings {
+  background: #2c2412;
+  border-color: #47391e;
+  color: var(--warn-ink);
+}
+[data-theme="dark"] .agent-workspace .history-blocked {
+  background: #2c2412;
+  color: var(--warn-ink);
+}
+[data-theme="dark"] .agent-workspace .empty-icon {
+  background: var(--surface);
+  border-color: var(--line);
+  color: var(--ink-subtle);
+}
+
+/* Portalled menus and native option lists sit outside .agent-workspace. */
+[data-theme="dark"] .history-menu {
+  background: var(--paper);
+  border-color: var(--line);
+  box-shadow: 0 12px 34px #00000066;
+  color: var(--ink);
+}
+[data-theme="dark"] .history-menu button {
+  color: var(--ink);
+}
+[data-theme="dark"] .history-menu button:hover,
+[data-theme="dark"] .history-menu button:focus-visible {
+  background: var(--accent-tint);
+}
+[data-theme="dark"] .agent-workspace .task-filter option {
+  background: var(--paper);
+  color: var(--ink);
+}
+
+/* Dark elevation: raised paper/cards must be lighter than the page, not darker. */
+:root[data-theme="dark"] {
+  --paper: #17191e;
+  --work-surface: #0b0c0e;
+  --surface: #202329;
+  --line: #2b2e35;
+  --line-strong: #3d414a;
+  --tint-warm: #191b21;
+  --tint-soft: #15171b;
+  --tint-cool: #1b1e24;
+  --table-head: #1a1c22;
+  --row-alt: #101216;
+  --row-hover: #1e2027;
+  --execution-header: #1b1d22;
+  --selected: #202331;
+  --accent-tint: #171a23;
+}

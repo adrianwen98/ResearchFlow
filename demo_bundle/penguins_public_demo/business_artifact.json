@@ -1,0 +1,110 @@
+{
+  "filename": "task_result.xlsx",
+  "schema_version": 2,
+  "review_disclosed_missing": true,
+  "structured_review": true,
+  "normalizations": [],
+  "sheets": [
+    {
+      "name": "物种样本数对比",
+      "columns": [
+        "对象",
+        "样本数 (count)",
+        "核验说明"
+      ],
+      "rows": [
+        [
+          "Adelie",
+          "未核实",
+          "未核实：样本数"
+        ],
+        [
+          "Gentoo",
+          "未核实",
+          "未核实：样本数"
+        ],
+        [
+          "Chinstrap",
+          "未核实",
+          "未核实：样本数"
+        ]
+      ]
+    }
+  ],
+  "provenance": [
+    {
+      "sheet": "物种样本数对比",
+      "row": 2,
+      "column": "样本数",
+      "label": "Adelie",
+      "source_id": "",
+      "observation_id": "",
+      "url": "",
+      "quote": "",
+      "calculation_id": "",
+      "note": "自动保守披露：需要真实source_id及连续原文quote",
+      "normalized_value": null,
+      "status": "unverified",
+      "unit": "count",
+      "required": true,
+      "rule": "extractive_scalar",
+      "raw_value": null,
+      "original_input": {
+        "value": null,
+        "status": "unverified",
+        "reason": "自动保守披露：需要真实source_id及连续原文quote"
+      }
+    },
+    {
+      "sheet": "物种样本数对比",
+      "row": 3,
+      "column": "样本数",
+      "label": "Gentoo",
+      "source_id": "",
+      "observation_id": "",
+      "url": "",
+      "quote": "",
+      "calculation_id": "",
+      "note": "自动保守披露：需要真实source_id及连续原文quote",
+      "normalized_value": null,
+      "status": "unverified",
+      "unit": "count",
+      "required": true,
+      "rule": "extractive_scalar",
+      "raw_value": null,
+      "original_input": {
+        "value": null,
+        "status": "unverified",
+        "reason": "自动保守披露：需要真实source_id及连续原文quote"
+      }
+    },
+    {
+      "sheet": "物种样本数对比",
+      "row": 4,
+      "column": "样本数",
+      "label": "Chinstrap",
+      "source_id": "",
+      "observation_id": "",
+      "url": "",
+      "quote": "",
+      "calculation_id": "",
+      "note": "自动保守披露：需要真实source_id及连续原文quote",
+      "normalized_value": null,
+      "status": "unverified",
+      "unit": "count",
+      "required": true,
+      "rule": "extractive_scalar",
+      "raw_value": null,
+      "original_input": {
+        "value": null,
+        "status": "unverified",
+        "reason": "自动保守披露：需要真实source_id及连续原文quote"
+      }
+    }
+  ],
+  "quality_notes": [
+    "Adelie、Gentoo、Chinstrap / 样本数：未核实。自动保守披露：需要真实source_id及连续原文quote"
+  ],
+  "staged_version": "09fb633bbaac85158797942f",
+  "sha256": "fba26c777ac55ffb7c629dd90a4fb195295623b09a6ac5202c0a763f13bb882e"
+}

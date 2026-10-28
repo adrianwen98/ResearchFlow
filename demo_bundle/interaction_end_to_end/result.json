@@ -1,0 +1,22 @@
+{
+  "task_id": "interaction_end_to_end",
+  "status": "needs_review",
+  "answer": "脱敏历史演示，仅查看；不是本次新执行，也没有用户验收。",
+  "metrics": {
+    "model_calls": 20,
+    "tool_calls": 35,
+    "errors": 4,
+    "requests": 20,
+    "input_tokens": 301242,
+    "output_tokens": 7490,
+    "retries": 0,
+    "limits": {
+      "model_requests": 20,
+      "tool_calls": 90,
+      "graph_steps": 85,
+      "timeout_seconds": 900
+    }
+  },
+  "elapsed_seconds": 5.19,
+  "files": []
+}

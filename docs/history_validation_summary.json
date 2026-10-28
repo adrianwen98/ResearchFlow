@@ -1,0 +1,87 @@
+{
+  "date": "2026-10-16",
+  "scope": "历史任务栏小范围UX与持久化管理",
+  "paid_model_requests": 0,
+  "python": {
+    "passed": 201,
+    "failed": 0,
+    "report": "evidence/history_pytest.xml"
+  },
+  "frontend": {
+    "passed": 25,
+    "failed": 0,
+    "typecheck": "passed",
+    "production_build": "passed",
+    "report": "evidence/history_frontend_tests.json"
+  },
+  "browser": {
+    "environment": "隔离的本地8002测试服务，实际FastAPI、Runner和SQLite，脚本模型；不是线上Agent效果验收",
+    "rename_refresh": true,
+    "archive_hidden_restore_refresh": true,
+    "delete_cancel": true,
+    "delete_selected_returns_home_refresh": true,
+    "default_keeps_files_records_checkpoint": true,
+    "active_delete_disabled_then_safe_stop": true,
+    "narrow_390px": {
+      "menu_left": 40,
+      "menu_right": 224,
+      "dialog_left": 20,
+      "dialog_right": 355,
+      "document_width": 375
+    },
+    "main_8000": "真实历史案例菜单与删除范围只读检查；取消确认，没有删除用户任务",
+    "main_console_errors": 0
+  },
+  "regressions": [
+    "删除3类选项的8种组合",
+    "真实SQLite仅按thread_id删除checkpoint/writes",
+    "其他任务与全局Memory及公共demo不受影响",
+    "运行锁和排队拒绝删除",
+    "幂等请求/CLI无法重建已删除ID或重置预算",
+    "拒绝路径越界与重解析点",
+    "部分清理失败同选项重试",
+    "重命名不改原始目标和报告",
+    "归档保留Checkpoint",
+    "恢复演示脚本不重建已删除任务"
+  ],
+  "unchanged_historical_live_case": {
+    "requests": 20,
+    "tool_calls": 35,
+    "status": "completed"
+  },
+  "limitations": [
+    "本地单用户单进程",
+    "删除无回收站；默认保留的数据是备份，普通入口不支持恢复已删除任务，需保留可恢复能力时使用归档",
+    "其他进程/遗留运行锁不自动强制清除",
+    "本轮没有新增付费模型或外部网站验收",
+    "Windows安装的全部重做未执行，使用已有3.12环境"
+  ],
+  "unchanged_core_modules": [
+    "browser.py",
+    "browser_actions.py",
+    "business_excel.py",
+    "cli.py",
+    "completion.py",
+    "config.py",
+    "context.py",
+    "documents.py",
+    "egress.py",
+    "forms.py",
+    "graph.py",
+    "harness.py",
+    "memory.py",
+    "persistence.py",
+    "security.py",
+    "status.py",
+    "tabular.py",
+    "tools.py",
+    "workspace.py",
+    "__init__.py"
+  ],
+  "changed_existing_backend": [
+    "web_agent/api.py",
+    "web_agent/dashboard.py",
+    "web_agent/runner.py",
+    "web_agent/web_views.py"
+  ]
+}

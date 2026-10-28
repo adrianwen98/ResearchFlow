@@ -1,0 +1,107 @@
+{
+  "0": {
+    "name": "load_skill"
+  },
+  "2": {
+    "name": "set_requirements"
+  },
+  "4": {
+    "name": "update_plan"
+  },
+  "7": {
+    "name": "browser_navigate"
+  },
+  "9": {
+    "name": "browser_type"
+  },
+  "11": {
+    "name": "browser_click"
+  },
+  "13": {
+    "name": "browser_follow_link"
+  },
+  "15": {
+    "name": "record_source"
+  },
+  "17": {
+    "name": "set_requirements"
+  },
+  "19": {
+    "name": "update_plan"
+  },
+  "22": {
+    "name": "browser_navigate"
+  },
+  "24": {
+    "name": "browser_snapshot"
+  },
+  "26": {
+    "name": "browser_download"
+  },
+  "29": {
+    "name": "browser_click"
+  },
+  "31": {
+    "name": "browser_download"
+  },
+  "34": {
+    "name": "inspect_downloaded_table"
+  },
+  "36": {
+    "name": "aggregate_downloaded_table"
+  },
+  "38": {
+    "name": "record_source"
+  },
+  "40": {
+    "name": "record_source"
+  },
+  "42": {
+    "name": "record_source"
+  },
+  "44": {
+    "name": "list_recorded_sources"
+  },
+  "46": {
+    "name": "set_requirements"
+  },
+  "48": {
+    "name": "export_business_excel"
+  },
+  "50": {
+    "name": "export_excel"
+  },
+  "52": {
+    "name": "export_report"
+  },
+  "55": {
+    "name": "record_requirement_result"
+  },
+  "58": {
+    "name": "record_requirement_result"
+  },
+  "61": {
+    "name": "record_requirement_result"
+  },
+  "64": {
+    "name": "record_requirement_result"
+  },
+  "66": {
+    "name": "record_requirement_result"
+  },
+  "68": {
+    "name": "record_requirement_result"
+  },
+  "70": {
+    "name": "record_requirement_result"
+  },
+  "74": {
+    "name": "record_requirement_result"
+  },
+  "76": {
+    "name": "record_requirement_result"
+  },
+  "78": {
+    "name": "record_requirement_result"
+  }
+}

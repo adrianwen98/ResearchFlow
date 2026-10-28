@@ -1,0 +1,22 @@
+{
+  "date": "2026-10-16",
+  "scope": "task-first React UX only",
+  "python_tests_passed": 136,
+  "frontend_tests_passed": 18,
+  "typescript": "passed",
+  "production_build": "passed",
+  "unchanged_core_api_gradio_files": 23,
+  "new_dependencies": 0,
+  "paid_requests": 0,
+  "browser_verification": [
+    "historical real reports and XLSX",
+    "single-click creation, interrupt, reject and resume with isolated offline runner",
+    "binding-based acceptance of clearly labelled test copy",
+    "390/1024/1280/1440 viewport reflow"
+  ],
+  "limitations": [
+    "No new online model task",
+    "No new external form approval",
+    "Browser global zoom percentage not altered"
+  ]
+}

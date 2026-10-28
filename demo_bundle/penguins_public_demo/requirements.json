@@ -1,0 +1,51 @@
+[
+  {
+    "id": "r1",
+    "description": "说明公开样本数量、缺失值及分析限制",
+    "kind": "research",
+    "artifact": "",
+    "origin": "model",
+    "result": {
+      "status": "satisfied",
+      "source_ids": [
+        "1"
+      ],
+      "report_excerpt": "实际读取344条观测、8列",
+      "calculation_id": "",
+      "reason": ""
+    },
+    "machine_check": null
+  },
+  {
+    "id": "r2",
+    "description": "按物种统计样本数和体重均值",
+    "kind": "calculation",
+    "artifact": "",
+    "origin": "model",
+    "result": {
+      "status": "satisfied",
+      "source_ids": [
+        "2"
+      ],
+      "report_excerpt": "样本数不代表岛屿或物种的总体数量；观测数据不能据此得出因果关系。",
+      "calculation_id": "calc_8bd9907c96ae",
+      "reason": ""
+    },
+    "machine_check": null
+  },
+  {
+    "id": "r3",
+    "description": "交付有原始数据和统计的Excel",
+    "kind": "artifact",
+    "artifact": "task_result.xlsx",
+    "origin": "model",
+    "result": {
+      "status": "satisfied",
+      "source_ids": [],
+      "report_excerpt": "",
+      "calculation_id": "",
+      "reason": ""
+    },
+    "machine_check": null
+  }
+]

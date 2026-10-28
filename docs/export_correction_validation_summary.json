@@ -1,0 +1,62 @@
+{
+  "date": "2026-10-16",
+  "scope": "业务Excel证据诊断、有限纠错和上下文参数压缩故障修复",
+  "paid_model_requests": 0,
+  "python_tests_passed": 210,
+  "python_failures": 0,
+  "added_regressions": 9,
+  "frontend": "源代码与构建未修改；沿用上一轮25项测试结果，不声称本轮重跑",
+  "findings": [
+    "业务值为概括或推断时不满足逐字摘录规则",
+    "旧导出器只报首个笼统错误，缺失单元格定位",
+    "同类导出连续8次失败才停止",
+    "大参数历史调用用context_omitted替代，模型曾复制为真实参数"
+  ],
+  "fixes": [
+    "批量定位工作表/Excel行号/列名/value/来源ID与修复提示，最多返回20项，保留总数",
+    "原文校验保留，仅统一空白；不自动接受改写/推断",
+    "三次同类业务表校验失败后停止，不重置预算或篡改完成状态",
+    "历史大参数整组转为不可调用摘要，保留错误反馈且Checkpoint原文不变",
+    "工作台展示真实业务导出失败原因，兼容旧记录"
+  ],
+  "verified_offline": [
+    "真实LangGraph脚本模型按诊断修正后导出并进入结果待确认",
+    "修改参数仍失败三次则停止",
+    "显式恢复后累计请求数3到6、工具数3到6，不重复旧调用",
+    "错误单元格不会覆盖已有有效工作簿",
+    "无证据/改写/未知来源仍拒绝",
+    "长参数摘要不产生假tool_calls或孤立ToolMessage",
+    "新旧错误在API工作区正确显示"
+  ],
+  "historical_replay": {
+    "calls": 8,
+    "complete_parameter_sets": 7,
+    "issue_counts": [
+      20,
+      15,
+      14,
+      37,
+      12,
+      23,
+      21
+    ],
+    "one_other_call": "模型复制历史占位字段，缺少sheets",
+    "original_task_and_budget_unchanged": true
+  },
+  "not_verified": [
+    "没有新增DeepSeek实际模型回归",
+    "原失败任务未恢复、未完成、未手工修写原报告",
+    "不保证原文字符串匹配能判定事实语义或适用资格"
+  ],
+  "files": [
+    "web_agent/business_excel.py",
+    "web_agent/harness.py",
+    "web_agent/context.py",
+    "web_agent/graph.py",
+    "web_agent/tools.py",
+    "web_agent/web_views.py",
+    "skills/site_research.md",
+    "skills/product_research.md",
+    "tests/test_export_correction.py"
+  ]
+}

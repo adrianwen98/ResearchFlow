@@ -1,0 +1,248 @@
+[
+  {
+    "time": "2026-10-26T16:03:15+00:00",
+    "event": "tool_start",
+    "call_id": "demo_1_0",
+    "detail": "load_skill"
+  },
+  {
+    "time": "2026-10-26T16:03:15+00:00",
+    "event": "tool_end",
+    "call_id": "demo_1_0",
+    "elapsed_seconds": 0.0,
+    "detail": "load_skill",
+    "output_preview": "工具已返回；公开版不包含原始返回内容"
+  },
+  {
+    "time": "2026-10-26T16:03:15+00:00",
+    "event": "tool_start",
+    "call_id": "demo_1_1",
+    "detail": "set_requirements"
+  },
+  {
+    "time": "2026-10-26T16:03:15+00:00",
+    "event": "tool_end",
+    "call_id": "demo_1_1",
+    "elapsed_seconds": 0.0,
+    "detail": "set_requirements",
+    "output_preview": "工具已返回；公开版不包含原始返回内容"
+  },
+  {
+    "time": "2026-10-26T16:03:15+00:00",
+    "event": "tool_start",
+    "call_id": "demo_1_2",
+    "detail": "update_plan"
+  },
+  {
+    "time": "2026-10-26T16:03:15+00:00",
+    "event": "plan_updated",
+    "detail": "已保留脱敏事件；完整原始记录未公开"
+  },
+  {
+    "time": "2026-10-26T16:03:15+00:00",
+    "event": "tool_end",
+    "call_id": "demo_1_2",
+    "elapsed_seconds": 0.016,
+    "detail": "update_plan",
+    "output_preview": "工具已返回；公开版不包含原始返回内容"
+  },
+  {
+    "time": "2026-10-26T16:03:15+00:00",
+    "event": "tool_start",
+    "call_id": "demo_1_3",
+    "detail": "download_public_file"
+  },
+  {
+    "time": "2026-10-26T16:03:16+00:00",
+    "event": "tool_end",
+    "call_id": "demo_1_3",
+    "elapsed_seconds": 0.953,
+    "detail": "download_public_file",
+    "output_preview": "工具已返回；公开版不包含原始返回内容"
+  },
+  {
+    "time": "2026-10-26T16:03:16+00:00",
+    "event": "tool_start",
+    "call_id": "demo_2_0",
+    "detail": "inspect_downloaded_table"
+  },
+  {
+    "time": "2026-10-26T16:03:16+00:00",
+    "event": "tool_end",
+    "call_id": "demo_2_0",
+    "elapsed_seconds": 0.015,
+    "detail": "inspect_downloaded_table",
+    "output_preview": "工具已返回；公开版不包含原始返回内容"
+  },
+  {
+    "time": "2026-10-26T16:03:16+00:00",
+    "event": "tool_start",
+    "call_id": "demo_3_0",
+    "detail": "aggregate_downloaded_table"
+  },
+  {
+    "time": "2026-10-26T16:03:16+00:00",
+    "event": "tool_end",
+    "call_id": "demo_3_0",
+    "elapsed_seconds": 0.0,
+    "detail": "aggregate_downloaded_table",
+    "output_preview": "工具已返回；公开版不包含原始返回内容"
+  },
+  {
+    "time": "2026-10-26T16:03:16+00:00",
+    "event": "tool_start",
+    "call_id": "demo_3_1",
+    "detail": "aggregate_downloaded_table"
+  },
+  {
+    "time": "2026-10-26T16:03:16+00:00",
+    "event": "tool_end",
+    "call_id": "demo_3_1",
+    "elapsed_seconds": 0.016,
+    "detail": "aggregate_downloaded_table",
+    "output_preview": "工具已返回；公开版不包含原始返回内容"
+  },
+  {
+    "time": "2026-10-26T16:03:16+00:00",
+    "event": "tool_start",
+    "call_id": "demo_4_0",
+    "detail": "record_source"
+  },
+  {
+    "time": "2026-10-26T16:03:16+00:00",
+    "event": "tool_end",
+    "call_id": "demo_4_0",
+    "elapsed_seconds": 0.015,
+    "detail": "record_source",
+    "output_preview": "工具已返回；公开版不包含原始返回内容"
+  },
+  {
+    "time": "2026-10-26T16:03:16+00:00",
+    "event": "tool_start",
+    "call_id": "demo_4_1",
+    "detail": "record_source"
+  },
+  {
+    "time": "2026-10-26T16:03:16+00:00",
+    "event": "tool_error",
+    "call_id": "demo_4_1",
+    "code": "evidence_mismatch",
+    "detail": "工具错误：evidence_mismatch"
+  },
+  {
+    "time": "2026-10-26T16:03:16+00:00",
+    "event": "tool_end",
+    "call_id": "demo_4_1",
+    "elapsed_seconds": 0.047,
+    "detail": "record_source",
+    "output_preview": "ERROR: "
+  },
+  {
+    "time": "2026-10-26T16:03:16+00:00",
+    "event": "tool_start",
+    "call_id": "demo_4_2",
+    "detail": "save_business_rows"
+  },
+  {
+    "time": "2026-10-26T16:03:16+00:00",
+    "event": "tool_end",
+    "call_id": "demo_4_2",
+    "elapsed_seconds": 0.0,
+    "detail": "save_business_rows",
+    "output_preview": "工具已返回；公开版不包含原始返回内容"
+  },
+  {
+    "time": "2026-10-26T16:03:16+00:00",
+    "event": "tool_start",
+    "call_id": "demo_4_3",
+    "detail": "export_business_excel"
+  },
+  {
+    "time": "2026-10-26T16:03:17+00:00",
+    "event": "tool_end",
+    "call_id": "demo_4_3",
+    "elapsed_seconds": 0.438,
+    "detail": "export_business_excel",
+    "output_preview": "工具已返回；公开版不包含原始返回内容"
+  },
+  {
+    "time": "2026-10-26T16:03:17+00:00",
+    "event": "tool_start",
+    "call_id": "demo_5_0",
+    "detail": "export_excel"
+  },
+  {
+    "time": "2026-10-26T16:03:17+00:00",
+    "event": "tool_end",
+    "call_id": "demo_5_0",
+    "elapsed_seconds": 0.015,
+    "detail": "export_excel",
+    "output_preview": "工具已返回；公开版不包含原始返回内容"
+  },
+  {
+    "time": "2026-10-26T16:03:17+00:00",
+    "event": "tool_start",
+    "call_id": "demo_5_1",
+    "detail": "export_report"
+  },
+  {
+    "time": "2026-10-26T16:03:17+00:00",
+    "event": "tool_end",
+    "call_id": "demo_5_1",
+    "elapsed_seconds": 0.406,
+    "detail": "export_report",
+    "output_preview": "工具已返回；公开版不包含原始返回内容"
+  },
+  {
+    "time": "2026-10-26T16:03:17+00:00",
+    "event": "verification",
+    "detail": "已保留脱敏事件；完整原始记录未公开"
+  },
+  {
+    "time": "2026-10-26T16:03:17+00:00",
+    "event": "tool_start",
+    "call_id": "demo_6_0",
+    "detail": "record_requirement_result"
+  },
+  {
+    "time": "2026-10-26T16:03:17+00:00",
+    "event": "tool_end",
+    "call_id": "demo_6_0",
+    "elapsed_seconds": 0.015,
+    "detail": "record_requirement_result",
+    "output_preview": "工具已返回；公开版不包含原始返回内容"
+  },
+  {
+    "time": "2026-10-26T16:03:17+00:00",
+    "event": "tool_start",
+    "call_id": "demo_6_1",
+    "detail": "record_requirement_result"
+  },
+  {
+    "time": "2026-10-26T16:03:17+00:00",
+    "event": "tool_end",
+    "call_id": "demo_6_1",
+    "elapsed_seconds": 0.016,
+    "detail": "record_requirement_result",
+    "output_preview": "工具已返回；公开版不包含原始返回内容"
+  },
+  {
+    "time": "2026-10-26T16:03:17+00:00",
+    "event": "tool_start",
+    "call_id": "demo_6_2",
+    "detail": "record_requirement_result"
+  },
+  {
+    "time": "2026-10-26T16:03:17+00:00",
+    "event": "tool_end",
+    "call_id": "demo_6_2",
+    "elapsed_seconds": 0.0,
+    "detail": "record_requirement_result",
+    "output_preview": "工具已返回；公开版不包含原始返回内容"
+  },
+  {
+    "time": "2026-10-26T16:03:18+00:00",
+    "event": "verification",
+    "detail": "已保留脱敏事件；完整原始记录未公开"
+  }
+]

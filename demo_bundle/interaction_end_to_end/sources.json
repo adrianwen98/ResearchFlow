@@ -1,0 +1,42 @@
+[
+  {
+    "id": "1",
+    "title": "csv,conf,v8 | Python.org (search result page)",
+    "url": "https://www.python.org/events/python-events/1769/",
+    "fact": "在 python.org 首页搜索框输入 csv 并点击 GO 后，搜索结果第一条为事件 csv,conf,v8，点击进入该事件页面，显示地点 Puebla, Mexico，日期 From 29 May through 30 May, 2024。",
+    "quote": "csv,conf,v8\nPuebla, Mexico\nFrom 29 May through 30 May, 2024",
+    "category": "python.org search result",
+    "accessed_at": "2026-10-15T11:41:26+00:00",
+    "observation_id": "84f82b1b1a20ab0c46a9"
+  },
+  {
+    "id": "2",
+    "title": "pandas test1.xlsx GitHub blob page",
+    "url": "https://github.com/pandas-dev/pandas/blob/main/pandas/tests/io/data/excel/test1.xlsx",
+    "fact": "pandas官方GitHub仓库中pandas/tests/io/data/excel/test1.xlsx文件页面，文件大小11.8 KB，提供Raw、Download raw file、View raw控件；通过点击Download raw file下载得到public_b6fe2d9ae5af.xlsx（12074字节）。",
+    "quote": "File metadata and controls\nCode\nBlame\n11.8 KB\nRaw\nDownload raw file\nView raw",
+    "category": "github",
+    "accessed_at": "2026-10-15T11:42:01+00:00",
+    "observation_id": "8c87e0b2a3836f8a8a8e"
+  },
+  {
+    "id": "3",
+    "title": "test1.xlsx 表格结构（inspect_downloaded_table）",
+    "url": "https://github.com/pandas-dev/pandas/blob/main/pandas/tests/io/data/excel/test1.xlsx",
+    "fact": "下载文件public_b6fe2d9ae5af.xlsx首个工作表列名为Unnamed: 0、A、B、C、D，共7行数据，各列缺失值均为0；Unnamed: 0为日期列（如2000-01-03 00:00:00），A列含正负浮点数（如0.980268513777、-0.487094399463）。",
+    "quote": "{\"sampled_rows\": 7, \"columns\": [\"Unnamed: 0\", \"A\", \"B\", \"C\", \"D\"], \"null_counts\": {\"Unnamed: 0\": 0, \"A\": 0, \"B\": 0, \"C\": 0, \"D\": 0}, \"preview\": [{\"Unnamed: 0\": \"2000-01-03 00:00:00\", \"A\": 0.980268513777, \"B\": 3.68573087906, \"C\": -0.364216805298, \"D\": -1.15973806169}",
+    "category": "table",
+    "accessed_at": "2026-10-15T11:42:01+00:00",
+    "observation_id": "1aff887575a33f36701b"
+  },
+  {
+    "id": "4",
+    "title": "test1.xlsx 按日期分组A列mean（aggregate_downloaded_table）",
+    "url": "https://github.com/pandas-dev/pandas/blob/main/pandas/tests/io/data/excel/test1.xlsx",
+    "fact": "按日期列Unnamed: 0分组对A列求mean，共7组，每组1行，值分别为2000-01-06=1.12020151869、2000-01-04=1.04791624281、2000-01-03=0.980268513777、2000-01-10=0.836648671666、2000-01-05=0.498580885705、2000-01-11=-0.157160753327、2000-01-07=-0.487094399463。",
+    "quote": "{\"calculation_id\": \"calc_baf53b4a9be3\", \"group_by\": \"Unnamed: 0\", \"method\": \"mean\", \"numeric_column\": \"A\", \"sampled_rows\": 7, \"total_groups\": 7, \"top_20\": [{\"group\": \"2000-01-06 00:00:00\", \"value\": 1.12020151869}, {\"group\": \"2000-01-04 00:00:00\", \"value\": 1.04791624281}, {\"group\": \"2000-01-03 00:00:00\", \"value\": 0.980268513777}, {\"group\": \"2000-01-10 00:00:00\", \"value\": 0.836648671666}, {\"group\": \"2000-01-05 00:00:00\", \"value\": 0.498580885705}, {\"group\": \"2000-01-11 00:00:00\", \"value\": -0.157160753327}, {\"group\": \"2000-01-07 00:00:00\", \"value\": -0.487094399463}]",
+    "category": "calculation",
+    "accessed_at": "2026-10-15T11:42:01+00:00",
+    "observation_id": "43dcc59472279ff0973c"
+  }
+]

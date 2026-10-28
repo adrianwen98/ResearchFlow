@@ -1,0 +1,32 @@
+[
+  {
+    "id": "1",
+    "title": "public_9a9e357562d0.csv 计算结果（calc_02c1b0885cff）",
+    "url": "https://raw.githubusercontent.com/allisonhorst/palmerpenguins/main/inst/extdata/penguins.csv",
+    "fact": "public_9a9e357562d0.csv 按 species 分组，对 行数 计算 count；样本 344 行，3 组。",
+    "quote": "{\"calculation_id\": \"calc_02c1b0885cff\", \"group_by\": \"species\", \"method\": \"count\", \"numeric_column\": \"\", \"sampled_rows\": 344, \"total_groups\": 3, \"top_20\": [{\"group\": \"Adelie\", \"value\": 152.0}, {\"group\": \"Gentoo\", \"value\": 124.0}, {\"group\": \"Chinstrap\", \"value\": 68.0}], \"note\": \"\"}",
+    "category": "calculation",
+    "accessed_at": "2026-10-26T16:03:16+00:00",
+    "observation_id": "60cd89952804fcb957d8"
+  },
+  {
+    "id": "2",
+    "title": "public_9a9e357562d0.csv 计算结果（calc_8bd9907c96ae）",
+    "url": "https://raw.githubusercontent.com/allisonhorst/palmerpenguins/main/inst/extdata/penguins.csv",
+    "fact": "public_9a9e357562d0.csv 按 species 分组，对 body_mass_g 计算 mean；样本 344 行，3 组。",
+    "quote": "{\"calculation_id\": \"calc_8bd9907c96ae\", \"group_by\": \"species\", \"method\": \"mean\", \"numeric_column\": \"body_mass_g\", \"sampled_rows\": 344, \"total_groups\": 3, \"top_20\": [{\"group\": \"Gentoo\", \"value\": 5076.016260162602}, {\"group\": \"Chinstrap\", \"value\": 3733.0882352941176}, {\"group\": \"Adelie\", \"value\": 3700.662251655629}], \"note\": \"\"}",
+    "category": "calculation",
+    "accessed_at": "2026-10-26T16:03:16+00:00",
+    "observation_id": "9bc5fc31c0bcf9a092ae"
+  },
+  {
+    "id": "3",
+    "title": "Palmer Penguins公开观测样本",
+    "url": "https://raw.githubusercontent.com/allisonhorst/palmerpenguins/main/inst/extdata/penguins.csv",
+    "fact": "真实CSV结构与缺失值检查",
+    "quote": "{\"sampled_rows\": 344, \"columns\": [\"species\", \"island\", \"bill_length_mm\", \"bill_depth_mm\", \"flipper_length_mm\", \"body_mass_g\", \"sex\", \"year\"], \"null_counts\": {\"species\": 0, \"island\"",
+    "category": "",
+    "accessed_at": "2026-10-26T16:03:16+00:00",
+    "observation_id": "2dbf306a1ddaf7f94e1b"
+  }
+]

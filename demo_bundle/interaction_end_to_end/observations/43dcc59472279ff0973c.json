@@ -1,0 +1,6 @@
+{
+  "id": "43dcc59472279ff0973c",
+  "url": "https://github.com/pandas-dev/pandas/blob/main/pandas/tests/io/data/excel/test1.xlsx",
+  "text": "{\"calculation_id\": \"calc_baf53b4a9be3\", \"group_by\": \"Unnamed: 0\", \"method\": \"mean\", \"numeric_column\": \"A\", \"sampled_rows\": 7, \"total_groups\": 7, \"top_20\": [{\"group\": \"2000-01-06 00:00:00\", \"value\": 1.12020151869}, {\"group\": \"2000-01-04 00:00:00\", \"value\": 1.04791624281}, {\"group\": \"2000-01-03 00:00:00\", \"value\": 0.980268513777}, {\"group\": \"2000-01-10 00:00:00\", \"value\": 0.836648671666}, {\"group\": \"2000-01-05 00:00:00\", \"value\": 0.498580885705}, {\"group\": \"2000-01-11 00:00:00\", \"value\": -0.157160753327}, {\"group\": \"2000-01-07 00:00:00\", \"value\": -0.487094399463}]",
+  "kind": "sanitized_public_excerpt"
+}

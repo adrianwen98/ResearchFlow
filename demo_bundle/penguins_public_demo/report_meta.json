@@ -1,0 +1,11 @@
+{
+  "source_ids": [
+    "1",
+    "2",
+    "3"
+  ],
+  "sha256": "9cfd207c412095520f96aae611850c15fe85555af3146d05ee6d584a237d48f3",
+  "business_sha256": "fba26c777ac55ffb7c629dd90a4fb195295623b09a6ac5202c0a763f13bb882e",
+  "pdf_sha256": "7ebf81ee4b6cf38ceda6f09ef053a13ad20a896f38e698655e3b51b260d2ac4c",
+  "pdf_source_sha256": "9cfd207c412095520f96aae611850c15fe85555af3146d05ee6d584a237d48f3"
+}

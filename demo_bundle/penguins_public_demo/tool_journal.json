@@ -1,0 +1,50 @@
+{
+  "0": {
+    "name": "load_skill"
+  },
+  "2": {
+    "name": "set_requirements"
+  },
+  "4": {
+    "name": "update_plan"
+  },
+  "7": {
+    "name": "download_public_file"
+  },
+  "9": {
+    "name": "inspect_downloaded_table"
+  },
+  "11": {
+    "name": "aggregate_downloaded_table"
+  },
+  "13": {
+    "name": "aggregate_downloaded_table"
+  },
+  "15": {
+    "name": "record_source"
+  },
+  "17": {
+    "name": "record_source"
+  },
+  "20": {
+    "name": "save_business_rows"
+  },
+  "22": {
+    "name": "export_business_excel"
+  },
+  "24": {
+    "name": "export_excel"
+  },
+  "26": {
+    "name": "export_report"
+  },
+  "29": {
+    "name": "record_requirement_result"
+  },
+  "31": {
+    "name": "record_requirement_result"
+  },
+  "33": {
+    "name": "record_requirement_result"
+  }
+}

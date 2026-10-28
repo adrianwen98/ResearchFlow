@@ -1,0 +1,122 @@
+[
+  {
+    "id": "r1",
+    "description": "Python官网实际输入csv搜索并点击一个搜索结果，记录真实来源",
+    "kind": "research",
+    "artifact": "",
+    "origin": "user",
+    "result": {
+      "status": "satisfied",
+      "source_ids": [
+        "1"
+      ],
+      "report_excerpt": "- 在 https://www.python.org/ 首页搜索框输入 `csv` 并点击搜索按钮（GO），得到搜索结果列表。\n- 点击搜索结果第一条：事件 **csv,conf,v8**，进入其事件页面 https://www.python.org/events/python-events/1769/ 。\n- 该页面显示地点 **Puebla, Mexico**，日期 **From 29 May through 30 May, 2024**。",
+      "calculation_id": "",
+      "reason": ""
+    }
+  },
+  {
+    "id": "r2",
+    "description": "浏览器下载pandas测试XLSX，报告实际行列与负数",
+    "kind": "research",
+    "artifact": "",
+    "origin": "user",
+    "result": {
+      "status": "satisfied",
+      "source_ids": [
+        "3"
+      ],
+      "report_excerpt": "- 表格工具检查结果（来源ID：3）：\n  - 列名：`Unnamed: 0`、`A`、`B`、`C`、`D`，共 **5 列**。\n  - 数据行数：**7 行**（首个工作表，rows_complete=true）。\n  - 各列缺失值均为 **0**。\n  - `Unnamed: 0` 为日期列（如 `2000-01-03 00:00:00`）。\n  - **负数**：A 列含负值，例如 `-0.487094399463`；C、D 列也含负值（如 C 列 `-0.364216805298`、D 列 `-1.15973806169`）。",
+      "calculation_id": "",
+      "reason": ""
+    }
+  },
+  {
+    "id": "r3",
+    "description": "真实日期列分组计算A列mean，报告结果及测试样本限制",
+    "kind": "calculation",
+    "artifact": "",
+    "origin": "user",
+    "result": {
+      "status": "satisfied",
+      "source_ids": [
+        "4"
+      ],
+      "report_excerpt": "- 结果（来源ID：4，calculation_id：`calc_baf53b4a9be3`），共 **7 组**，每组 1 行：\n\n| 日期 (Unnamed: 0) | A 列 mean |\n|---|---|\n| 2000-01-06 | 1.12020151869 |\n| 2000-01-04 | 1.04791624281 |\n| 2000-01-03 | 0.980268513777 |\n| 2000-01-10 | 0.836648671666 |\n| 2000-01-05 | 0.498580885705 |\n| 2000-01-11 | -0.157160753327 |\n| 2000-01-07 | -0.487094399463 |\n\n- **局限**：每组仅 1 行数据，因此\"均值\"等于该行原值，不具备统计聚合意义；样本量仅 7 行，且为 pandas 测试数据，不能用于任何业务推断。",
+      "calculation_id": "calc_baf53b4a9be3",
+      "reason": ""
+    }
+  },
+  {
+    "id": "r4",
+    "description": "交付原始数据及统计业务Excel",
+    "kind": "artifact",
+    "artifact": "task_result.xlsx",
+    "origin": "user",
+    "result": {
+      "status": "satisfied",
+      "source_ids": [
+        "3",
+        "4"
+      ],
+      "report_excerpt": "`task_result.xlsx`：业务表，含两个工作表——\"原始数据\"（来自真实下载文件 public_b6fe2d9ae5af.xlsx）与\"分组统计\"（calculation_id: calc_baf53b4a9be3）。",
+      "calculation_id": "",
+      "reason": ""
+    }
+  },
+  {
+    "id": "r5",
+    "description": "交付中文报告和来源",
+    "kind": "artifact",
+    "artifact": "research_report.md",
+    "origin": "user",
+    "result": {
+      "status": "satisfied",
+      "source_ids": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "report_excerpt": "本报告完成两项网页研究：在 Python 官网首页用搜索框检索 \"csv\" 并点击真实搜索结果；在 pandas 官方 GitHub 仓库页面用网页下载控件下载测试用 XLSX 文件。`research_sources.xlsx`：来源证据表（4 条来源）。",
+      "calculation_id": "",
+      "reason": ""
+    }
+  },
+  {
+    "id": "r6",
+    "description": "交付原始数据及统计业务Excel task_result.xlsx",
+    "kind": "artifact",
+    "artifact": "task_result.xlsx",
+    "origin": "model",
+    "result": {
+      "status": "satisfied",
+      "source_ids": [
+        "3",
+        "4"
+      ],
+      "report_excerpt": "`task_result.xlsx`：业务表，含两个工作表——\"原始数据\"（来自真实下载文件 public_b6fe2d9ae5af.xlsx）与\"分组统计\"（calculation_id: calc_baf53b4a9be3）。",
+      "calculation_id": "",
+      "reason": ""
+    }
+  },
+  {
+    "id": "r7",
+    "description": "交付中文报告和来源证据Excel",
+    "kind": "artifact",
+    "artifact": "research_report.md",
+    "origin": "model",
+    "result": {
+      "status": "satisfied",
+      "source_ids": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "report_excerpt": "本报告 `research_report.md`。`research_sources.xlsx`：来源证据表（4 条来源）。",
+      "calculation_id": "",
+      "reason": ""
+    }
+  }
+]

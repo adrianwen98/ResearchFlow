@@ -1,0 +1,22 @@
+{
+  "task_id": "penguins_public_demo",
+  "status": "needs_review",
+  "answer": "脱敏历史演示，仅查看；不是本次新执行，也没有用户验收。",
+  "metrics": {
+    "model_calls": 6,
+    "tool_calls": 16,
+    "errors": 1,
+    "requests": 6,
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "retries": 0,
+    "limits": {
+      "model_requests": 16,
+      "tool_calls": 40,
+      "graph_steps": 85,
+      "timeout_seconds": 120
+    }
+  },
+  "elapsed_seconds": 3.7,
+  "files": []
+}

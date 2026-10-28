@@ -1,0 +1,91 @@
+{
+  "date": "2026-10-16T04:17:45.062327+00:00",
+  "python_tests": 136,
+  "python_failures": 0,
+  "frontend_tests": 6,
+  "typescript_and_production_build": "passed",
+  "npm_audit_vulnerabilities": 0,
+  "windows_web_setup_script": "passed on current D-drive environment; existing Python venv reused; npm ci/build/tests/pip check exit 0",
+  "new_paid_api_requests": 0,
+  "original_interaction_requests_unchanged": 20,
+  "existing_task_count": 14,
+  "frontend_secret_scanned_files": 20,
+  "http_acceptance": [
+    {
+      "task_id": "interaction_end_to_end",
+      "status": "completed",
+      "actual_requests": 20,
+      "tool_calls": 35,
+      "sources": 4,
+      "requirements_passed": 7,
+      "downloads": [
+        {
+          "filename": "research_sources.xlsx",
+          "bytes": 6519,
+          "sha256": "f3cbebce46aa21c4d932a6f866140d32befe08dfffe991182f96340992ae079a",
+          "matches_disk": true
+        },
+        {
+          "filename": "task_result.xlsx",
+          "bytes": 8089,
+          "sha256": "25d5c945275e6fc6dd7130ec9cc9cb23458cfa538744333b5f63af0e8f3d588b",
+          "matches_disk": true
+        }
+      ],
+      "sse_replayed_saved_events": true
+    },
+    {
+      "task_id": "penguins_public_demo",
+      "status": "needs_review",
+      "actual_requests": 0,
+      "tool_calls": 15,
+      "sources": 2,
+      "requirements_passed": 3,
+      "downloads": [
+        {
+          "filename": "research_sources.xlsx",
+          "bytes": 5711,
+          "sha256": "fb3fc04116b347dc547dc7cc65f28131a764bae05e3445083f45df4b374e5f47",
+          "matches_disk": true
+        },
+        {
+          "filename": "task_result.xlsx",
+          "bytes": 20643,
+          "sha256": "4cac87aa2e76d6636d3a2658e261e24557d95db04d68f1ca54baefd6ff83363a",
+          "matches_disk": true
+        }
+      ],
+      "sse_replayed_saved_events": true
+    }
+  ],
+  "limitations": [
+    "No new DeepSeek/external-browser task run through React this round",
+    "Browser approval test uses actual LangGraph interrupt with scripted offline model in isolated output, no real external submission",
+    "Fresh uncached Python installation on another Windows machine not revalidated",
+    "Local single-process service; no authentication or public deployment"
+  ],
+  "browser_evidence": "web_browser_checks.json",
+  "historical_model_acceptance": "interaction_artifact_checks.json",
+  "standalone_vite_dev_server": "passed on 5173; actual FastAPI proxy to 8000; test service stopped",
+  "duplicate_windows_start": "passed against the running final WebTask service",
+  "browser_network_recovery": "passed for actual API restart with existing task; 20 requests and 35 tools unchanged; transient warning clears",
+  "final_targeted_tests": {
+    "tests": 12,
+    "failures": 0,
+    "file": "web_targeted_final.xml"
+  },
+  "screenshots": {
+    "web-react-data.jpg": {
+      "bytes": 114639,
+      "sha256": "d686e7c02d364fff17590d2bb8885836ff223991ee6f1fb779365403376f90b0"
+    },
+    "web-react-desktop.jpg": {
+      "bytes": 119921,
+      "sha256": "b51247f2e1d5a36a7c26593ee2c13a265136fd67e6c34175a6e775c19adee9ef"
+    },
+    "web-react-mobile.jpg": {
+      "bytes": 24712,
+      "sha256": "1ecb680c4febbe467ceee3ce896be01f58616d12df75b756de719e352215500c"
+    }
+  }
+}

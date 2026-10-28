@@ -1,0 +1,525 @@
+{
+  "case_id": "0cdc7387cafde34318ea8acc",
+  "calls": [
+    {
+      "time": "2026-10-18T16:22:22+00:00",
+      "event": "tool_start",
+      "detail": "save_business_rows",
+      "call_id": "call_00_owZmRpdzNL6eHHauOQfE8351",
+      "arguments": {
+        "sheets": [
+          {
+            "name": "iPhone17对比",
+            "columns": [
+              "机型",
+              "屏幕尺寸(英寸)",
+              "屏幕类型",
+              "芯片型号",
+              "CPU核心",
+              "GPU核心",
+              "神经网络引擎核心",
+              "来源ID",
+              "来源URL",
+              "核验状态",
+              "原文摘录"
+            ],
+            "fields": {
+              "机型": "label",
+              "屏幕尺寸(英寸)": "value",
+              "屏幕类型": "value",
+              "芯片型号": "value",
+              "CPU核心": "value",
+              "GPU核心": "value",
+              "神经网络引擎核心": "value",
+              "来源ID": "value",
+              "来源URL": "value",
+              "核验状态": "value",
+              "原文摘录": "value"
+            },
+            "layout": "comparison",
+            "rows": [
+              {
+                "机型": "iPhone 17",
+                "屏幕尺寸(英寸)": 6.3,
+                "屏幕类型": "超视网膜 XDR 显示屏，OLED 全面屏",
+                "芯片型号": "A19 芯片",
+                "CPU核心": "6 核中央处理器（2 性能 + 4 能效）",
+                "GPU核心": "5 核图形处理器",
+                "神经网络引擎核心": "16 核神经网络引擎",
+                "来源ID": "1",
+                "来源URL": "https://support.apple.com/zh-cn/125089",
+                "核验状态": "已核验（官方技术规格页连续原文）",
+                "原文摘录": "6.3 英寸 (对角线) OLED 全面屏"
+              },
+              {
+                "机型": "iPhone 17 Pro",
+                "屏幕尺寸(英寸)": 6.3,
+                "屏幕类型": "超视网膜 XDR 显示屏，OLED 全面屏",
+                "芯片型号": "A19 Pro 芯片",
+                "CPU核心": "6 核中央处理器（2 性能 + 4 能效）",
+                "GPU核心": "6 核图形处理器",
+                "神经网络引擎核心": "16 核神经网络引擎",
+                "来源ID": "2",
+                "来源URL": "https://support.apple.com/zh-cn/125090",
+                "核验状态": "已核验（官方技术规格页连续原文）",
+                "原文摘录": "6.3 英寸 (对角线) OLED 全面屏"
+              }
+            ]
+          }
+        ]
+      },
+      "result": {
+        "name": "save_business_rows",
+        "output": "ERROR: {\"code\": \"invalid_input\", \"retryable\": false, \"message\": \"增量数据使用comparison模式；下载表与计算继续使用export_business_excel\", \"label\": \"工具参数不正确\", \"next_action\": \"根据工具说明和真实返回修正参数\"}",
+        "signature": "42e73facfba7cd89289f05c7f9333756cdf9fc95208c8bb87eb5d29ae106625b",
+        "args_signature": "42e73facfba7cd89289f05c7f9333756cdf9fc95208c8bb87eb5d29ae106625b",
+        "target_domain": "",
+        "error_code": "invalid_input"
+      }
+    },
+    {
+      "time": "2026-10-18T16:22:24+00:00",
+      "event": "tool_start",
+      "detail": "save_business_rows",
+      "call_id": "call_00_Kqfm2EZKSFLJF0hnUGCu9629",
+      "arguments": {
+        "sheets": [
+          {
+            "name": "iPhone17对比",
+            "mode": "comparison",
+            "columns": [
+              "机型",
+              "屏幕尺寸(英寸)",
+              "屏幕类型",
+              "芯片型号",
+              "CPU核心",
+              "GPU核心",
+              "神经网络引擎核心",
+              "来源ID",
+              "来源URL",
+              "核验状态",
+              "原文摘录"
+            ],
+            "rows": [
+              {
+                "机型": "iPhone 17",
+                "屏幕尺寸(英寸)": 6.3,
+                "屏幕类型": "超视网膜 XDR 显示屏，OLED 全面屏",
+                "芯片型号": "A19 芯片",
+                "CPU核心": "6 核中央处理器（2 性能 + 4 能效）",
+                "GPU核心": "5 核图形处理器",
+                "神经网络引擎核心": "16 核神经网络引擎",
+                "来源ID": "1",
+                "来源URL": "https://support.apple.com/zh-cn/125089",
+                "核验状态": "已核验（官方技术规格页连续原文）",
+                "原文摘录": "6.3 英寸 (对角线) OLED 全面屏"
+              },
+              {
+                "机型": "iPhone 17 Pro",
+                "屏幕尺寸(英寸)": 6.3,
+                "屏幕类型": "超视网膜 XDR 显示屏，OLED 全面屏",
+                "芯片型号": "A19 Pro 芯片",
+                "CPU核心": "6 核中央处理器（2 性能 + 4 能效）",
+                "GPU核心": "6 核图形处理器",
+                "神经网络引擎核心": "16 核神经网络引擎",
+                "来源ID": "2",
+                "来源URL": "https://support.apple.com/zh-cn/125090",
+                "核验状态": "已核验（官方技术规格页连续原文）",
+                "原文摘录": "6.3 英寸 (对角线) OLED 全面屏"
+              }
+            ]
+          }
+        ]
+      },
+      "result": {
+        "name": "save_business_rows",
+        "output": "ERROR: {\"code\": \"invalid_input\", \"retryable\": false, \"message\": \"批次内对象label必须唯一且非空\", \"label\": \"工具参数不正确\", \"next_action\": \"根据工具说明和真实返回修正参数\"}",
+        "signature": "648a2fe087786eb78529c8c6ee9c84887505847c778539dfaa5a9be0d11ce7a1",
+        "args_signature": "648a2fe087786eb78529c8c6ee9c84887505847c778539dfaa5a9be0d11ce7a1",
+        "target_domain": "",
+        "error_code": "invalid_input"
+      }
+    },
+    {
+      "time": "2026-10-18T16:22:26+00:00",
+      "event": "tool_start",
+      "detail": "save_business_rows",
+      "call_id": "call_00_MDw5uV2AjZRgVW4CuNKq7132",
+      "arguments": {
+        "sheets": [
+          {
+            "columns": [
+              "机型",
+              "屏幕尺寸(英寸)",
+              "屏幕类型",
+              "芯片型号",
+              "CPU核心",
+              "GPU核心",
+              "神经网络引擎核心",
+              "来源ID",
+              "来源URL",
+              "核验状态",
+              "原文摘录"
+            ],
+            "fields": {
+              "CPU核心": "value",
+              "GPU核心": "value",
+              "来源ID": "value",
+              "来源URL": "value",
+              "核验状态": "value",
+              "机型": "label",
+              "原文摘录": "value",
+              "屏幕尺寸(英寸)": "value",
+              "屏幕类型": "value",
+              "芯片型号": "value",
+              "神经网络引擎核心": "value"
+            },
+            "layout": "comparison",
+            "name": "iPhone17对比",
+            "rows": [
+              {
+                "CPU核心": "6 核中央处理器（2 性能 + 4 能效）",
+                "GPU核心": "5 核图形处理器",
+                "来源ID": "1",
+                "来源URL": "https://support.apple.com/zh-cn/125089",
+                "核验状态": "已核验（官方技术规格页连续原文）",
+                "机型": "iPhone 17",
+                "原文摘录": "6.3 英寸 (对角线) OLED 全面屏",
+                "屏幕尺寸(英寸)": 6.3,
+                "屏幕类型": "超视网膜 XDR 显示屏，OLED 全面屏",
+                "芯片型号": "A19 芯片",
+                "神经网络引擎核心": "16 核神经网络引擎"
+              },
+              {
+                "CPU核心": "6 核中央处理器（2 性能 + 4 能效）",
+                "GPU核心": "6 核图形处理器",
+                "来源ID": "2",
+                "来源URL": "https://support.apple.com/zh-cn/125090",
+                "核验状态": "已核验（官方技术规格页连续原文）",
+                "机型": "iPhone 17 Pro",
+                "原文摘录": "6.3 英寸 (对角线) OLED 全面屏",
+                "屏幕尺寸(英寸)": 6.3,
+                "屏幕类型": "超视网膜 XDR 显示屏，OLED 全面屏",
+                "芯片型号": "A19 Pro 芯片",
+                "神经网络引擎核心": "16 核神经网络引擎"
+              }
+            ]
+          }
+        ]
+      },
+      "result": {
+        "name": "save_business_rows",
+        "output": "ERROR: {\"code\": \"invalid_input\", \"retryable\": false, \"message\": \"增量数据使用comparison模式；下载表与计算继续使用export_business_excel\", \"label\": \"工具参数不正确\", \"next_action\": \"根据工具说明和真实返回修正参数\"}",
+        "signature": "42e73facfba7cd89289f05c7f9333756cdf9fc95208c8bb87eb5d29ae106625b",
+        "args_signature": "42e73facfba7cd89289f05c7f9333756cdf9fc95208c8bb87eb5d29ae106625b",
+        "target_domain": "",
+        "error_code": "invalid_input"
+      }
+    },
+    {
+      "time": "2026-10-18T16:22:30+00:00",
+      "event": "tool_start",
+      "detail": "export_business_excel",
+      "call_id": "call_00_ULSrh4j7fU8Z1kMMPw1j2777",
+      "arguments": {
+        "sheets": [
+          {
+            "name": "iPhone17对比",
+            "mode": "comparison",
+            "columns": [
+              "屏幕尺寸(英寸)",
+              "屏幕类型",
+              "芯片型号",
+              "CPU核心",
+              "GPU核心",
+              "神经网络引擎核心",
+              "来源ID",
+              "来源URL",
+              "核验状态",
+              "原文摘录"
+            ],
+            "fields": {
+              "屏幕尺寸(英寸)": {
+                "type": "number",
+                "unit": "inch",
+                "required": true
+              },
+              "屏幕类型": {
+                "type": "text",
+                "required": true
+              },
+              "芯片型号": {
+                "type": "text",
+                "required": true
+              },
+              "CPU核心": {
+                "type": "text",
+                "required": true
+              },
+              "GPU核心": {
+                "type": "text",
+                "required": true
+              },
+              "神经网络引擎核心": {
+                "type": "text",
+                "required": true
+              },
+              "来源ID": {
+                "type": "text",
+                "required": true
+              },
+              "来源URL": {
+                "type": "text",
+                "required": true
+              },
+              "核验状态": {
+                "type": "text",
+                "required": true
+              },
+              "原文摘录": {
+                "type": "text",
+                "required": true
+              }
+            },
+            "rows": [
+              {
+                "label": "iPhone 17",
+                "cells": {
+                  "屏幕尺寸(英寸)": {
+                    "value": 6.3,
+                    "source_id": "1",
+                    "quote": "6.3 英寸 (对角线) OLED 全面屏"
+                  },
+                  "屏幕类型": {
+                    "value": "超视网膜 XDR 显示屏，OLED 全面屏",
+                    "source_id": "1",
+                    "quote": "超视网膜 XDR 显示屏"
+                  },
+                  "芯片型号": {
+                    "value": "A19 芯片",
+                    "source_id": "1",
+                    "quote": "A19 芯片"
+                  },
+                  "CPU核心": {
+                    "value": "6 核中央处理器（2 性能 + 4 能效）",
+                    "source_id": "1",
+                    "quote": "6 核中央处理器，具有 2 个性能核心和 4 个能效核心"
+                  },
+                  "GPU核心": {
+                    "value": "5 核图形处理器",
+                    "source_id": "1",
+                    "quote": "5 核图形处理器，配备神经网络加速器"
+                  },
+                  "神经网络引擎核心": {
+                    "value": "16 核神经网络引擎",
+                    "source_id": "1",
+                    "quote": "16 核神经网络引擎"
+                  },
+                  "来源ID": {
+                    "value": "1",
+                    "source_id": "1",
+                    "quote": "iPhone 17 - 技术规格"
+                  },
+                  "来源URL": {
+                    "value": "https://support.apple.com/zh-cn/125089",
+                    "source_id": "1",
+                    "quote": "iPhone 17 - 技术规格"
+                  },
+                  "核验状态": {
+                    "value": "已核验（官方技术规格页连续原文）",
+                    "source_id": "1",
+                    "quote": "iPhone 17 - 技术规格"
+                  },
+                  "原文摘录": {
+                    "value": "6.3 英寸 (对角线) OLED 全面屏",
+                    "source_id": "1",
+                    "quote": "6.3 英寸 (对角线) OLED 全面屏"
+                  }
+                }
+              },
+              {
+                "label": "iPhone 17 Pro",
+                "cells": {
+                  "屏幕尺寸(英寸)": {
+                    "value": 6.3,
+                    "source_id": "2",
+                    "quote": "6.3 英寸 (对角线) OLED 全面屏"
+                  },
+                  "屏幕类型": {
+                    "value": "超视网膜 XDR 显示屏，OLED 全面屏",
+                    "source_id": "2",
+                    "quote": "超视网膜 XDR 显示屏"
+                  },
+                  "芯片型号": {
+                    "value": "A19 Pro 芯片",
+                    "source_id": "2",
+                    "quote": "A19 Pro 芯片"
+                  },
+                  "CPU核心": {
+                    "value": "6 核中央处理器（2 性能 + 4 能效）",
+                    "source_id": "2",
+                    "quote": "6 核中央处理器，具有 2 个性能核心和 4 个能效核心"
+                  },
+                  "GPU核心": {
+                    "value": "6 核图形处理器",
+                    "source_id": "2",
+                    "quote": "6 核图形处理器，配备神经网络加速器"
+                  },
+                  "神经网络引擎核心": {
+                    "value": "16 核神经网络引擎",
+                    "source_id": "2",
+                    "quote": "16 核神经网络引擎"
+                  },
+                  "来源ID": {
+                    "value": "2",
+                    "source_id": "2",
+                    "quote": "iPhone 17 Pro - 技术规格"
+                  },
+                  "来源URL": {
+                    "value": "https://support.apple.com/zh-cn/125090",
+                    "source_id": "2",
+                    "quote": "iPhone 17 Pro - 技术规格"
+                  },
+                  "核验状态": {
+                    "value": "已核验（官方技术规格页连续原文）",
+                    "source_id": "2",
+                    "quote": "iPhone 17 Pro - 技术规格"
+                  },
+                  "原文摘录": {
+                    "value": "6.3 英寸 (对角线) OLED 全面屏",
+                    "source_id": "2",
+                    "quote": "6.3 英寸 (对角线) OLED 全面屏"
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "result": {
+        "name": "export_business_excel",
+        "output": "已生成 D:\\AIProject\\WebTask_Agent_Project\\web_task_agent_verified\\outputs\\0cdc7387cafde34318ea8acc\\task_result.xlsx；结构化归纳与缺失项已标注待人工复核，详情见Metadata和Provenance。",
+        "signature": "0c954229bff7736ebd646473b6077f8bb62a56f425d7e09bd8bdd1ce198d9d93",
+        "args_signature": "0c954229bff7736ebd646473b6077f8bb62a56f425d7e09bd8bdd1ce198d9d93",
+        "target_domain": "",
+        "error_code": ""
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "1",
+      "title": "iPhone 17 - 技术规格 - 官方 Apple 支持 (中国)",
+      "url": "https://support.apple.com/zh-cn/125089",
+      "fact": "iPhone 17 显示屏为 6.3 英寸 (对角线) OLED 全面屏，芯片为 A19 芯片（6 核 CPU、5 核 GPU、16 核神经网络引擎）。",
+      "quote": "6.3 英寸 (对角线) OLED 全面屏",
+      "category": "official_spec",
+      "accessed_at": "2026-10-18T16:22:14+00:00",
+      "observation_id": "1213c1191b5f3b7b4daf"
+    },
+    {
+      "id": "2",
+      "title": "iPhone 17 Pro - 技术规格 - 官方 Apple 支持 (中国)",
+      "url": "https://support.apple.com/zh-cn/125090",
+      "fact": "iPhone 17 Pro 显示屏为 6.3 英寸 (对角线) OLED 全面屏，芯片为 A19 Pro 芯片（6 核 CPU、6 核 GPU、16 核神经网络引擎）。",
+      "quote": "6.3 英寸 (对角线) OLED 全面屏",
+      "category": "official_spec",
+      "accessed_at": "2026-10-18T16:22:20+00:00",
+      "observation_id": "4397ce9b5efef4735b1c"
+    }
+  ],
+  "observations": [
+    {
+      "id": "1213c1191b5f3b7b4daf",
+      "url": "https://support.apple.com/zh-cn/125089",
+      "text": "### Rendered page text\nApple\n商店\nMac\niPad\niPhone\nWatch\nVision\nAirPods\n家居\n娱乐\n配件\n技术支持\n0\n+\n我们邀请您参加一个简短的调查，以帮助我们改进 Apple 支持在线体验。如果您愿意参加，请选择“是”。\n是否\n文稿\niPhone 17 - 技术规格\n\n推出年份：2025 年\n\n外观\n\n黑色\n\n白色\n\n青雾蓝色\n\n鼠尾草绿色\n\n薰衣草紫色\n\n铝金属设计、 超瓷晶面板 2 (正面)、 融色玻璃背板 (黑色、青雾蓝色、鼠尾草绿色、薰衣草紫色)\n\n容量1\n\n256GB\n\n512GB\n\n尺寸与重量2\n\n宽度： 71.5 毫米 (2.81 英寸)\n\n高度： 149.6 毫米 (5.89 英寸)\n\n厚度： 7.95 毫米 (0.31 英寸)\n\n重量：177 克 (6.24 盎司)\n\n显示屏\n\n超视网膜 XDR 显示屏\n\n6.3 英寸 (对角线) OLED 全面屏\n\n2622 x 1206 像素分辨率，460 ppi\n\n灵动岛功能\n\n全天候显示\n\nProMotion 自适应刷新率技术，最高可达 120Hz\n\nHDR 显示\n\n原彩显示\n\n广色域 (P3)\n\n触感触控\n\n2000000:1 对比度 (典型)\n\n1000 尼特最大亮度 (典型)；1600 尼特峰值亮度 (HDR)；3000 尼特峰值亮度 (户外)；最小亮度为 1 尼特\n\n采用防油渍防指纹涂层\n\n抗反射涂层\n\n支持多种语言文字同时显示\n\niPhone 17 显示屏采用曲线优美的圆角设计，四个圆角位于一个标准矩形内。按照标准矩形测量时，屏幕的对角线长度是 6.27 英寸 (实际可视区域较小)。\n\n防溅、抗水、防尘3\n\n效果在 IEC 60529 标准下达到 IP68 级别 (在最深 6 米的水下停留时间最长可达 30 分钟)\n\n芯片\n\nA19 芯片\n\n6 核中央处理器，具有 2 个性能核心和 4 个能效核心\n\n5 核图形处理器，配备神经网络加速器\n\n16 核神经网络引擎\n\n硬件加速光线追踪\n\n摄像头\n\n4800 万像素融合式双摄系统\n\n4800 万像素融合式主摄：26 毫米焦距，ƒ/1.6 光圈，传感器位移式光学图像防抖功能，100% Focus Pixels，支持超高分辨率照片 (2400 万像素和 4800 万像素)\n\n同时支持 1200 万像素光学品质的 2 倍长焦功能：52 毫米焦距，ƒ/1.6 光圈，传感器位移式光学图像防抖功能，100% Focus Pixels\n\n4800 万像素融合式超广角：13 毫米焦距，ƒ/2.2 光圈和 120° 视角，Hybrid Focus Pixels，支持超高分辨率照片 (2400 万像素和 4800 万像素)\n\n2 倍光学变焦 (放大)，2 倍光学变焦 (缩小)；4 倍光学变焦范围\n\n最高可达 10 倍数码变焦\n\n蓝宝石玻璃镜头表面\n\n原彩闪光灯\n\n光像引擎\n\n深度融合技术\n\n智能 HDR 5\n\n新一代人像功能，支持焦点控制和景深控制\n\n人像光效，支持六种效果\n\n夜间模式\n\n全景模式 (最高可达 6300 万像素)\n\n新一代摄影风格\n\n空间照片\n\n4800 万像素微距摄影\n\n拍摄广色域的照片和实况照片\n\n镜头畸变校正 (融合式超广角)\n\n先进的红眼校正功能\n\n自动图像防抖功能\n\n连拍模式\n\n照片地理标记功能\n\n图像拍摄格式：HEIF 和 JPEG\n\n视频拍摄\n\n4K 杜比视界视频拍摄，24 fps、25 fps、30 fps 或 60 fps\n\n1080p 杜比视界视频拍摄，25 fps、30 fps 或 60 fps\n\n720p 杜比视界视频拍摄，30 fps\n\n电影效果模式，最高可达 4K 杜比视界，30 fps\n\n运动模式，最高可达 2.8K 杜比视界，60 fps\n\n微距视频拍摄，包括慢动作和延时摄影\n\n慢动作视频支持 1080p (120 fps 或 240 fps)\n\n空间视频拍摄，1080p (30 fps)\n\n同步双拍 (最高可达 4K 杜比视界，30 fps)\n\n延时摄影视频，支持防抖功能\n\n夜间模式延时摄影\n\n视频快录功能 (最高可达 4K 杜比视界，60 fps)\n\n传感器位移式视频光学图像防抖功能 (融合式主摄)\n\n最高可达 6 倍数码变焦\n\n音频变焦\n\n原彩闪光灯\n\n影院级视频防抖功能 (4K、1080p 和 720p)\n\n连续自动对焦视频\n\n4K 视频录制过程中拍摄 800 万像素静态照片\n\n变焦播放\n\n视频录制格式：HEVC 和 H.264\n\n空间音频和立体声录音\n\n风噪降低\n\n混音\n\n前置摄像头\n\n1800 万像素 Center Stage 摄像头\n\nƒ/1.9 光圈\n\nFocus Pixels 自动对焦\n\n视网膜屏闪光灯\n\n轻点变焦和旋转\n\n拍照人物居中\n\n视频超稳防抖\n\n同步双拍\n\n视频通话人物居中\n\n光像引擎\n\n深度融合技术\n\n智能 HDR 5\n\n新一代人像功能，支持焦点控制和景深控制\n\n人像光效，支持六种效果\n\n动话表情和拟我表情\n\n夜间模式\n\n新一代摄影风格\n\n拍摄广色域的照片和实况照片\n\n镜头畸变校正\n\n自动图像防抖功能\n\n连拍模式\n\n4K 杜比视界视频拍摄，24 fps、25 fps、30 fps 或 60 fps\n\n1080p 杜比视界视频拍摄，25 fps、30 fps 或 60 fps\n\n电影效果模式，最高可达 4K 杜比视界，30 fps\n\n慢动作视频支持 1080p (120 fps)\n\n延时摄影视频，支持防抖功能\n\n夜间模式延时摄影\n\n视频快录功能 (最高可达 4K 杜比视界，60 fps)\n\n影院级视频防抖功能 (4K、1080p 和 720p)\n\n空间音频和立体声录音\n\n风噪降低\n\n混音\n\n电源和电池4\n\n视频播放: 最长可达 30 小时\n\n流媒体视频播放: 最长可达 27 小时\n\n内置锂离子充电电池\n\n可快速充电： 20 分钟最多可充至 50% 电量5，需使用 40 瓦或更大功率的电源适配器 (另外有售) 并搭配 USB-C 充电线\n\n面容 ID\n\n通过 Center Stage 前置摄像头内的原深感技术实现\n\n安全功能\n\nSOS 紧急联络\n\n车祸检测6\n\n蜂窝网络和 无线连接\n\nA3521 型号**\n\nFDD‑5G NR (频段 n1、n2、n3、n5、n7、n8、n12、n20、n25、n26、n28、n30、n66、n70、n75)\n\nTDD‑5G NR (频段 n38、n40、n41、n48、n77、n78、n79)\n\nFDD‑LTE (频段 1、2、3、4、5、7、8、12、13、17、18、19、20、25、26、28、30、32、66)\n\nTDD‑LTE (频段 34、38、39、40、41、42、48)\n\nUMTS/HSPA+/DC-HSDPA (850、900、1700/2100、1900、2100 MHz)\n\nGSM/EDGE (850、900、1800、1900 MHz)\n\n5G (sub-6 GHz)，具备 4x4 MIMO 技术7\n\n千兆 LTE，具备 4x4 MIMO 技术7\n\nApple N1 无线网络芯片\n\n802.11be 无线局域网，具备 2x2 MIMO 技术8\n\n蓝牙 6\n\nThread 网络技术\n\nApple 第二代超宽带技术芯片9\n\n支持读卡器模式的 NFC\n\n可通过备用电量使用的快捷交通卡功能\n\n有关 5G 和 LTE 支持的详情，请联系你的运营商并查看 apple.com.cn/iphone/cellular。\n\n定位功能\n\n精准的双频 GPS (GPS、GLONASS、Galileo、QZSS、北斗及 NavIC)\n\n数字指南针\n\n无线局域网\n\n蜂窝网络\n\niBeacon 微定位\n\n外部按键和 连接端口\n\n音量增/减\n\n操作按钮\n\n相机控制\n\n侧边按钮\n\nUSB-C 接口\n\n内置麦克风\n\n内置立体声扬声器\n\n操作按钮功能\n\n静音模式、专注模式、相机、视觉智能10、手电筒、语音备忘录、识别音乐、翻译、放大器、控制项、快捷指令或无障碍功能\n\n相机控制\n\n曝光、景深、缩放、相机、风格、色调\n\n充电和外设扩展\n\nUSB-C 接口，支持：\n\n充电\n\nDisplayPort\n\nUSB 2 (最高可达 480Mb/s)\n\nMagSafe 和 无线充电\n\nMagSafe 无线充电 (功率最高可达 15 瓦)11\n\nQi2 无线充电 (功率最高可达 15 瓦)11\n\n磁吸阵列\n\n磁吸对齐\n\n配件识别 NFC\n\n磁力计\n\n感应器\n\n面容 ID\n\n气压计\n\n高动态范围陀螺仪\n\n高 g 值加速感应器\n\n距离感应器\n\n双环境光传感器\n\nSIM 卡\n\n双卡 (nano‑SIM 卡)12\n\nApple Pay\n\n通过面容 ID 在 iPhone 上进行店内、app 内或网页支付13\n\n在部分城市可用于搭乘公交14\n\n进一步了解 Apple Pay\n\n视频通话15\n\n通过蜂窝网络或无线局域网进行 FaceTime 视频通话\n\n通过 5G 网络或无线局域网进行 FaceTime 高清 (1080p) 视频通话\n\n视频通话人物居中\n\n同播共享\n\n屏幕共享\n\nFaceTime 视频通话中的人像模式\n\n空间音频\n\n“语音突显”和“宽谱”麦克风模式\n\n后置摄像头支持变焦\n\n音频通话\n\nVoice over LTE (VoLTE)7\n\n“语音突显”麦克风模式\n\n音频播放\n\n支持的格式包括 AAC、APAC、MP3、Apple 保真压缩、FLAC、杜比数字、杜比数字+、杜比全景声\n\n空间音频播放\n\n用户可调节音量上限\n\n视频播放\n\n支持的格式包括 HEVC、H.264 和 AV1\n\nHDR 支持包括杜比视界、HDR10+/HDR10 和 HLG\n\n通过隔空播放进行镜像，或将照片和视频输出至支持此功能的智能电视，最高可达 4K HDR\n\n视频镜像和视频输出支持：通过 USB-C 或 USB-C 数字影音转换器进行原生 DisplayPort 输出，最高可达 4K HDR (转换器型号为 A2119，需单独购买)16\n\nSiri17\n\n协助处理发送信息、设置提醒事项等日常事务\n\n通过只响应你语音的“Siri”或“嘿 Siri”免提激活；或以“通过键入使用 Siri”来操作\n\n注重保护隐私的智能助理\n\n进一步了解 Siri\n\n操作系统\n\niOS\n\niOS 移动操作系统不仅贴合个人需求，而且安全可靠，它满载各种强大功能，并为保护你的隐私而精心设计。\n\n隐私\n\niPhone 在设计之初就极其注重保护你的个人信息。每部 iPhone 都具备出色的安全验证功能。未得到你的许可，app 就无法跟踪你在其他公司的 app 或网站上的活动。iMessage 信息和 FaceTime 视频通话都受到端到端加密保护。还有更多隐私功能，数不胜数。\n\n进一步了解隐私功能\n\n无障碍功能\n\n内置无障碍功能可为在视力、肢体活动、听力、言语以及认知方面有个人需求的人士提供支持，让他们能以适合自己的方式充分发掘 iPhone 的精彩。\n\n进一步了解 辅助功能\n\n各项功能包括：\n\n旁白\n\n缩放\n\n放大器\n\n语音控制\n\n切换控制\n\n辅助触控\n\n眼动追踪\n\n隐藏式字幕\n\n实时字幕\n\n个人声音\n\n实时语音\n\n通过键入使用 Siri\n\n人声快捷指令\n\n朗读内容\n\n内置 App\n\nApp Store\n\n图书\n\n计算器\n\n日历\n\n相机\n\n时钟\n\n指南针\n\n联系人\n\nFaceTime 通话\n\n文件\n\n查找\n\n健身\n\n无边记\n\n游戏\n\n库乐队\n\n健康\n\n家庭\n\niMovie 剪辑\n\niTunes Store\n\n手记\n\nKeynote 讲演\n\n放大器\n\n邮件\n\n地图\n\n测距仪\n\n信息\n\n音乐\n\n备忘录\n\nNumbers 表格\n\nPages 文稿\n\n密码\n\n电话\n\n照片\n\n播客\n\n预览\n\n提醒事项\n\nSafari 浏览器\n\n设置\n\n快捷指令\n\n股市\n\n提示\n\n翻译\n\n语音备忘录\n\n钱包\n\nWatch\n\n天气\n\n有关适用于 iPhone 的各款 Apple app，请访问 apple.com.cn/apps 查看完整列表。\n\n助听器分级\n\n兼容助听器\n\n系统要求\n\nApple 账户 (部分功能有此要求)\n\n互联网接入18\n\n同步到 Mac 或 PC 需要：\n\n在 macOS Catalina 10.15 或更新版本中使用“访达”\n\n在 macOS High Sierra 10.13 至 macOS Mojave 10.14.6 中使用 iTunes 12.8 或更新版本\n\n在 Windows 10 或更新版本中使用 iTunes 12.12.10 或更新版本 (访问 apple.com.cn/itunes/download 免费下载)\n\n操作环境\n\n工作环境温度：0°C 至 35°C (32°F 至 95°F)\n\n非工作温度：−20°C 至 45°C (−4°F 至 113°F)\n\n相对湿度：非凝结状态下 5% 至 95%\n\n工作高度：目前测试最高可达 3000 米 (10000 英尺)\n\n语言版本\n\n语言支持\n\n英语 (澳大利亚、英国、美国)、中文 (简体、繁体、繁体 – 香港)、法语 (加拿大、法国)、德语、意大利语、日语、韩语、西班牙语 (拉丁美洲、西班牙)、阿拉伯语、保加利亚语、加泰罗尼亚语、克罗地亚语、捷克语、丹麦语、荷兰语、芬兰语、希腊语、希伯来语、印地语、匈牙利语、印尼语、哈萨克语、马来语、挪威语、波兰语、葡萄牙语 (巴西、葡萄牙)、罗马尼亚语、俄语、斯洛伐克语、瑞典语、泰语、土耳其语、乌克兰语、越南语\n\n进一步了解功能可用性\n\n包装内容\n\niPhone 17\n\nUSB‑C 充电线 (1 米)\n\n资料\n\n为了达成我们 2030 年实现碳中和的目标，iPhone 17 不再随附电源适配器和 EarPods。包装盒内随附一根 USB‑C 充电线，可支持快速充电，并兼容 USB‑C 电源适配器和电脑端口。\n\n我们建议你使用任意一款兼容的 USB‑C 电源适配器。如果你需要新的 Apple 电源适配器或耳机，也可随时购买。\n\niPhone 与 环境\n\n为减少对环境的影响，iPhone 17 的设计具备以下特点19：\n\n查看《iPhone 17 产品环境报告》(PDF)\n\n迈向 Apple 2030 计划\n\nApple 2030 计划是我们对整体碳足迹实现碳中和的承诺。我们的产品脱碳计划非常严谨，致力于向低碳电力过渡、在设计中采用回收和低碳材料，并且优先采用海运之类更为低碳的产品运输方式。\n\n查看 Apple 的承诺\n\n材料\n\niPhone 17 采用的再生成分占比达 30%20，包括：\n\n机身采用 85% 再生铝金属\n\n电池采用 100% 再生钴和 95% 再生锂\n\n所有 Apple 设计的印刷电路板均采用 100% 再生金镀层和 100% 再生锡焊料\n\n所有摄像头均采用 100% 再生金线，所有接口均采用 100% 再生金镀层\n\n触感引擎采用 100% 再生钨和 100% 再生铜线\n\n所有磁体均采用 100% 再生稀土元素\n\n天线传输线采用 80% 再生塑料，源自经过升级再造的纺织废料\n\n能源\n\niPhone 17 的生产用电中有 35% 来自可再生电力21\n\n电池充电器系统高于美国能源部要求22\n\n包装\n\n采用 100% 纤维材料包装23\n\n与 iPhone 16 的包装盒相比，iPhone 17 的包装设计更高效，每次运输的货物量可增加 35%24\n\n废弃物\n\n作为 Apple 废弃物零填埋项目的一部分，既有的总装工厂不产生任何需要填埋的废弃物25\n\n更高明的化学工艺26\n\nApple 产品、配件和包装中使用的所有材料均符合我们的《受管制物质规范》要求，该规范是业内率先限制重点受关注物质使用的文件之一。请参阅最新版《环境进展报告》了解 Apple 近期在逐步淘汰这些化学物质方面所做的努力。\n\n**要确认你的 iPhone 的型号，请参阅 support.apple.com/zh-cn/108044。有关 5G 和 LTE 支持的详情，请联系你的运营商并查看 apple.com.cn/iphone/cellular。蜂窝网络技术支持取决于 iPhone 型号以及 GSM 网络的配置。\n\n实际可用容量会由于诸多因素而减少并有所差异。标准系统配置会占用约 12GB 到 24GB 容量 (其中包括 iOS 27 及其最新功能，以及各款可删除的 Apple app)。Apple 智能的设备端模型占用约 7GB 容量，如果关闭 Apple 智能功能，即可删除此类模型。开启 Apple 智能功能则会再次下载这些模型。各款可删除的 Apple app 大约占用 4.5GB 容量，删除后还可从 App Store 重新下载。存储容量依软件版本、设置和 iPhone 机型的不同而有所差异。\n\n尺寸和重量依配置和制造工艺的不同可能有所差异。\n\niPhone 17 可防溅、抗水、防尘，在受控实验室条件下经测试，其效果在 IEC 60529 标准下达到 IP68 级别 (在最深 6 米的水下停留时间最长可达 30 分钟)。防溅、抗水、防尘功能并非永久有效，防护性能可能会因日常磨损而下降。请勿为潮湿状态下的 iPhone 充电；请参阅使用手册了解清洁和干燥说明。由于浸入液体而导致的损坏不在保修范围之内。\n\n所有电池性能信息取决于网络配置和许多其他因素，实际结果可能有所不同。电池充电周期次数有限，最终可能需要更换。电池续航时间和充电周期次数依使用情况和设置而有所差异。\n\nApple 于 2025 年 7 月使用试生产的 iPhone 17 机型和软件，搭配 USB‑C 充电线和型号为 A3351 的 Apple 40W 动态电源适配器 (最高 60W) 进行了此项测试。快速充电测试采用放电完全的各款 iPhone 机型。时间从设备启动时显示 Apple 标志开始测算。充电时间依电源适配器、设置、使用情况和环境因素可能有所差异；实际结果可能有所不同。\n\niPhone 14 及后续机型可检测到严重车祸并拨打求救\n### Observed controls\n### Ran Playwright code\n### Page\n- Page URL: https://support.apple.com/zh-cn/125089\n- Page Title: iPhone 17 - 技术规格 - 官方 Apple 支持 (中国)\n### Snapshot\n### Events\n### Page\n- Page URL: https://support.apple.com/zh-cn/125089\n- Page Title: iPhone 17 - 技术规格 - 官方 Apple 支持 (中国)\n### Snapshot\n- link \"Apple\" [ref=f17e7] [cursor=pointer]:\n- /url: https://www.apple.com.cn/\n- link \"商店\" [ref=f17e14] [cursor=pointer]:\n- /url: https://www.apple.com.cn/cn/shop/goto/store\n- link \"Mac\" [ref=f17e19] [cursor=pointer]:\n- /url: https://www.apple.com.cn/mac/\n- link \"iPad\" [ref=f17e24] [cursor=pointer]:\n- /url: https://www.apple.com.cn/ipad/\n- link \"iPhone\" [ref=f17e29] [cursor=pointer]:\n- /url: https://www.apple.com.cn/iphone/\n- link \"Watch\" [ref=f17e34] [cursor=pointer]:\n- /url: https://www.apple.com.cn/watch/\n- link \"Vision\" [ref=f17e39] [cursor=pointer]:\n- /url: https://www.apple.com.cn/apple-vision-pro/\n- link \"AirPods\" [ref=f17e44] [cursor=pointer]:\n- /url: https://www.apple.com.cn/airpods/\n- link \"家居\" [ref=f17e49] [cursor=pointer]:\n- /url: https://www.apple.com.cn/home/\n- link \"娱乐\" [ref=f17e54] [cursor=pointer]:\n- /url: https://www.apple.com.cn/entertainment/\n- link \"配件\" [ref=f17e59] [cursor=pointer]:\n- /url: https://www.apple.com.cn/cn/shop/goto/buy_accessories\n- link \"技术支持\" [ref=f17e64] [cursor=pointer]:\n- /url: https://support.apple.com/zh-cn/?cid=gn-ols-home-hp-tab\n- button \"搜索支持\" [ref=f17e67] [cursor=pointer]\n- button \"打开购物袋\" [ref=f17e70] [cursor=pointer]\n- button \"是\" [ref=f17e78] [cursor=pointer]\n- button \"否\" [ref=f17e79] [cursor=pointer]\n- link \"文稿\" [disabled] [ref=f17e85] [cursor=pointer]:\n- /url: /zh-cn/docs\n- /url: \"\"\n- /url: \"\"\n- main [ref=f17e89]:\n- img \"iphone-17-hero\" [ref=f17e92]\n- heading \"iPhone 17 - 技术规格\" [level=1] [ref=f17e93]\n- heading \"外观\" [level=3] [ref=f17e97]\n- heading [level=3] [ref=f17e112]:\n- superscript [ref=f17e113]: \"1\"\n- heading [level=3] [ref=f17e120]:\n- superscript [ref=f17e121]: \"2\"\n- heading \"显示屏\" [level=3] [ref=f17e132]\n- heading [level=3] [ref=f17e167]:\n- superscript [ref=f17e168]: \"3\"\n- heading \"芯片\" [level=3] [ref=f17e171]\n- heading \"摄像头\" [level=3] [ref=f17e184]\n- heading \"视频拍摄\" [level=3] [ref=f17e236]\n- heading \"前置摄像头\" [level=3] [ref=f17e287]\n- heading [level=3] [ref=f17e354]:\n- superscript [ref=f17e355]: \"4\"\n- superscript [ref=f17e365]: \"5\"\n- link \"40 瓦\" [ref=f17e366] [cursor=pointer]:\n- /url: https://www.apple.com.cn/cn/shop/goto/product/MGKP4\n- heading \"面容 ID\" [level=3] [ref=f17e368]\n- heading \"安全功能\" [level=3] [ref=f17e371]\n- superscript [ref=f17e377]: \"6\"\n- heading \"蜂窝网络和 无线连接\" [level=3] [ref=f17e379]\n- superscript [ref=f17e397]: \"7\"\n- superscript [ref=f17e400]: \"7\"\n- superscript [ref=f17e406]: \"8\"\n- superscript [ref=f17e413]: \"9\"\n- link \"apple.com.cn/iphone/cellular\" [ref=f17e421] [cursor=pointer]:\n- /url: https://www.apple.com.cn/iphone/cellular/\n- heading \"定位功能\" [level=3] [ref=f17e423]\n- heading \"外部按键和 连接端口\" [level=3] [ref=f17e436]\n- superscript [ref=f17e456]: \"10\"\n- heading \"充电和外设扩展\" [level=3] [ref=f17e462]\n- heading \"MagSafe 和 无线充电\" [level=3] [ref=f17e472]\n- superscript [ref=f17e476]: \"11\"\n- superscript [ref=f17e479]: \"11\"\n- heading \"感应器\" [level=3] [ref=f17e489]\n- heading \"SIM 卡\" [level=3] [ref=f17e504]\n- superscript [ref=f17e506]: \"12\"\n- heading \"Apple Pay\" [level=3] [ref=f17e508]\n- superscript [ref=f17e512]: \"13\"\n- superscript [ref=f17e515]: \"14\"\n- link \"进一步了解 Apple Pay\" [ref=f17e517] [cursor=pointer]:\n- /url: https://apple.com.cn/apple-pay/\n- heading [level=3] [ref=f17e519]:\n- superscript [ref=f17e520]: \"15\"\n- heading \"音频通话\" [level=3] [ref=f17e541]\n- superscript [ref=f17e545]: \"7\"\n- heading \"音频播放\" [level=3] [ref=f17e549]\n- heading \"视频播放\" [level=3] [ref=f17e558]\n- superscript [ref=f17e568]: \"16\"\n- heading [level=3] [ref=f17e570]:\n- superscript [ref=f17e571]: \"17\"\n- link \"进一步了解 Siri\" [ref=f17e580] [cursor=pointer]:\n- /url: https://apple.com.cn/siri/\n- heading \"操作系统\" [level=3] [ref=f17e582]\n- heading \"隐私\" [level=3] [ref=f17e586]\n- link \"进一步了解隐私功能\" [ref=f17e590] [cursor=pointer]:\n- /url: https://apple.com.cn/privacy/\n- heading \"无障碍功能\" [level=3] [ref=f17e592]\n- link \"进一步了解 辅助功能\" [ref=f17e595] [cursor=pointer]:\n- /url: https://apple.com.cn/accessibility/\n- heading \"内置 App\" [level=3] [ref=f17e627]\n- link \"apple.com.cn/apps\" [ref=f17e723] [cursor=pointer]:\n- /url: https://apple.com.cn/apps/\n- heading \"助听器分级\" [level=3] [ref=f17e725]\n- heading \"系统要求\" [level=3] [ref=f17e728]\n- superscript [ref=f17e734]: \"18\"\n- link \"apple.com.cn/itunes/download\" [ref=f17e743] [cursor=pointer]:\n- /url: https://apple.com.cn/itunes/download/\n- heading \"操作环境\" [level=3] [ref=f17e745]\n- heading \"语言版本\" [level=3] [ref=f17e756]\n- link \"进一步了解功能可用性\" [ref=f17e760] [cursor=pointer]:\n- /url: https://apple.com.cn/ios/feature-availability/\n- heading \"包装内容\" [level=3] [ref=f17e762]\n- link \"2030 年实现碳中和\" [ref=f17e772] [cursor=pointer]:\n- /url: https://www.apple.com.cn/environment\n- heading \"iPhone 与 环境\" [level=3] [ref=f17e776]\n- superscript [ref=f17e778]: \"19\"\n- link \"查看《iPhone 17 产品环境报告》(PDF)\" [ref=f17e780] [cursor=pointer]:\n- /url: https://www.apple.com/environment/pdf/products/iphone/iPhone_17_PER_Sept2025.pdf\n- link \"查看 Apple 的承诺\" [ref=f17e786] [cursor=pointer]:\n- /url: https://apple.com.cn/environment/\n- superscript [ref=f17e789]: \"20\"\n- superscript [ref=f17e809]: \"21\"\n- superscript [ref=f17e812]: \"22\"\n- superscript [ref=f17e817]: \"23\"\n- superscript [ref=f17e820]: \"24\"\n- superscript [ref=f17e825]: \"25\"\n- superscript [ref=f17e827]: \"26\"\n- link \"《受管制物质规范》\" [ref=f17e831] [cursor=pointer]:\n- /url: https://apple.com.cn/environment/pdf/Apple_Regulated_Substances_Specification_Simplified.pdf\n- link \"《环境进展报告》\" [ref=f17e832] [cursor=pointer]:\n- /url: https://apple.com.cn/environment/pdf/Apple_Environmental_Progress_Report_2025.pdf\n- link \"support.apple.com/zh-cn/108044\" [ref=f17e835] [cursor=pointer]:\n- /url: https://support.apple.com/zh-cn/108044?cid=general-iphone-marcom-08062025\n- link \"apple.com.cn/iphone/cellular\" [ref=f17e836] [cursor=pointer]:\n- /url: https://www.apple.com.cn/iphone/cellular/\n- link \"apple.com.cn/iphone/cellular\" [ref=f17e853] [cursor=pointer]:\n- /url: https://apple.com.cn/iphone/cellular/\n- link \"support.apple.com/zh-cn/121115#visual-intelligence\" [ref=f17e860] [cursor=pointer]:\n- /url: https://support.apple.com/zh-cn/121115?cid=general-iphone-marcom-08062025#visual-intelligence\n- link \"support.apple.com/zh-cn/HT209086\" [ref=f17e865] [cursor=pointer]:\n- /url: https://support.apple.com/zh-cn/HT209086\n- link \"点击此处\" [ref=f17e870] [cursor=pointer]:\n- /url: https://support.apple.com/zh-cn/HT209495\n- link \"电池充电器的联邦节能标准\" [ref=f17e887] [cursor=pointer]:\n- /url: https://www.regulations.gov/document/EERE-2008-BT-STD-0005-0256\n- link \"《Apple 受管制物质规范》\" [ref=f17e896] [cursor=pointer]:\n- /url: https://apple.com.cn/environment/pdf/Apple_Regulated_Substances_Specification_Simplified.pdf\n- link \"功能可用性\" [ref=f17e898] [cursor=pointer]:\n- /url: https://apple.com.cn/ios/feature-availability/\n- button \"是\" [ref=f17e905] [cursor=pointer]\n- button \"否\" [ref=f17e906] [cursor=pointer]\n- heading \"Apple Footer\" [level=2] [ref=f17e911]\n- link \"Apple\" [ref=f17e913] [cursor=pointer]:\n- /url: https://www.apple.com.cn/\n- link \"支持\" [ref=f17e919] [cursor=pointer]:\n- /url: https://support.apple.com/zh-cn\n- link \"隐私政策\" [ref=f17e926] [cursor=pointer]:\n- /url: https://www.apple.com/legal/privacy/szh/\n- link \"使用条款\" [ref=f17e927] [cursor=pointer]:\n- /url: https://www.apple.com/cn/legal/terms/site.html\n- link \"销售和退款\" [ref=f17e928] [cursor=pointer]:\n- /url: https://www.apple.com/cn/shop/goto/help/sales_refunds\n- link \"站点地图\" [ref=f17e929] [cursor=pointer]:\n- /url: https://www.apple.com/cn/sitemap/\n- status [ref=f17e930]",
+      "kind": "browser"
+    },
+    {
+      "id": "4397ce9b5efef4735b1c",
+      "url": "https://support.apple.com/zh-cn/125090",
+      "text": "### Rendered page text\nApple\n商店\nMac\niPad\niPhone\nWatch\nVision\nAirPods\n家居\n娱乐\n配件\n技术支持\n0\n+\n文稿\niPhone 17 Pro - 技术规格\n\n推出年份：2025 年\n\n外观\n\n银色\n\n星宇橙色\n\n深蓝色\n\n铝金属一体成型设计、超瓷晶面板 2 (正面)、超瓷晶面板 (背面)\n\n容量1\n\n256GB\n\n512GB\n\n1TB\n\n尺寸与重量2\n\n宽度：71.9 毫米 (2.83 英寸)\n\n高度：150.0 毫米 (5.91 英寸)\n\n厚度：8.75 毫米 (0.34 英寸)\n\n重量：204 克 (7.20 盎司)\n\n显示屏\n\n超视网膜 XDR 显示屏\n\n6.3 英寸 (对角线) OLED 全面屏\n\n2622 x 1206 像素分辨率，460 ppi\n\n灵动岛功能\n\n全天候显示\n\nProMotion 自适应刷新率技术，最高可达 120Hz\n\nHDR 显示\n\n原彩显示\n\n广色域 (P3)\n\n触感触控\n\n2000000:1 对比度 (典型)\n\n1000 尼特最大亮度 (典型)；1600 尼特峰值亮度 (HDR)；3000 尼特峰值亮度 (户外)；最小亮度为 1 尼特\n\n采用防油渍防指纹涂层\n\n抗反射涂层\n\n支持多种语言文字同时显示\n\niPhone 17 Pro 显示屏采用曲线优美的圆角设计，四个圆角位于一个标准矩形内。按照标准矩形测量时，屏幕的对角线长度是 6.27 英寸 (实际可视区域较小)。\n\n防溅、抗水、防尘3\n\n效果在 IEC 60529 标准下达到 IP68 级别 (在最深 6 米的水下停留时间最长可达 30 分钟)\n\n芯片\n\nA19 Pro 芯片\n\n6 核中央处理器，具有 2 个性能核心和 4 个能效核心\n\n6 核图形处理器，配备神经网络加速器\n\n16 核神经网络引擎\n\n硬件加速光线追踪\n\n摄像头\n\n4800 万像素 Pro 级融合式摄像头系统\n\n4800 万像素融合式主摄：24 毫米焦距，ƒ/1.78 光圈，第二代传感器位移式光学图像防抖功能，100% Focus Pixels，支持超高分辨率照片 (2400 万像素和 4800 万像素)\n\n同时支持 1200 万像素光学品质的 2 倍长焦功能：48 毫米焦距，ƒ/1.78 光圈，第二代传感器位移式光学图像防抖功能，100% Focus Pixels\n\n4800 万像素融合式超广角：13 毫米焦距，ƒ/2.2 光圈和 120° 视角，Hybrid Focus Pixels，超高分辨率照片 (4800 万像素)\n\n4800 万像素融合式长焦：100 毫米焦距 (4 倍)，ƒ/2.8 光圈，Hybrid Focus Pixels，3D 传感器位移式光学图像防抖和自动对焦，四重反射棱镜设计\n\n同时支持 1200 万像素光学品质的 8 倍长焦功能：200 毫米焦距，ƒ/2.8 光圈，Hybrid Focus Pixels，3D 传感器位移式光学图像防抖和自动对焦，四重反射棱镜设计\n\n8 倍光学品质变焦 (放大)，2 倍光学变焦 (缩小)；16 倍光学品质变焦范围\n\n最高可达 40 倍数码变焦\n\n可自定义的默认镜头焦距 (融合式主摄)\n\n蓝宝石玻璃镜头表面\n\n自适应原彩闪光灯\n\n光像引擎\n\n深度融合技术\n\n智能 HDR 5\n\n新一代人像功能，支持焦点控制和景深控制\n\n人像光效，支持六种效果\n\n夜间模式\n\n全景模式 (最高可达 6300 万像素)\n\n新一代摄影风格\n\n空间照片\n\n4800 万像素微距摄影\n\nProRAW\n\n拍摄广色域的照片和实况照片\n\n镜头畸变校正 (融合式超广角)\n\n先进的红眼校正功能\n\n自动图像防抖功能\n\n连拍模式\n\n照片地理标记功能\n\n图像拍摄格式：HEIF、JPEG 和 DNG\n\n视频拍摄\n\n4K 杜比视界视频拍摄，24 fps、25 fps、30 fps、60 fps、100 fps (融合式主摄) 或 120 fps (融合式主摄)\n\n1080p 杜比视界视频拍摄，25 fps、30 fps、60 fps，或 120 fps (融合式主摄)\n\n720p 杜比视界视频拍摄，30 fps\n\n电影效果模式，最高可达 4K 杜比视界，30 fps\n\n运动模式，最高可达 2.8K 杜比视界，60 fps\n\n空间视频拍摄，1080p (30 fps)\n\nProRes 视频拍摄，使用外置存储最高可达 4K，120 fps\n\nProRes RAW4\n\n学院色彩编码系统 (ACES)\n\nApple Log 2\n\n支持 Genlock5\n\n微距视频拍摄，包括慢动作和延时摄影\n\n慢动作视频支持 1080p 最高达 240 fps 和 4K 杜比视界最高达 120 fps (融合式主摄)\n\n同步双拍 (最高可达 4K 杜比视界，30 fps)\n\n延时摄影视频，支持防抖功能\n\n夜间模式延时摄影\n\n视频快录功能 (最高可达 4K 杜比视界，60 fps)\n\n第二代传感器位移式视频光学图像防抖功能 (融合式主摄)\n\n3D 传感器位移式视频光学图像防抖和自动对焦 (融合式长焦)\n\n最高可达 15 倍数码变焦\n\n音频变焦\n\n原彩闪光灯\n\n影院级视频防抖功能 (4K、1080p 和 720p)\n\n连续自动对焦视频\n\n4K 视频录制过程中拍摄 800 万像素静态照片\n\n变焦播放\n\n视频录制格式：HEVC、H.264、ProRes 和 ProRes RAW\n\n空间音频和立体声录音\n\n四个录音棚级麦克风\n\n风噪降低\n\n混音\n\n前置摄像头\n\n1800 万像素 Center Stage 摄像头\n\nƒ/1.9 光圈\n\nFocus Pixels 自动对焦\n\n视网膜屏闪光灯\n\n轻点变焦和旋转\n\n拍照人物居中\n\n视频超稳防抖\n\n同步双拍\n\n视频通话人物居中\n\n光像引擎\n\n深度融合技术\n\n智能 HDR 5\n\n新一代人像功能，支持焦点控制和景深控制\n\n人像光效，支持六种效果\n\n动话表情和拟我表情\n\n夜间模式\n\n新一代摄影风格\n\nProRAW\n\n拍摄广色域的照片和实况照片\n\n镜头畸变校正\n\n自动图像防抖功能\n\n连拍模式\n\n4K 杜比视界视频拍摄，24 fps、25 fps、30 fps 或 60 fps\n\n1080p 杜比视界视频拍摄，25 fps、30 fps 或 60 fps\n\n电影效果模式，最高可达 4K 杜比视界，30 fps\n\nProRes 视频拍摄，使用外置存储最高可达 4K，60 fps\n\nProRes RAW4\n\n学院色彩编码系统 (ACES)\n\nApple Log 2\n\n慢动作视频支持 1080p (120 fps)\n\n延时摄影视频，支持防抖功能\n\n夜间模式延时摄影\n\n视频快录功能 (最高可达 4K 杜比视界，60 fps)\n\n影院级视频防抖功能 (4K、1080p 和 720p)\n\n空间音频和立体声录音\n\n风噪降低\n\n混音\n\n电源和电池6\n\n视频播放: 最长可达 31 小时\n\n流媒体视频播放: 最长可达 28 小时\n\n内置锂离子充电电池\n\n可快速充电: 20 分钟最多可充至 50% 电量7，需使用 40 瓦或更大功率的电源适配器 (另外有售) 并搭配 USB-C 充电线\n\n面容 ID\n\n通过 Center Stage 前置摄像头内的原深感技术实现\n\n安全功能\n\nSOS 紧急联络\n\n车祸检测8\n\n蜂窝网络和 无线连接\n\nA3524 和 A3527 型号**\n\nFDD-5G NR (频段 n1、n2、n3、n5、n7、n8、n12、n20、n25、n26、n28、n30、n66、n70、n75)\n\nTDD-5G NR (频段 n38、n40、n41、n48、n77、n78、n79)\n\nFDD-LTE (频段 1、2、3、4、5、7、8、12、13、17、18、19、20、25、26、28、30、32、66)\n\nTDD-LTE (频段 34、38、39、40、41、42、48)\n\nUMTS/HSPA+/DC-HSDPA (850、900、1700/2100、1900、2100 MHz)\n\nGSM/EDGE (850、900、1800、1900 MHz)\n\n5G (sub-6 GHz)，具备 4x4 MIMO 技术9\n\n千兆 LTE，具备 4x4 MIMO 技术9\n\nApple N1 无线网络芯片\n\n802.11be 无线局域网，具备 2x2 MIMO 技术10\n\n蓝牙 6\n\nThread 网络技术\n\nApple 第二代超宽带技术芯片11\n\n支持读卡器模式的 NFC\n\n可通过备用电量使用的快捷交通卡功能\n\n有关 5G 和 LTE 支持的详情，请联系你的运营商并查看 apple.com.cn/iphone/cellular。\n\n定位功能\n\n精准的双频 GPS (GPS、GLONASS、Galileo、QZSS、北斗及 NavIC)\n\n数字指南针\n\n无线局域网\n\n蜂窝网络\n\niBeacon 微定位\n\n外部按键和 连接端口\n\n音量增/减\n\n操作按钮\n\n相机控制\n\n侧边按钮\n\nUSB-C 接口\n\n内置麦克风\n\n内置立体声扬声器\n\n操作按钮功能\n\n静音模式、专注模式、相机、视觉智能12、手电筒、语音备忘录、识别音乐、翻译、放大器、控制项、快捷指令或辅助功能\n\n相机控制\n\n曝光、景深、变焦、相机、风格、色调\n\n充电和外设扩展\n\nUSB-C 接口，支持：\n\n充电\n\nDisplayPort\n\nUSB 3 (最高可达 10Gb/s)13\n\nMagSafe 和 无线充电\n\nMagSafe 无线充电 (功率最高可达 15 瓦)14\n\nQi2 无线充电 (功率最高可达 15 瓦)14\n\n磁吸阵列\n\n磁吸对齐\n\n配件识别 NFC\n\n磁力计\n\n感应器\n\n面容 ID\n\n激光雷达扫描仪\n\n气压计\n\n高动态范围陀螺仪\n\n高 g 值加速感应器\n\n距离感应器\n\n双环境光传感器\n\nSIM 卡\n\n双卡 (nano‑SIM 卡)15\n\nApple Pay\n\n通过面容 ID 在 iPhone 上进行店内、app 内或网页支付16\n\n在部分城市可用于搭乘公交17\n\n进一步了解 Apple Pay\n\n视频通话18\n\n通过蜂窝网络或无线局域网进行 FaceTime 视频通话\n\n通过 5G 网络或无线局域网进行 FaceTime 高清 (1080p) 视频通话\n\n视频通话人物居中\n\n同播共享\n\n屏幕共享\n\nFaceTime 视频通话中的人像模式\n\n空间音频\n\n“语音突显”和“宽谱”麦克风模式\n\n后置摄像头支持光学变焦\n\n音频通话\n\nVoice over LTE (VoLTE)9\n\n“语音突显”麦克风模式\n\n音频播放\n\n支持的格式包括 AAC、APAC、MP3、Apple 保真压缩、FLAC、杜比数字、杜比数字+、杜比全景声\n\n空间音频播放\n\n用户可调节音量上限\n\n视频播放\n\n支持的格式包括 HEVC、H.264、AV1 和 ProRes\n\nHDR 支持包括杜比视界、HDR10+/HDR10 和 HLG\n\n通过隔空播放进行镜像，或将照片和视频输出至支持此功能的智能电视，最高可达 4K HDR\n\n视频镜像和视频输出支持：通过 USB-C 或 USB-C 数字影音转换器进行原生 DisplayPort 输出，最高可达 4K HDR (转换器型号为 A2119，需单独购买)19\n\nSiri20\n\n协助处理发送信息、设置提醒事项等日常事务\n\n通过只响应你语音的“Siri”或“嘿 Siri”免提激活；或以“通过键入使用 Siri”来操作\n\n注重保护隐私的智能助理\n\n进一步了解 Siri\n\n操作系统\n\niOS\n\niOS 移动操作系统不仅贴合个人需求，而且安全可靠，它满载各种强大功能，并为保护你的隐私而精心设计。\n\n隐私\n\niPhone 在设计之初就极其注重保护你的个人信息。每部 iPhone 都配备了安全性出众的面部验证技术。未得到你的许可，app 就无法跟踪你在其他公司的 app 或网站上的活动。iMessage 信息和 FaceTime 视频通话都受到端到端加密保护。还有更多隐私功能，数不胜数。\n\n进一步了解隐私功能\n\n辅助功能\n\n内置辅助功能可为在视力、肢体活动能力、听力、语音以及认知能力方面有个人需求的人士提供支持，让他们能以适合自己的方式充分发掘 iPhone 的精彩。\n\n进一步了解辅助功能\n\n各项功能包括：\n\n旁白\n\n缩放\n\n放大器\n\n语音控制\n\n切换控制\n\n辅助触控\n\n眼动追踪\n\n隐藏式字幕\n\n实时字幕\n\n个人声音\n\n实时语音\n\n通过键入使用 Siri\n\n人声快捷指令\n\n朗读内容\n\n内置 App\n\nApp Store\n\n图书\n\n计算器\n\n日历\n\n相机\n\n时钟\n\n指南针\n\n通讯录\n\nFaceTime 通话\n\n文件\n\n查找\n\n健身\n\n无边记\n\n游戏\n\n库乐队\n\n健康\n\n家庭\n\niMovie 剪辑\n\niTunes Store\n\n手记\n\nKeynote 讲演\n\n放大器\n\n邮件\n\n地图\n\n测距仪\n\n信息\n\n音乐\n\n备忘录\n\nNumbers 表格\n\nPages 文稿\n\n密码\n\n电话\n\n照片\n\n播客\n\n预览\n\n提醒事项\n\nSafari 浏览器\n\n设置\n\n快捷指令\n\n股市\n\n提示\n\n翻译\n\n语音备忘录\n\n钱包\n\nWatch\n\n天气\n\n有关适用于 iPhone 的各款 Apple app，请访问 apple.com.cn/apps 查看完整列表。\n\n助听器分级\n\n兼容助听器\n\n系统要求\n\nApple 账户 (部分功能有此要求)\n\n互联网接入21\n\n同步到 Mac 或 PC 需要：\n\n在 macOS Catalina 10.15 或更新版本中使用“访达”\n\n在 macOS High Sierra 10.13 至 macOS Mojave 10.14.6 中使用 iTunes 12.8 或更新版本\n\n在 Windows 10 或更新版本中使用 iTunes 12.12.10 或更新版本 (访问 apple.com.cn/itunes/download 免费下载)\n\n操作环境\n\n工作环境温度：0°C 至 35°C (32°F 至 95°F)\n\n非工作温度：−20°C 至 45°C (−4°F 至 113°F)\n\n相对湿度：非凝结状态下 5% 至 95%\n\n工作高度：目前测试最高可达 3000 米 (10000 英尺)\n\n语言版本\n\n语言支持\n\n英语 (澳大利亚、英国、美国)、中文 (简体、繁体、繁体 – 香港)、法语 (加拿大、法国)、德语、意大利语、日语、韩语、西班牙语 (拉丁美洲、西班牙)、阿拉伯语、保加利亚语、加泰罗尼亚语、克罗地亚语、捷克语、丹麦语、荷兰语、芬兰语、希腊语、希伯来语、印地语、匈牙利语、印尼语、哈萨克语、马来语、挪威语、波兰语、葡萄牙语 (巴西、葡萄牙)、罗马尼亚语、俄语、斯洛伐克语、瑞典语、泰语、土耳其语、乌克兰语、越南语\n\n进一步了解功能可用性\n\n包装内容\n\niPhone 17 Pro\n\nUSB‑C 充电线 (1 米)\n\n资料\n\n为了达成我们 2030 年实现碳中和的目标，iPhone 17 Pro 和 iPhone 17 Pro Max 不再随附电源适配器和 EarPods。包装盒内随附一根 USB-C 充电线，可支持快速充电，并兼容 USB-C 电源适配器和电脑端口。\n\n我们建议你使用任意一款兼容的 USB‑C 电源适配器。如果你需要新的 Apple 电源适配器或耳机，也可随时购买。\n\niPhone 与 环境\n\n为减少对环境的影响，iPhone 17 Pro 和 iPhone 17 Pro Max 的设计具备以下特点22：\n\n查看《iPhone 17 Pro 和 iPhone 17 Pro Max 产品环境报告》(PDF)\n\n迈向 Apple 2030 计划\n\nApple 2030 计划是我们对整体碳足迹实现碳中和的承诺。我们的产品脱碳计划非常严谨，致力于向低碳电力过渡、在设计中采用回收和低碳材料，并且优先采用海运之类更为低碳的产品运输方式。\n\n查看 Apple 的承诺\n\n材料\n\niPhone 17 Pro 和 iPhone 17 Pro Max 采用的再生成分占比达 30%23，包括：\n\n机身采用 50% 再生铝金属\n\n电池采用 100% 再生钴和 95% 再生锂\n\n所有 Apple 设计的印刷电路板均采用 100% 再生金镀层和 100% 再生锡焊料\n\n所有摄像头均采用 100% 再生金线，所有接口均采用 100% 再生金镀层\n\n触感引擎采用 100% 再生钨和 100% 再生铜线\n\nVC 均热板外壳采用 100% 再生铜\n\n所有磁体均采用 100% 再生稀土元素\n\n能源\n\niPhone 17 Pro 和 iPhone 17 Pro Max 的生产用电中有 40% 来自可再生电力24\n\n电池充电器系统高于美国能源部要求25\n\n包装\n\n采用 100% 纤维材料包装26\n\n与 iPhone 16 Pro 的包装盒相比，iPhone 17 Pro 和 iPhone 17 Pro Max 的包装设计更高效，每次运输的设备数量可增加 25%27\n\n废弃物\n\n作为 Apple 废弃物零填埋项目的一部分，既有的总装工厂不产生任何需要填埋的废弃物28\n\n更高明的化学工艺29\n\nApple 产品、配件和包装中使用的所有材料均符合我们的《受管制物质规范》要求，该规范是业内率先限制重点受关注物质使用的文件之一。请参阅最新版《环境进展报告》了解 Apple 近期在逐步淘汰这些化学物质方面所做的努力。\n\n**要确认你的 iPhone 的型号，请参阅 support.apple.com/108044。有关 5G 和 LTE 支持的详情，请联系你的运营商并查看 apple.com.cn/iphone/cellular。蜂窝网络技术支持取决于 iPhone 型号以及 GSM 网络的配置。\n\n实际可用容量会由于诸多因素而减少并有所差异。标准系统配置会占用约 12GB 到 24GB 容量 (其中包括 iOS 26 及其最新功能，以及各款可删除的 Apple app)。Apple 智能的设备端模型占用约 7GB 容量，如果关闭 Apple\n### Observed controls\n### Ran Playwright code\n### Page\n- Page URL: https://support.apple.com/zh-cn/125090\n- Page Title: iPhone 17 Pro - 技术规格 - 官方 Apple 支持 (中国)\n### Snapshot\n### Events\n### Page\n- Page URL: https://support.apple.com/zh-cn/125090\n- Page Title: iPhone 17 Pro - 技术规格 - 官方 Apple 支持 (中国)\n### Snapshot\n- link \"Apple\" [ref=f18e7] [cursor=pointer]:\n- /url: https://www.apple.com.cn/\n- link \"商店\" [ref=f18e14] [cursor=pointer]:\n- /url: https://www.apple.com.cn/cn/shop/goto/store\n- link \"Mac\" [ref=f18e19] [cursor=pointer]:\n- /url: https://www.apple.com.cn/mac/\n- link \"iPad\" [ref=f18e24] [cursor=pointer]:\n- /url: https://www.apple.com.cn/ipad/\n- link \"iPhone\" [ref=f18e29] [cursor=pointer]:\n- /url: https://www.apple.com.cn/iphone/\n- link \"Watch\" [ref=f18e34] [cursor=pointer]:\n- /url: https://www.apple.com.cn/watch/\n- link \"Vision\" [ref=f18e39] [cursor=pointer]:\n- /url: https://www.apple.com.cn/apple-vision-pro/\n- link \"AirPods\" [ref=f18e44] [cursor=pointer]:\n- /url: https://www.apple.com.cn/airpods/\n- link \"家居\" [ref=f18e49] [cursor=pointer]:\n- /url: https://www.apple.com.cn/home/\n- link \"娱乐\" [ref=f18e54] [cursor=pointer]:\n- /url: https://www.apple.com.cn/entertainment/\n- link \"配件\" [ref=f18e59] [cursor=pointer]:\n- /url: https://www.apple.com.cn/cn/shop/goto/buy_accessories\n- link \"技术支持\" [ref=f18e64] [cursor=pointer]:\n- /url: https://support.apple.com/zh-cn/?cid=gn-ols-home-hp-tab\n- button \"搜索支持\" [ref=f18e67] [cursor=pointer]\n- button \"打开购物袋\" [ref=f18e70] [cursor=pointer]\n- link \"文稿\" [disabled] [ref=f18e77] [cursor=pointer]:\n- /url: /zh-cn/docs\n- /url: \"\"\n- /url: \"\"\n- main [ref=f18e81]:\n- img \"iphone-17-pro-17-pro-max-hero\" [ref=f18e84]\n- heading \"iPhone 17 Pro - 技术规格\" [level=1] [ref=f18e85]\n- heading \"外观\" [level=3] [ref=f18e89]\n- heading [level=3] [ref=f18e100]:\n- superscript [ref=f18e101]: \"1\"\n- heading [level=3] [ref=f18e110]:\n- superscript [ref=f18e111]: \"2\"\n- heading \"显示屏\" [level=3] [ref=f18e122]\n- heading [level=3] [ref=f18e157]:\n- superscript [ref=f18e158]: \"3\"\n- heading \"芯片\" [level=3] [ref=f18e161]\n- heading \"摄像头\" [level=3] [ref=f18e174]\n- heading \"视频拍摄\" [level=3] [ref=f18e234]\n- superscript [ref=f18e252]: \"4\"\n- superscript [ref=f18e259]: \"5\"\n- heading \"前置摄像头\" [level=3] [ref=f18e301]\n- superscript [ref=f18e357]: \"4\"\n- heading [level=3] [ref=f18e379]:\n- superscript [ref=f18e380]: \"6\"\n- superscript [ref=f18e390]: \"7\"\n- link \"40 瓦\" [ref=f18e391] [cursor=pointer]:\n- /url: https://apple.com.cn/cn/shop/goto/product/MGKP4\n- heading \"面容 ID\" [level=3] [ref=f18e393]\n- heading \"安全功能\" [level=3] [ref=f18e396]\n- superscript [ref=f18e402]: \"8\"\n- heading \"蜂窝网络和 无线连接\" [level=3] [ref=f18e404]\n- superscript [ref=f18e422]: \"9\"\n- superscript [ref=f18e425]: \"9\"\n- superscript [ref=f18e431]: \"10\"\n- superscript [ref=f18e438]: \"11\"\n- link \"apple.com.cn/iphone/cellular\" [ref=f18e446] [cursor=pointer]:\n- /url: https://apple.com.cn/iphone/cellular/\n- heading \"定位功能\" [level=3] [ref=f18e448]\n- heading \"外部按键和 连接端口\" [level=3] [ref=f18e461]\n- superscript [ref=f18e481]: \"12\"\n- heading \"充电和外设扩展\" [level=3] [ref=f18e487]\n- superscript [ref=f18e496]: \"13\"\n- heading \"MagSafe 和 无线充电\" [level=3] [ref=f18e498]\n- superscript [ref=f18e502]: \"14\"\n- superscript [ref=f18e505]: \"14\"\n- heading \"感应器\" [level=3] [ref=f18e515]\n- heading \"SIM 卡\" [level=3] [ref=f18e532]\n- superscript [ref=f18e536]: \"15\"\n- heading \"Apple Pay\" [level=3] [ref=f18e538]\n- superscript [ref=f18e542]: \"16\"\n- superscript [ref=f18e545]: \"17\"\n- link \"进一步了解 Apple Pay\" [ref=f18e548] [cursor=pointer]:\n- /url: https://www.apple.com.cn/apple-pay/\n- heading [level=3] [ref=f18e550]:\n- superscript [ref=f18e551]: \"18\"\n- heading \"音频通话\" [level=3] [ref=f18e572]\n- superscript [ref=f18e576]: \"9\"\n- heading \"音频播放\" [level=3] [ref=f18e580]\n- heading \"视频播放\" [level=3] [ref=f18e589]\n- superscript [ref=f18e599]: \"19\"\n- heading [level=3] [ref=f18e601]:\n- superscript [ref=f18e602]: \"20\"\n- link \"进一步了解 Siri\" [ref=f18e612] [cursor=pointer]:\n- /url: https://www.apple.com.cn/siri/\n- heading \"操作系统\" [level=3] [ref=f18e614]\n- heading \"隐私\" [level=3] [ref=f18e618]\n- link \"进一步了解隐私功能\" [ref=f18e622] [cursor=pointer]:\n- /url: https://www.apple.com.cn/privacy/\n- heading \"辅助功能\" [level=3] [ref=f18e624]\n- link \"进一步了解辅助功能\" [ref=f18e628] [cursor=pointer]:\n- /url: https://www.apple.com.cn/accessibility/\n- heading \"内置 App\" [level=3] [ref=f18e660]\n- link \"apple.com.cn/apps\" [ref=f18e756] [cursor=pointer]:\n- /url: https://apple.com.cn/apps/\n- heading \"助听器分级\" [level=3] [ref=f18e758]\n- heading \"系统要求\" [level=3] [ref=f18e761]\n- superscript [ref=f18e767]: \"21\"\n- link \"apple.com.cn/itunes/download\" [ref=f18e776] [cursor=pointer]:\n- /url: https://apple.com.cn/itunes/download/\n- heading \"操作环境\" [level=3] [ref=f18e778]\n- heading \"语言版本\" [level=3] [ref=f18e789]\n- link \"进一步了解功能可用性\" [ref=f18e794] [cursor=pointer]:\n- /url: https://www.apple.com.cn/ios/feature-availability/\n- heading \"包装内容\" [level=3] [ref=f18e796]\n- link \"2030 年实现碳中和\" [ref=f18e806] [cursor=pointer]:\n- /url: https://www.apple.com.cn/environment\n- heading \"iPhone 与 环境\" [level=3] [ref=f18e809]\n- superscript [ref=f18e811]: \"22\"\n- link \"查看《iPhone 17 Pro 和 iPhone 17 Pro Max 产品环境报告》(PDF)\" [ref=f18e814] [cursor=pointer]:\n- /url: https://www.apple.com/environment/pdf/products/iphone/iPhone_17_Pro_and_iPhone_17_Pro_Max_PER_Sept2025.pdf\n- link \"查看 Apple 的承诺\" [ref=f18e821] [cursor=pointer]:\n- /url: https://www.apple.com.cn/environment/\n- superscript [ref=f18e824]: \"23\"\n- superscript [ref=f18e844]: \"24\"\n- superscript [ref=f18e847]: \"25\"\n- superscript [ref=f18e852]: \"26\"\n- superscript [ref=f18e855]: \"27\"\n- superscript [ref=f18e860]: \"28\"\n- superscript [ref=f18e862]: \"29\"\n- link \"《受管制物质规范》\" [ref=f18e866] [cursor=pointer]:\n- /url: https://apple.com.cn/environment/pdf/Apple_Regulated_Substances_Specification_Simplified.pdf\n- link \"《环境进展报告》\" [ref=f18e867] [cursor=pointer]:\n- /url: https://apple.com.cn/environment/pdf/Apple_Environmental_Progress_Report_2025.pdf\n- link \"support.apple.com/108044\" [ref=f18e870] [cursor=pointer]:\n- /url: https://support.apple.com/108044?cid=general-iphone-marcom-08062025\n- link \"apple.com.cn/iphone/cellular\" [ref=f18e871] [cursor=pointer]:\n- /url: https://www.apple.com.cn/iphone/cellular/\n- link \"apple.com.cn/batteries\" [ref=f18e885] [cursor=pointer]:\n- /url: https://apple.com.cn/batteries/\n- link \"apple.com.cn/iphone/battery.html\" [ref=f18e886] [cursor=pointer]:\n- /url: https://apple.com.cn/iphone/battery.html\n- link \"apple.com.cn/iphone/cellular\" [ref=f18e893] [cursor=pointer]:\n- /url: https://apple.com.cn/iphone/cellular/\n- link \"support.apple.com/121115#visual-intelligence\" [ref=f18e900] [cursor=pointer]:\n- /url: https://support.apple.com/121115#visual-intelligence\n- link \"support.apple.com/zh-cn/HT209086\" [ref=f18e907] [cursor=pointer]:\n- /url: https://support.apple.com/zh-cn/HT209086\n- link \"点击此处\" [ref=f18e912] [cursor=pointer]:\n- /url: https://support.apple.com/zh-cn/HT209495\n- link \"电池充电器的联邦节能标准\" [ref=f18e929] [cursor=pointer]:\n- /url: https://www.regulations.gov/document/EERE-2008-BT-STD-0005-0256\n- link \"《Apple 受管制物质规范》\" [ref=f18e938] [cursor=pointer]:\n- /url: https://apple.com.cn/environment/pdf/Apple_Regulated_Substances_Specification_Simplified.pdf\n- link \"功能可用性\" [ref=f18e940] [cursor=pointer]:\n- /url: https://www.apple.com.cn/ios/feature-availability/\n- button \"是\" [ref=f18e947] [cursor=pointer]\n- button \"否\" [ref=f18e948] [cursor=pointer]\n- heading \"Apple Footer\" [level=2] [ref=f18e953]\n- link \"Apple\" [ref=f18e955] [cursor=pointer]:\n- /url: https://www.apple.com.cn/\n- link \"支持\" [ref=f18e961] [cursor=pointer]:\n- /url: https://support.apple.com/zh-cn\n- link \"隐私政策\" [ref=f18e968] [cursor=pointer]:\n- /url: https://www.apple.com/legal/privacy/szh/\n- link \"使用条款\" [ref=f18e969] [cursor=pointer]:\n- /url: https://www.apple.com/cn/legal/terms/site.html\n- link \"销售和退款\" [ref=f18e970] [cursor=pointer]:\n- /url: https://www.apple.com/cn/shop/goto/help/sales_refunds\n- link \"站点地图\" [ref=f18e971] [cursor=pointer]:\n- /url: https://www.apple.com/cn/sitemap/\n- status [ref=f18e972]",
+      "kind": "browser"
+    }
+  ],
+  "requirements": [
+    {
+      "id": "r1",
+      "description": "说明环境能力边界：无法读取本地项目源码，明确审查结论的证据基础与不可核实部分",
+      "kind": "research",
+      "artifact": "research_report.md",
+      "origin": "model",
+      "result": {
+        "status": "missing",
+        "source_ids": [],
+        "reason": "已到交付阈值，停止扩展研究并保存现有结果；尚无完整逐项证据记录。"
+      },
+      "machine_check": null
+    },
+    {
+      "id": "r2",
+      "description": "给出当前执行流程与关键模块调用关系的重构描述（基于任务记忆中的真实失败案例与工具行为观察）",
+      "kind": "research",
+      "artifact": "research_report.md",
+      "origin": "model",
+      "result": {
+        "status": "missing",
+        "source_ids": [],
+        "reason": "已到交付阈值，停止扩展研究并保存现有结果；尚无完整逐项证据记录。"
+      },
+      "machine_check": null
+    },
+    {
+      "id": "r3",
+      "description": "列出反复失败的主要根因，并标注可核验的证据来源（真实失败任务记录、工具返回的错误类型）",
+      "kind": "research",
+      "artifact": "research_report.md",
+      "origin": "model",
+      "result": {
+        "status": "missing",
+        "source_ids": [],
+        "reason": "已到交付阈值，停止扩展研究并保存现有结果；尚无完整逐项证据记录。"
+      },
+      "machine_check": null
+    },
+    {
+      "id": "r4",
+      "description": "给出模块保留/调整清单与最小可行架构改造方案，按可独立验证的小阶段排序",
+      "kind": "research",
+      "artifact": "research_report.md",
+      "origin": "model",
+      "result": {
+        "status": "missing",
+        "source_ids": [],
+        "reason": "已到交付阈值，停止扩展研究并保存现有结果；尚无完整逐项证据记录。"
+      },
+      "machine_check": null
+    },
+    {
+      "id": "r5",
+      "description": "给出每阶段基于真实失败数据的离线回归测试方法与风险/回滚/改动范围",
+      "kind": "research",
+      "artifact": "research_report.md",
+      "origin": "model",
+      "result": {
+        "status": "missing",
+        "source_ids": [],
+        "reason": "已到交付阈值，停止扩展研究并保存现有结果；尚无完整逐项证据记录。"
+      },
+      "machine_check": null
+    },
+    {
+      "id": "r6",
+      "description": "以 iPhone 17 与 iPhone 17 Pro 为固定回归案例，采集官方屏幕尺寸与芯片型号，生成业务对比表 task_result.xlsx",
+      "kind": "artifact",
+      "artifact": "task_result.xlsx",
+      "origin": "model",
+      "result": {
+        "status": "missing",
+        "source_ids": [],
+        "reason": "已到交付阈值，停止扩展研究并保存现有结果；尚无完整逐项证据记录。"
+      },
+      "machine_check": null
+    }
+  ]
+}

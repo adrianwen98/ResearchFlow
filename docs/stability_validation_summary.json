@@ -1,0 +1,30 @@
+{
+  "date": "2026-10-16",
+  "python_passed": 185,
+  "frontend_passed": 21,
+  "typescript": "passed",
+  "build": "passed",
+  "pip_check": "passed",
+  "paid_model_requests": 0,
+  "network_mode": "public by default; strict optional",
+  "actual_public_mcp": "IANA page outside old allowlist; same session; prohibited URLs blocked",
+  "actual_public_xlsx": {
+    "bytes": 12074,
+    "rows": 7,
+    "negative_values": true,
+    "duplicate_download_reused": true
+  },
+  "controlled_mcp": [
+    "search/type/click/select/native download",
+    "malicious redirect and subresources; local sentinel 0",
+    "WebRTC/WebTransport disabled"
+  ],
+  "online_model_regression": false,
+  "os_network_sandbox": false,
+  "completion": "human acceptance or explicit user objective contracts; never model self-certification",
+  "limitations": [
+    "No new paid model acceptance",
+    "Native browser download size checked after completion",
+    "Free-form semantic research still requires confirmation"
+  ]
+}

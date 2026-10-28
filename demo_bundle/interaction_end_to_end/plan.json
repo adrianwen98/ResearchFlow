@@ -1,0 +1,9 @@
+[
+  "python.org搜索csv并点击结果，记录来源",
+  "访问pandas GitHub blob页，用下载控件下载XLSX",
+  "inspect_downloaded_table检查列名/行数/负数",
+  "aggregate_downloaded_table按日期列分组求A列mean",
+  "export_business_excel生成task_result.xlsx",
+  "export_excel证据表 + export_report中文报告",
+  "record_requirement_result逐项登记"
+]

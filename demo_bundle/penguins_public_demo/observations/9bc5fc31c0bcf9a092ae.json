@@ -1,0 +1,6 @@
+{
+  "id": "9bc5fc31c0bcf9a092ae",
+  "url": "https://raw.githubusercontent.com/allisonhorst/palmerpenguins/main/inst/extdata/penguins.csv",
+  "text": "{\"calculation_id\": \"calc_8bd9907c96ae\", \"group_by\": \"species\", \"method\": \"mean\", \"numeric_column\": \"body_mass_g\", \"sampled_rows\": 344, \"total_groups\": 3, \"top_20\": [{\"group\": \"Gentoo\", \"value\": 5076.016260162602}, {\"group\": \"Chinstrap\", \"value\": 3733.0882352941176}, {\"group\": \"Adelie\", \"value\": 3700.662251655629}], \"note\": \"\"}",
+  "kind": "sanitized_public_excerpt"
+}

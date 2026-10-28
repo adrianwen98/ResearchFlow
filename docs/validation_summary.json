@@ -1,0 +1,68 @@
+{
+  "date": "2026-10-16",
+  "status": "complete_with_documented_network_install_limit",
+  "offline_tests": 126,
+  "test_failures": 0,
+  "test_errors": 0,
+  "offline_test_seconds": 34.772,
+  "paid_api_requests_this_round": 0,
+  "historical_live_task_requests": 20,
+  "historical_live_requests_reset": false,
+  "public_data_demo": {
+    "rows": 344,
+    "columns": 8,
+    "body_mass_missing": 2,
+    "sex_missing": 11,
+    "decisions": "scripted tool replay, not LLM autonomy",
+    "paid_requests": 0,
+    "independent_recalculation": "passed, all species means match source data"
+  },
+  "ui_checks": {
+    "actual_buttons": [
+      "saved real demo",
+      "open history",
+      "refresh history",
+      "example input",
+      "budget hint update",
+      "blank task rejection",
+      "business workbook preview"
+    ],
+    "desktop_viewport": [
+      1440,
+      1000
+    ],
+    "desktop_scroll_width": 1425,
+    "mobile_viewport": [
+      390,
+      844
+    ],
+    "mobile_document_width": 375,
+    "mobile_composer_and_results_width": 287,
+    "paid_start_and_external_write_buttons": "offline tests only; no paid execution or external submission",
+    "clean_install_viewport": [
+      1280,
+      960
+    ],
+    "clean_install_document_width": 1265,
+    "wide_table_content_width": 788,
+    "wide_table_scroll_container_width": 663,
+    "curated_history_view": "passed: needs_review; final stage not completed; read-only acceptance disabled"
+  },
+  "installation": {
+    "network_cold_install": "failed: proxy empty response and wheel hash mismatch, refused installation",
+    "cache_install": "passed: empty venv; same 107 versions; SHA256-required offline wheels and npm offline ci; setup exit 0",
+    "cache_install_tests": 126,
+    "cache_install_test_seconds": 37.76,
+    "fresh_environment_pip_check": "passed",
+    "fresh_gradio_http_status": 200,
+    "restored_public_demos": 2,
+    "public_checkpoint_threads_restored": 0
+  },
+  "known_limits": [
+    "historical model run required one host feedback for excerpt registration",
+    "search result was opened by observed ref follow-link",
+    "current P0/P1 changes have no new paid-model regression",
+    "public demos contain sanitized excerpts/events, no original checkpoints"
+  ],
+  "historical_api_ledger_sha256": "7385465bc1402b54edf412aadf75d73ad39f60a145151a61ceb80c6b04d409ff"
+}
