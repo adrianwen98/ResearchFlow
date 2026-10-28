@@ -3,10 +3,34 @@
 [![Tests](https://github.com/adrianwen98/ResearchFlow/actions/workflows/tests.yml/badge.svg)](https://github.com/adrianwen98/ResearchFlow/actions/workflows/tests.yml)
 [![Python 3.12](https://img.shields.io/badge/Python-3.12-3776AB?logo=python&logoColor=white)](https://www.python.org/)
 [![React 19](https://img.shields.io/badge/React-19-61DAFB?logo=react&logoColor=white)](https://react.dev/)
+[![Release](https://img.shields.io/github/v/release/adrianwen98/ResearchFlow?label=release)](https://github.com/adrianwen98/ResearchFlow/releases)
 
 **当前基线（2026-10-26）：后端 709 项、前端 95 项测试通过，TypeScript 检查和生产构建通过。** 支持任务优先交互、浅色/深色模式、数据备份与恢复、重启后未开始任务的可恢复提示；历史阶段文档保留原始快照。
 
 基于 **React + TypeScript + Vite + FastAPI** 的 Agent 任务工作台，复用现有 LangGraph + Playwright MCP 核心。首页直接输入任务；历史任务可收起，完整工具轨迹按需展开，结果与交付文件优先呈现。Gradio 保留为备用。
+
+## 架构
+
+```mermaid
+flowchart TD
+    U[任务输入] --> UI[React + TypeScript 工作台]
+    UI -->|SSE 轨迹 / 审批| API[FastAPI 服务]
+    API --> A[LangGraph Agent]
+    A --> H[Harness 约束<br/>权限 · 预算 · 超时 · 重试 · 循环熔断]
+    H --> M[Playwright MCP<br/>导航 / 搜索 / 点击 / 下载]
+    H --> S[搜索 API / 公开网页]
+    H --> P[PDF / CSV / XLSX 解析]
+    A <--> C[(SQLite Checkpoint)]
+    A --> W[任务工作区 outputs/]
+    M --> W
+    S --> W
+    P --> W
+    W --> V[证据链与交付校验]
+    V --> O[Excel / PDF / Markdown]
+    API -->|轨迹与结果| UI
+```
+
+模型只负责根据观察选择下一步；工具权限、执行预算、超时、重试和循环熔断由宿主 Harness 约束，交付前再做证据链与数据结构校验。
 
 Windows：首次运行 `setup_web_windows.bat`，之后双击 **`run_web_windows.bat`**，访问 http://127.0.0.1:8000/ 。已有 `.venv` 可以直接复用。模型密钥仅在服务端 `.env`。查看历史案例免费；点击“开始执行”会创建真实任务并可能计费，提交前展示预算；恢复和审批继续保留确认。
 
